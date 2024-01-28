@@ -1,0 +1,202 @@
+DIGEST 375736215b06158046df128cb95c5c76
+FSetsClass.SetElement
+mod 7:13 <> SetsEle
+rec 23:34 SetsEle PRE_SETS_ELE
+proj 65:70 SetsEle In_aux
+proj 90:105 SetsEle set_transfer_aux
+binder 37:37 <> S:1
+binder 39:41 <> RES:2
+binder 43:43 <> E:3
+R74:77 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R79:82 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R83:85 SetsClass.SetElement <> RES:2 var
+R78:78 SetsClass.SetElement <> S:1 var
+R73:73 SetsClass.SetElement <> E:3 var
+R108:108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R117:121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R122:122 SetsClass.SetElement <> S:1 var
+R110:113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R114:116 SetsClass.SetElement <> RES:2 var
+R109:109 SetsClass.SetElement <> E:3 var
+rec 135:142 SetsEle SETS_ELE
+proj 169:170 SetsEle In
+proj 191:202 SetsEle set_transfer
+binder 145:145 <> S:7
+binder 147:147 <> E:8
+R174:177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R179:182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R178:178 SetsClass.SetElement <> S:7 var
+R173:173 SetsClass.SetElement <> E:8 var
+R206:209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R210:210 SetsClass.SetElement <> S:7 var
+R205:205 SetsClass.SetElement <> S:7 var
+def 228:238 SetsEle lift_In_aux
+binder 252:252 <> A:12
+binder 254:254 <> S:13
+binder 256:258 <> RES:14
+binder 260:260 <> E:15
+R282:293 SetsClass.SetElement SetsEle PRE_SETS_ELE class
+R308:308 SetsClass.SetElement <> E:15 var
+R299:302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R303:305 SetsClass.SetElement <> RES:14 var
+R298:298 SetsClass.SetElement <> A:12 var
+R295:295 SetsClass.SetElement <> S:13 var
+binder 275:279 <> _SETS:16
+R314:314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R320:324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R326:329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R330:332 SetsClass.SetElement <> RES:14 var
+R325:325 SetsClass.SetElement <> S:13 var
+R316:318 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R315:315 SetsClass.SetElement <> E:15 var
+R319:319 SetsClass.SetElement <> A:12 var
+binder 343:343 <> a:17
+binder 345:345 <> X:18
+R350:355 SetsClass.SetElement SetsEle In_aux meth
+R445:445 SetsClass.SetElement <> a:17 var
+R452:452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R455:456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R459:459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R421:421 SetsClass.SetElement <> X:18 var
+R379:379 SetsClass.SetElement <> a:17 var
+R386:386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R389:390 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R393:393 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 485:505 SetsEle lift_set_transfer_aux
+binder 519:519 <> A:21
+binder 521:521 <> S:22
+binder 523:525 <> RES:23
+binder 527:527 <> E:24
+R549:560 SetsClass.SetElement SetsEle PRE_SETS_ELE class
+R575:575 SetsClass.SetElement <> E:24 var
+R566:569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R570:572 SetsClass.SetElement <> RES:23 var
+R565:565 SetsClass.SetElement <> A:21 var
+R562:562 SetsClass.SetElement <> S:22 var
+binder 542:546 <> _SETS:25
+R581:581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R594:598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R599:599 SetsClass.SetElement <> S:22 var
+R587:590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R591:593 SetsClass.SetElement <> RES:23 var
+R583:585 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R582:582 SetsClass.SetElement <> E:24 var
+R586:586 SetsClass.SetElement <> A:21 var
+binder 610:610 <> F:26
+R615:630 SetsClass.SetElement SetsEle set_transfer_aux meth
+binder 637:638 <> a1:27
+binder 640:641 <> a2:28
+R646:646 SetsClass.SetElement <> F:26 var
+R648:648 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R651:652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R655:655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R649:650 SetsClass.SetElement <> a1:27 var
+R653:654 SetsClass.SetElement <> a2:28 var
+R664:670 SetsClass.SetElement SetsEle <> mod
+inst 683:699 <> Prop_PRE_SETS_ELE
+binder 702:702 <> A:29
+binder 704:704 <> S:30
+R714:733 SetsClass.SetElement <> PRE_SETS_ELE class
+R746:746 SetsClass.SetElement <> A:29 var
+R744:744 SetsClass.SetElement <> S:30 var
+R737:740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R741:741 SetsClass.SetElement <> S:30 var
+R736:736 SetsClass.SetElement <> A:29 var
+R760:773 SetsClass.SetElement <> In_aux meth
+R760:773 SetsClass.SetElement <> In_aux meth
+R798:821 SetsClass.SetElement <> set_transfer_aux meth
+binder 830:830 <> F:31
+R835:835 SetsClass.SetElement <> F:31 var
+binder 782:782 <> a:32
+binder 784:784 <> X:33
+R789:789 SetsClass.SetElement <> X:33 var
+R791:791 SetsClass.SetElement <> a:32 var
+inst 853:869 <> lift_PRE_SETS_ELE
+binder 883:883 <> A:34
+binder 885:885 <> S:35
+binder 887:889 <> RES:36
+binder 891:891 <> E:37
+R919:938 SetsClass.SetElement <> PRE_SETS_ELE class
+R953:953 SetsClass.SetElement <> E:37 var
+R944:947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R948:950 SetsClass.SetElement <> RES:36 var
+R943:943 SetsClass.SetElement <> A:34 var
+R940:940 SetsClass.SetElement <> S:35 var
+binder 912:916 <> _SETS:38
+R959:978 SetsClass.SetElement <> PRE_SETS_ELE class
+R988:990 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R987:987 SetsClass.SetElement <> E:37 var
+R991:991 SetsClass.SetElement <> A:34 var
+R982:984 SetsClass.SetElement <> RES:36 var
+R980:980 SetsClass.SetElement <> S:35 var
+R1006:1019 SetsClass.SetElement <> In_aux meth
+R1006:1019 SetsClass.SetElement <> In_aux meth
+R1049:1072 SetsClass.SetElement <> set_transfer_aux meth
+R1077:1105 SetsClass.SetElement <> lift_set_transfer_aux def
+R1024:1042 SetsClass.SetElement <> lift_In_aux def
+inst 1124:1139 <> Derived_SETS_ELE
+binder 1153:1153 <> S:39
+binder 1155:1155 <> E:40
+R1183:1202 SetsClass.SetElement <> PRE_SETS_ELE class
+R1211:1211 SetsClass.SetElement <> E:40 var
+R1204:1204 SetsClass.SetElement <> S:39 var
+binder 1176:1180 <> _SETS:41
+R1217:1232 SetsClass.SetElement <> SETS_ELE class
+R1236:1236 SetsClass.SetElement <> E:40 var
+R1234:1234 SetsClass.SetElement <> S:39 var
+R1250:1259 SetsClass.SetElement <> In meth
+R1250:1259 SetsClass.SetElement <> In meth
+R1290:1309 SetsClass.SetElement <> set_transfer meth
+binder 1324:1324 <> X:42
+R1329:1352 SetsClass.SetElement <> set_transfer_aux meth
+binder 1359:1359 <> a:43
+R1364:1377 SetsClass.SetElement <> In_aux meth
+R1381:1381 SetsClass.SetElement <> X:42 var
+R1379:1379 SetsClass.SetElement <> a:43 var
+R1270:1283 SetsClass.SetElement <> In_aux meth
+R1454:1470 SetsClass.SetElement <> lift_PRE_SETS_ELE inst
+R1454:1470 SetsClass.SetElement <> lift_PRE_SETS_ELE inst
+R1564:1580 SetsClass.SetElement <> Prop_PRE_SETS_ELE inst
+R1564:1580 SetsClass.SetElement <> Prop_PRE_SETS_ELE inst
+R1671:1686 SetsClass.SetElement <> Derived_SETS_ELE inst
+R1671:1686 SetsClass.SetElement <> Derived_SETS_ELE inst
+R1775:1800 SetsClass.SetElement <> Build_PRE_SETS_ELE constr
+R1775:1800 SetsClass.SetElement <> Build_PRE_SETS_ELE constr
+R1845:1866 SetsClass.SetElement <> Build_SETS_ELE constr
+R1845:1866 SetsClass.SetElement <> Build_SETS_ELE constr
+R1976:1992 SetsClass.SetElement <> lift_PRE_SETS_ELE inst
+R1976:1992 SetsClass.SetElement <> lift_PRE_SETS_ELE inst
+R2021:2037 SetsClass.SetElement <> Prop_PRE_SETS_ELE inst
+R2021:2037 SetsClass.SetElement <> Prop_PRE_SETS_ELE inst
+R2068:2083 SetsClass.SetElement <> Derived_SETS_ELE inst
+R2068:2083 SetsClass.SetElement <> Derived_SETS_ELE inst
+R2113:2138 SetsClass.SetElement <> Build_PRE_SETS_ELE constr
+R2113:2138 SetsClass.SetElement <> Build_PRE_SETS_ELE constr
+R2176:2197 SetsClass.SetElement <> Build_SETS_ELE constr
+R2176:2197 SetsClass.SetElement <> Build_SETS_ELE constr
+R2224:2225 Coq.Init.Datatypes <> tt constr
+R2167:2168 Coq.Init.Datatypes <> tt constr
+R2104:2105 Coq.Init.Datatypes <> tt constr
+R2060:2061 Coq.Init.Datatypes <> tt constr
+R2013:2014 Coq.Init.Datatypes <> tt constr
+R2289:2298 SetsClass.SetElement <> In meth
+R2289:2298 SetsClass.SetElement <> In meth
+R2564:2577 SetsClass.SetElement <> In_aux meth
+R2564:2577 SetsClass.SetElement <> In_aux meth
+R2704:2717 SetsClass.SetElement <> In_aux meth
+R2416:2425 SetsClass.SetElement <> In meth
+R2996:3005 SetsClass.SetElement <> In meth
+R2996:3005 SetsClass.SetElement <> In meth
+R3209:3222 SetsClass.SetElement <> In_aux meth
+R3209:3222 SetsClass.SetElement <> In_aux meth
+R3288:3301 SetsClass.SetElement <> In_aux meth
+R3066:3075 SetsClass.SetElement <> In meth
+R4297:4320 SetsClass.SetElement <> set_transfer_aux meth
+R4297:4320 SetsClass.SetElement <> set_transfer_aux meth
+R4413:4436 SetsClass.SetElement <> set_transfer_aux meth
+binder 4704:4704 <> X:44
+R4713:4736 SetsClass.SetElement <> set_transfer_aux meth
+binder 4784:4784 <> a:45
+R4790:4799 SetsClass.SetElement <> In meth
+R4809:4809 SetsClass.SetElement <> X:44 var
+R4807:4807 SetsClass.SetElement <> a:45 var

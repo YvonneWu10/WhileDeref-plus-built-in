@@ -1,0 +1,4008 @@
+DIGEST 8fc6398e9269280b64f3820a4411de1e
+FSetsClass.SetsDomain
+R15:37 Coq.Classes.Equivalence <> <> lib
+R55:75 Coq.Classes.Morphisms <> <> lib
+R93:118 Coq.Classes.Morphisms_Prop <> <> lib
+R136:153 Coq.Setoids.Setoid <> <> lib
+R171:190 SetsClass.SetElement <> <> lib
+mod 201:204 <> Sets
+rec 214:217 Sets SETS
+proj 242:245 Sets full
+proj 253:257 Sets empty
+proj 265:272 Sets prop_inj
+proj 288:297 Sets complement
+proj 310:318 Sets intersect
+proj 336:340 Sets union
+proj 358:374 Sets indexed_intersect
+proj 406:418 Sets indexed_union
+proj 450:454 Sets equiv
+proj 475:482 Sets included
+proj 503:506 Sets Taux
+proj 525:528 Sets Qaux
+proj 569:572 Sets Paux
+proj 610:617 Sets conj_aux
+proj 664:672 Sets imply_aux
+proj 719:728 Sets forall_aux
+proj 758:767 Sets exists_aux
+proj 797:803 Sets inj_aux
+proj 833:843 Sets derives_aux
+binder 220:220 <> T:1
+R248:248 SetsClass.SetsDomain <> T:1 var
+R260:260 SetsClass.SetsDomain <> T:1 var
+R279:282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R283:283 SetsClass.SetsDomain <> T:1 var
+R301:304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R305:305 SetsClass.SetsDomain <> T:1 var
+R300:300 SetsClass.SetsDomain <> T:1 var
+R322:325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R327:330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R331:331 SetsClass.SetsDomain <> T:1 var
+R326:326 SetsClass.SetsDomain <> T:1 var
+R321:321 SetsClass.SetsDomain <> T:1 var
+R344:347 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R349:352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R353:353 SetsClass.SetsDomain <> T:1 var
+R348:348 SetsClass.SetsDomain <> T:1 var
+R343:343 SetsClass.SetsDomain <> T:1 var
+binder 385:385 <> I:9
+R389:389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R396:400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R401:401 SetsClass.SetsDomain <> T:1 var
+R391:394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R395:395 SetsClass.SetsDomain <> T:1 var
+R390:390 SetsClass.SetsDomain <> I:9 var
+binder 429:429 <> I:11
+R433:433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R440:444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R445:445 SetsClass.SetsDomain <> T:1 var
+R435:438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R439:439 SetsClass.SetsDomain <> T:1 var
+R434:434 SetsClass.SetsDomain <> I:11 var
+R458:461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R463:466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R462:462 SetsClass.SetsDomain <> T:1 var
+R457:457 SetsClass.SetsDomain <> T:1 var
+R486:489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R491:494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R490:490 SetsClass.SetsDomain <> T:1 var
+R485:485 SetsClass.SetsDomain <> T:1 var
+R513:516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 538:539 <> T0:16
+R542:542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R553:557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R558:561 SetsClass.SetsDomain <> Taux:15 meth
+R563:564 SetsClass.SetsDomain <> T0:16 var
+R545:548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R543:544 SetsClass.SetsDomain <> T0:16 var
+binder 582:583 <> T0:18
+R586:586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R594:598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R599:602 SetsClass.SetsDomain <> Taux:15 meth
+R604:605 SetsClass.SetsDomain <> T0:18 var
+R589:592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R593:593 SetsClass.SetsDomain <> T:1 var
+R587:588 SetsClass.SetsDomain <> T0:18 var
+binder 627:628 <> T0:20
+R638:641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R649:652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R653:656 SetsClass.SetsDomain <> Taux:15 meth
+R658:659 SetsClass.SetsDomain <> T0:20 var
+R642:645 SetsClass.SetsDomain <> Taux:15 meth
+R647:648 SetsClass.SetsDomain <> T0:20 var
+R631:634 SetsClass.SetsDomain <> Taux:15 meth
+R636:637 SetsClass.SetsDomain <> T0:20 var
+binder 682:683 <> T0:22
+R693:696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R704:707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R708:711 SetsClass.SetsDomain <> Taux:15 meth
+R713:714 SetsClass.SetsDomain <> T0:22 var
+R697:700 SetsClass.SetsDomain <> Taux:15 meth
+R702:703 SetsClass.SetsDomain <> T0:22 var
+R686:689 SetsClass.SetsDomain <> Taux:15 meth
+R691:692 SetsClass.SetsDomain <> T0:22 var
+binder 738:739 <> T0:24
+R749:752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R753:753 SetsClass.SetsDomain <> T:1 var
+R742:745 SetsClass.SetsDomain <> Taux:15 meth
+R747:748 SetsClass.SetsDomain <> T0:24 var
+binder 777:778 <> T0:26
+R788:791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R792:792 SetsClass.SetsDomain <> T:1 var
+R781:784 SetsClass.SetsDomain <> Taux:15 meth
+R786:787 SetsClass.SetsDomain <> T0:26 var
+binder 813:814 <> T0:28
+R818:821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R822:825 SetsClass.SetsDomain <> Taux:15 meth
+R827:828 SetsClass.SetsDomain <> T0:28 var
+R817:817 SetsClass.SetsDomain <> T:1 var
+binder 853:854 <> T0:30
+R864:867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R875:878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R881:884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R879:880 SetsClass.SetsDomain <> T0:30 var
+R868:871 SetsClass.SetsDomain <> Taux:15 meth
+R873:874 SetsClass.SetsDomain <> T0:30 var
+R857:860 SetsClass.SetsDomain <> Taux:15 meth
+R862:863 SetsClass.SetsDomain <> T0:30 var
+def 905:917 Sets general_union
+binder 920:920 <> T:32
+R931:934 SetsClass.SetsDomain Sets SETS class
+R936:936 SetsClass.SetsDomain <> T:32 var
+binder 924:928 <> _SETS:33
+R940:940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R950:954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R955:955 SetsClass.SetsDomain <> T:32 var
+R942:945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R941:941 SetsClass.SetsDomain <> T:32 var
+binder 966:966 <> P:34
+R971:980 SetsClass.SetsDomain Sets exists_aux meth
+R985:992 SetsClass.SetsDomain Sets conj_aux meth
+R1008:1011 SetsClass.SetsDomain Sets Paux meth
+binder 1020:1020 <> x:35
+R1025:1025 SetsClass.SetsDomain <> x:35 var
+R1013:1013 SetsClass.SetsDomain <> T:32 var
+R997:1000 SetsClass.SetsDomain Sets Qaux meth
+R1004:1004 SetsClass.SetsDomain <> P:34 var
+R1002:1002 SetsClass.SetsDomain <> T:32 var
+R994:994 SetsClass.SetsDomain <> T:32 var
+R982:982 SetsClass.SetsDomain <> T:32 var
+def 1043:1059 Sets general_intersect
+binder 1062:1062 <> T:36
+R1073:1076 SetsClass.SetsDomain Sets SETS class
+R1078:1078 SetsClass.SetsDomain <> T:36 var
+binder 1066:1070 <> _SETS:37
+R1082:1082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1092:1096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1097:1097 SetsClass.SetsDomain <> T:36 var
+R1084:1087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1083:1083 SetsClass.SetsDomain <> T:36 var
+binder 1108:1108 <> P:38
+R1113:1122 SetsClass.SetsDomain Sets forall_aux meth
+R1127:1135 SetsClass.SetsDomain Sets imply_aux meth
+R1151:1154 SetsClass.SetsDomain Sets Paux meth
+binder 1163:1163 <> x:39
+R1168:1168 SetsClass.SetsDomain <> x:39 var
+R1156:1156 SetsClass.SetsDomain <> T:36 var
+R1140:1143 SetsClass.SetsDomain Sets Qaux meth
+R1147:1147 SetsClass.SetsDomain <> P:38 var
+R1145:1145 SetsClass.SetsDomain <> T:36 var
+R1137:1137 SetsClass.SetsDomain <> T:36 var
+R1124:1124 SetsClass.SetsDomain <> T:36 var
+def 1186:1194 Sets lift_full
+binder 1197:1197 <> A:40
+binder 1199:1199 <> B:41
+R1210:1213 SetsClass.SetsDomain Sets SETS class
+R1215:1215 SetsClass.SetsDomain <> B:41 var
+binder 1203:1207 <> _SETS:42
+R1220:1223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1224:1224 SetsClass.SetsDomain <> B:41 var
+R1219:1219 SetsClass.SetsDomain <> A:40 var
+R1238:1241 SetsClass.SetsDomain Sets full meth
+def 1256:1265 Sets lift_empty
+binder 1268:1268 <> A:43
+binder 1270:1270 <> B:44
+R1281:1284 SetsClass.SetsDomain Sets SETS class
+R1286:1286 SetsClass.SetsDomain <> B:44 var
+binder 1274:1278 <> _SETS:45
+R1291:1294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1295:1295 SetsClass.SetsDomain <> B:44 var
+R1290:1290 SetsClass.SetsDomain <> A:43 var
+R1309:1313 SetsClass.SetsDomain Sets empty meth
+def 1328:1340 Sets lift_prop_inj
+binder 1343:1343 <> A:46
+binder 1345:1345 <> B:47
+R1356:1359 SetsClass.SetsDomain Sets SETS class
+R1361:1361 SetsClass.SetsDomain <> B:47 var
+binder 1349:1353 <> _SETS:48
+R1369:1372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1374:1377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1378:1378 SetsClass.SetsDomain <> B:47 var
+R1373:1373 SetsClass.SetsDomain <> A:46 var
+binder 1389:1389 <> P:49
+R1396:1403 SetsClass.SetsDomain Sets prop_inj meth
+R1405:1405 SetsClass.SetsDomain <> P:49 var
+def 1420:1434 Sets lift_complement
+binder 1437:1437 <> A:50
+binder 1439:1439 <> B:51
+R1450:1453 SetsClass.SetsDomain Sets SETS class
+R1455:1455 SetsClass.SetsDomain <> B:51 var
+binder 1443:1447 <> _SETS:52
+R1459:1459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1466:1471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1478:1478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1473:1476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1477:1477 SetsClass.SetsDomain <> B:51 var
+R1472:1472 SetsClass.SetsDomain <> A:50 var
+R1461:1464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1465:1465 SetsClass.SetsDomain <> B:51 var
+R1460:1460 SetsClass.SetsDomain <> A:50 var
+binder 1489:1489 <> x:53
+binder 1491:1491 <> a:54
+R1496:1505 SetsClass.SetsDomain Sets complement meth
+R1508:1508 SetsClass.SetsDomain <> x:53 var
+R1510:1510 SetsClass.SetsDomain <> a:54 var
+def 1526:1539 Sets lift_intersect
+binder 1542:1542 <> A:55
+binder 1544:1544 <> B:56
+R1555:1558 SetsClass.SetsDomain Sets SETS class
+R1560:1560 SetsClass.SetsDomain <> B:56 var
+binder 1548:1552 <> _SETS:57
+R1564:1564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1571:1575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1576:1576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1583:1588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1595:1595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1590:1593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1594:1594 SetsClass.SetsDomain <> B:56 var
+R1589:1589 SetsClass.SetsDomain <> A:55 var
+R1578:1581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1582:1582 SetsClass.SetsDomain <> B:56 var
+R1577:1577 SetsClass.SetsDomain <> A:55 var
+R1566:1569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1570:1570 SetsClass.SetsDomain <> B:56 var
+R1565:1565 SetsClass.SetsDomain <> A:55 var
+binder 1606:1606 <> x:58
+binder 1608:1608 <> y:59
+binder 1610:1610 <> a:60
+R1615:1623 SetsClass.SetsDomain Sets intersect meth
+R1632:1632 SetsClass.SetsDomain <> y:59 var
+R1634:1634 SetsClass.SetsDomain <> a:60 var
+R1626:1626 SetsClass.SetsDomain <> x:58 var
+R1628:1628 SetsClass.SetsDomain <> a:60 var
+def 1650:1659 Sets lift_union
+binder 1662:1662 <> A:61
+binder 1664:1664 <> B:62
+R1675:1678 SetsClass.SetsDomain Sets SETS class
+R1680:1680 SetsClass.SetsDomain <> B:62 var
+binder 1668:1672 <> _SETS:63
+R1684:1684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1691:1695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1696:1696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1703:1708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1715:1715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1710:1713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1714:1714 SetsClass.SetsDomain <> B:62 var
+R1709:1709 SetsClass.SetsDomain <> A:61 var
+R1698:1701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1702:1702 SetsClass.SetsDomain <> B:62 var
+R1697:1697 SetsClass.SetsDomain <> A:61 var
+R1686:1689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1690:1690 SetsClass.SetsDomain <> B:62 var
+R1685:1685 SetsClass.SetsDomain <> A:61 var
+binder 1726:1726 <> x:64
+binder 1728:1728 <> y:65
+binder 1730:1730 <> a:66
+R1735:1739 SetsClass.SetsDomain Sets union meth
+R1748:1748 SetsClass.SetsDomain <> y:65 var
+R1750:1750 SetsClass.SetsDomain <> a:66 var
+R1742:1742 SetsClass.SetsDomain <> x:64 var
+R1744:1744 SetsClass.SetsDomain <> a:66 var
+def 1766:1787 Sets lift_indexed_intersect
+binder 1790:1790 <> A:67
+binder 1792:1792 <> B:68
+R1803:1806 SetsClass.SetsDomain Sets SETS class
+R1808:1808 SetsClass.SetsDomain <> B:68 var
+binder 1796:1800 <> _SETS:69
+binder 1820:1820 <> I:70
+R1824:1824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1836:1841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1848:1848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1843:1846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1847:1847 SetsClass.SetsDomain <> B:68 var
+R1842:1842 SetsClass.SetsDomain <> A:67 var
+R1826:1829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1831:1834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1835:1835 SetsClass.SetsDomain <> B:68 var
+R1830:1830 SetsClass.SetsDomain <> A:67 var
+R1825:1825 SetsClass.SetsDomain <> I:70 var
+binder 1859:1859 <> I:71
+binder 1861:1861 <> x:72
+binder 1863:1863 <> a:73
+R1868:1884 SetsClass.SetsDomain Sets indexed_intersect meth
+binder 1891:1891 <> i:74
+R1896:1896 SetsClass.SetsDomain <> x:72 var
+R1900:1900 SetsClass.SetsDomain <> a:73 var
+R1898:1898 SetsClass.SetsDomain <> i:74 var
+def 1916:1933 Sets lift_indexed_union
+binder 1936:1936 <> A:75
+binder 1938:1938 <> B:76
+R1949:1952 SetsClass.SetsDomain Sets SETS class
+R1954:1954 SetsClass.SetsDomain <> B:76 var
+binder 1942:1946 <> _SETS:77
+binder 1966:1966 <> I:78
+R1970:1970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1982:1987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1994:1994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1989:1992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1993:1993 SetsClass.SetsDomain <> B:76 var
+R1988:1988 SetsClass.SetsDomain <> A:75 var
+R1972:1975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1977:1980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1981:1981 SetsClass.SetsDomain <> B:76 var
+R1976:1976 SetsClass.SetsDomain <> A:75 var
+R1971:1971 SetsClass.SetsDomain <> I:78 var
+binder 2005:2005 <> I:79
+binder 2007:2007 <> x:80
+binder 2009:2009 <> a:81
+R2014:2026 SetsClass.SetsDomain Sets indexed_union meth
+binder 2033:2033 <> i:82
+R2038:2038 SetsClass.SetsDomain <> x:80 var
+R2042:2042 SetsClass.SetsDomain <> a:81 var
+R2040:2040 SetsClass.SetsDomain <> i:82 var
+def 2058:2067 Sets lift_equiv
+binder 2070:2070 <> A:83
+binder 2072:2072 <> B:84
+R2083:2086 SetsClass.SetsDomain Sets SETS class
+R2088:2088 SetsClass.SetsDomain <> B:84 var
+binder 2076:2080 <> _SETS:85
+R2092:2092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2099:2103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2104:2104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2111:2115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2106:2109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2110:2110 SetsClass.SetsDomain <> B:84 var
+R2105:2105 SetsClass.SetsDomain <> A:83 var
+R2094:2097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2098:2098 SetsClass.SetsDomain <> B:84 var
+R2093:2093 SetsClass.SetsDomain <> A:83 var
+binder 2130:2130 <> x:86
+binder 2132:2132 <> y:87
+binder 2144:2144 <> a:88
+R2147:2151 SetsClass.SetsDomain Sets equiv meth
+R2160:2160 SetsClass.SetsDomain <> y:87 var
+R2162:2162 SetsClass.SetsDomain <> a:88 var
+R2154:2154 SetsClass.SetsDomain <> x:86 var
+R2156:2156 SetsClass.SetsDomain <> a:88 var
+def 2178:2190 Sets lift_included
+binder 2193:2193 <> A:89
+binder 2195:2195 <> B:90
+R2206:2209 SetsClass.SetsDomain Sets SETS class
+R2211:2211 SetsClass.SetsDomain <> B:90 var
+binder 2199:2203 <> _SETS:91
+R2215:2215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2222:2226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2227:2227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2234:2238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2229:2232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2233:2233 SetsClass.SetsDomain <> B:90 var
+R2228:2228 SetsClass.SetsDomain <> A:89 var
+R2217:2220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2221:2221 SetsClass.SetsDomain <> B:90 var
+R2216:2216 SetsClass.SetsDomain <> A:89 var
+binder 2253:2253 <> x:92
+binder 2255:2255 <> y:93
+binder 2267:2267 <> a:94
+R2270:2277 SetsClass.SetsDomain Sets included meth
+R2286:2286 SetsClass.SetsDomain <> y:93 var
+R2288:2288 SetsClass.SetsDomain <> a:94 var
+R2280:2280 SetsClass.SetsDomain <> x:92 var
+R2282:2282 SetsClass.SetsDomain <> a:94 var
+def 2304:2312 Sets lift_Taux
+binder 2315:2315 <> A:95
+binder 2317:2317 <> B:96
+R2328:2331 SetsClass.SetsDomain Sets SETS class
+R2333:2333 SetsClass.SetsDomain <> B:96 var
+binder 2321:2325 <> _SETS:97
+R2341:2344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2359:2359 <> T:98
+R2365:2368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2369:2372 SetsClass.SetsDomain Sets Taux meth
+R2374:2374 SetsClass.SetsDomain <> T:98 var
+R2364:2364 SetsClass.SetsDomain <> A:95 var
+def 2389:2397 Sets lift_Qaux
+binder 2400:2400 <> A:99
+binder 2402:2402 <> B:100
+R2413:2416 SetsClass.SetsDomain Sets SETS class
+R2418:2418 SetsClass.SetsDomain <> B:100 var
+binder 2406:2410 <> _SETS:101
+binder 2431:2432 <> T0:102
+R2435:2435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2446:2450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2452:2455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2456:2459 SetsClass.SetsDomain Sets Taux meth
+R2461:2462 SetsClass.SetsDomain <> T0:102 var
+R2451:2451 SetsClass.SetsDomain <> A:99 var
+R2438:2441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2436:2437 SetsClass.SetsDomain <> T0:102 var
+binder 2474:2475 <> T0:103
+binder 2477:2477 <> X:104
+R2484:2487 SetsClass.SetsDomain Sets Qaux meth
+R2492:2492 SetsClass.SetsDomain <> X:104 var
+R2489:2490 SetsClass.SetsDomain <> T0:103 var
+def 2507:2515 Sets lift_Paux
+binder 2518:2518 <> A:105
+binder 2520:2520 <> B:106
+R2531:2534 SetsClass.SetsDomain Sets SETS class
+R2536:2536 SetsClass.SetsDomain <> B:106 var
+binder 2524:2528 <> _SETS:107
+binder 2549:2550 <> T0:108
+R2553:2553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2568:2572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2574:2577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2578:2581 SetsClass.SetsDomain Sets Taux meth
+R2583:2584 SetsClass.SetsDomain <> T0:108 var
+R2573:2573 SetsClass.SetsDomain <> A:105 var
+R2556:2560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2567:2567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2562:2565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2566:2566 SetsClass.SetsDomain <> B:106 var
+R2561:2561 SetsClass.SetsDomain <> A:105 var
+R2554:2555 SetsClass.SetsDomain <> T0:108 var
+binder 2596:2597 <> T0:109
+binder 2599:2601 <> inj:110
+binder 2603:2603 <> a:111
+R2608:2611 SetsClass.SetsDomain Sets Paux meth
+binder 2621:2621 <> t:112
+R2626:2628 SetsClass.SetsDomain <> inj:110 var
+R2632:2632 SetsClass.SetsDomain <> a:111 var
+R2630:2630 SetsClass.SetsDomain <> t:112 var
+R2613:2614 SetsClass.SetsDomain <> T0:109 var
+def 2650:2662 Sets lift_conj_aux
+binder 2665:2665 <> A:113
+binder 2667:2667 <> B:114
+R2678:2681 SetsClass.SetsDomain Sets SETS class
+R2683:2683 SetsClass.SetsDomain <> B:114 var
+binder 2671:2675 <> _SETS:115
+binder 2696:2697 <> T0:116
+R2700:2700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2713:2717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2718:2718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2731:2736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2749:2749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2738:2741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2742:2745 SetsClass.SetsDomain Sets Taux meth
+R2747:2748 SetsClass.SetsDomain <> T0:116 var
+R2737:2737 SetsClass.SetsDomain <> A:113 var
+R2720:2723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2724:2727 SetsClass.SetsDomain Sets Taux meth
+R2729:2730 SetsClass.SetsDomain <> T0:116 var
+R2719:2719 SetsClass.SetsDomain <> A:113 var
+R2702:2705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2706:2709 SetsClass.SetsDomain Sets Taux meth
+R2711:2712 SetsClass.SetsDomain <> T0:116 var
+R2701:2701 SetsClass.SetsDomain <> A:113 var
+binder 2761:2762 <> T0:117
+binder 2764:2764 <> x:118
+binder 2766:2766 <> y:119
+binder 2768:2768 <> a:120
+R2773:2780 SetsClass.SetsDomain Sets conj_aux meth
+R2792:2792 SetsClass.SetsDomain <> y:119 var
+R2794:2794 SetsClass.SetsDomain <> a:120 var
+R2786:2786 SetsClass.SetsDomain <> x:118 var
+R2788:2788 SetsClass.SetsDomain <> a:120 var
+R2782:2783 SetsClass.SetsDomain <> T0:117 var
+def 2810:2823 Sets lift_imply_aux
+binder 2826:2826 <> A:121
+binder 2828:2828 <> B:122
+R2839:2842 SetsClass.SetsDomain Sets SETS class
+R2844:2844 SetsClass.SetsDomain <> B:122 var
+binder 2832:2836 <> _SETS:123
+binder 2857:2858 <> T0:124
+R2861:2861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2874:2878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2879:2879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2892:2897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2910:2910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2899:2902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2903:2906 SetsClass.SetsDomain Sets Taux meth
+R2908:2909 SetsClass.SetsDomain <> T0:124 var
+R2898:2898 SetsClass.SetsDomain <> A:121 var
+R2881:2884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2885:2888 SetsClass.SetsDomain Sets Taux meth
+R2890:2891 SetsClass.SetsDomain <> T0:124 var
+R2880:2880 SetsClass.SetsDomain <> A:121 var
+R2863:2866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2867:2870 SetsClass.SetsDomain Sets Taux meth
+R2872:2873 SetsClass.SetsDomain <> T0:124 var
+R2862:2862 SetsClass.SetsDomain <> A:121 var
+binder 2922:2923 <> T0:125
+binder 2925:2925 <> x:126
+binder 2927:2927 <> y:127
+binder 2929:2929 <> a:128
+R2934:2942 SetsClass.SetsDomain Sets imply_aux meth
+R2954:2954 SetsClass.SetsDomain <> y:127 var
+R2956:2956 SetsClass.SetsDomain <> a:128 var
+R2948:2948 SetsClass.SetsDomain <> x:126 var
+R2950:2950 SetsClass.SetsDomain <> a:128 var
+R2944:2945 SetsClass.SetsDomain <> T0:125 var
+def 2972:2986 Sets lift_forall_aux
+binder 2989:2989 <> A:129
+binder 2991:2991 <> B:130
+R3002:3005 SetsClass.SetsDomain Sets SETS class
+R3007:3007 SetsClass.SetsDomain <> B:130 var
+binder 2995:2999 <> _SETS:131
+binder 3020:3021 <> T0:132
+R3024:3024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3037:3042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3049:3049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3044:3047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3048:3048 SetsClass.SetsDomain <> B:130 var
+R3043:3043 SetsClass.SetsDomain <> A:129 var
+R3026:3029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3030:3033 SetsClass.SetsDomain Sets Taux meth
+R3035:3036 SetsClass.SetsDomain <> T0:132 var
+R3025:3025 SetsClass.SetsDomain <> A:129 var
+binder 3061:3062 <> T0:133
+binder 3064:3064 <> x:134
+binder 3066:3066 <> a:135
+R3071:3080 SetsClass.SetsDomain Sets forall_aux meth
+R3086:3086 SetsClass.SetsDomain <> x:134 var
+R3088:3088 SetsClass.SetsDomain <> a:135 var
+R3082:3083 SetsClass.SetsDomain <> T0:133 var
+def 3104:3118 Sets lift_exists_aux
+binder 3121:3121 <> A:136
+binder 3123:3123 <> B:137
+R3134:3137 SetsClass.SetsDomain Sets SETS class
+R3139:3139 SetsClass.SetsDomain <> B:137 var
+binder 3127:3131 <> _SETS:138
+binder 3152:3153 <> T0:139
+R3156:3156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3169:3174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3181:3181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3176:3179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3180:3180 SetsClass.SetsDomain <> B:137 var
+R3175:3175 SetsClass.SetsDomain <> A:136 var
+R3158:3161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3162:3165 SetsClass.SetsDomain Sets Taux meth
+R3167:3168 SetsClass.SetsDomain <> T0:139 var
+R3157:3157 SetsClass.SetsDomain <> A:136 var
+binder 3193:3194 <> T0:140
+binder 3196:3196 <> x:141
+binder 3198:3198 <> a:142
+R3203:3212 SetsClass.SetsDomain Sets exists_aux meth
+R3218:3218 SetsClass.SetsDomain <> x:141 var
+R3220:3220 SetsClass.SetsDomain <> a:142 var
+R3214:3215 SetsClass.SetsDomain <> T0:140 var
+def 3236:3251 Sets lift_derives_aux
+binder 3254:3254 <> A:143
+binder 3256:3256 <> B:144
+R3267:3270 SetsClass.SetsDomain Sets SETS class
+R3272:3272 SetsClass.SetsDomain <> B:144 var
+binder 3260:3264 <> _SETS:145
+binder 3285:3286 <> T0:146
+R3289:3289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3302:3306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3307:3307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3320:3324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3327:3330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3325:3326 SetsClass.SetsDomain <> T0:146 var
+R3309:3312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3313:3316 SetsClass.SetsDomain Sets Taux meth
+R3318:3319 SetsClass.SetsDomain <> T0:146 var
+R3308:3308 SetsClass.SetsDomain <> A:143 var
+R3291:3294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3295:3298 SetsClass.SetsDomain Sets Taux meth
+R3300:3301 SetsClass.SetsDomain <> T0:146 var
+R3290:3290 SetsClass.SetsDomain <> A:143 var
+binder 3346:3347 <> T0:147
+binder 3349:3349 <> x:148
+binder 3351:3351 <> y:149
+binder 3353:3354 <> t0:150
+binder 3366:3366 <> a:151
+R3369:3379 SetsClass.SetsDomain Sets derives_aux meth
+R3396:3397 SetsClass.SetsDomain <> t0:150 var
+R3391:3391 SetsClass.SetsDomain <> y:149 var
+R3393:3393 SetsClass.SetsDomain <> a:151 var
+R3385:3385 SetsClass.SetsDomain <> x:148 var
+R3387:3387 SetsClass.SetsDomain <> a:151 var
+R3381:3382 SetsClass.SetsDomain <> T0:147 var
+def 3412:3423 Sets lift_inj_aux
+binder 3426:3426 <> A:152
+binder 3428:3428 <> B:153
+R3439:3442 SetsClass.SetsDomain Sets SETS class
+R3444:3444 SetsClass.SetsDomain <> B:153 var
+binder 3432:3436 <> _SETS:154
+binder 3457:3458 <> T0:155
+R3461:3461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3468:3473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3486:3486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3475:3478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3479:3482 SetsClass.SetsDomain Sets Taux meth
+R3484:3485 SetsClass.SetsDomain <> T0:155 var
+R3474:3474 SetsClass.SetsDomain <> A:152 var
+R3463:3466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3467:3467 SetsClass.SetsDomain <> B:153 var
+R3462:3462 SetsClass.SetsDomain <> A:152 var
+binder 3498:3499 <> T0:156
+binder 3501:3501 <> x:157
+binder 3503:3503 <> a:158
+R3508:3514 SetsClass.SetsDomain Sets inj_aux meth
+R3520:3520 SetsClass.SetsDomain <> x:157 var
+R3522:3522 SetsClass.SetsDomain <> a:158 var
+R3516:3517 SetsClass.SetsDomain <> T0:156 var
+def 3538:3542 Sets test1
+binder 3545:3545 <> A:159
+binder 3547:3547 <> B:160
+R3558:3561 SetsClass.SetsDomain Sets SETS class
+R3563:3563 SetsClass.SetsDomain <> B:160 var
+binder 3551:3555 <> _SETS:161
+R3567:3567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3577:3582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3589:3589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3584:3587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3588:3588 SetsClass.SetsDomain <> B:160 var
+R3583:3583 SetsClass.SetsDomain <> A:159 var
+R3569:3572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3568:3568 SetsClass.SetsDomain <> A:159 var
+binder 3600:3600 <> P:162
+binder 3602:3602 <> a:163
+R3607:3614 SetsClass.SetsDomain Sets prop_inj meth
+R3617:3617 SetsClass.SetsDomain <> P:162 var
+R3619:3619 SetsClass.SetsDomain <> a:163 var
+def 3635:3639 Sets lift1
+binder 3642:3642 <> A:164
+binder 3644:3644 <> B:165
+R3655:3658 SetsClass.SetsDomain Sets SETS class
+R3660:3660 SetsClass.SetsDomain <> B:165 var
+binder 3648:3652 <> _SETS:166
+R3665:3669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3676:3676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3671:3674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3675:3675 SetsClass.SetsDomain <> B:165 var
+R3670:3670 SetsClass.SetsDomain <> A:164 var
+R3664:3664 SetsClass.SetsDomain <> B:165 var
+binder 3687:3687 <> x:167
+R3694:3694 SetsClass.SetsDomain <> x:167 var
+def 3709:3715 Sets filter1
+binder 3718:3718 <> A:168
+binder 3720:3720 <> B:169
+R3731:3734 SetsClass.SetsDomain Sets SETS class
+R3736:3736 SetsClass.SetsDomain <> B:169 var
+binder 3724:3728 <> _SETS:170
+R3740:3740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3750:3754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3755:3755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3762:3767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3774:3774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3769:3772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3773:3773 SetsClass.SetsDomain <> B:169 var
+R3768:3768 SetsClass.SetsDomain <> A:168 var
+R3757:3760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3761:3761 SetsClass.SetsDomain <> B:169 var
+R3756:3756 SetsClass.SetsDomain <> A:168 var
+R3742:3745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3741:3741 SetsClass.SetsDomain <> A:168 var
+binder 3785:3785 <> P:171
+binder 3787:3787 <> x:172
+R3792:3805 SetsClass.SetsDomain Sets lift_intersect def
+R3817:3817 SetsClass.SetsDomain <> x:172 var
+R3808:3812 SetsClass.SetsDomain Sets test1 def
+R3814:3814 SetsClass.SetsDomain <> P:171 var
+def 3832:3836 Sets projB
+binder 3839:3839 <> A:173
+binder 3841:3841 <> B:174
+R3848:3848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3854:3858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3850:3852 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3849:3849 SetsClass.SetsDomain <> A:173 var
+R3853:3853 SetsClass.SetsDomain <> B:174 var
+binder 3845:3845 <> s:175
+R3867:3870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3866:3866 SetsClass.SetsDomain <> B:174 var
+binder 3885:3885 <> b:176
+R3890:3896 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3898:3899 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3897:3897 <> a:177
+R3900:3900 SetsClass.SetsDomain <> s:175 var
+R3902:3902 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3904:3904 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3906:3906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3903:3903 SetsClass.SetsDomain <> a:177 var
+R3905:3905 SetsClass.SetsDomain <> b:176 var
+def 3921:3929 Sets singleton
+binder 3932:3932 <> A:178
+R3945:3945 SetsClass.SetsDomain <> A:178 var
+binder 3942:3942 <> a:179
+R3950:3953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3949:3949 SetsClass.SetsDomain <> A:178 var
+R3962:3963 Coq.Init.Logic <> eq ind
+R3965:3965 SetsClass.SetsDomain <> a:179 var
+R3973:3976 SetsClass.SetsDomain Sets <> mod
+R3990:3998 SetsClass.SetsDomain <> full meth
+R4024:4033 SetsClass.SetsDomain <> empty meth
+R4059:4071 SetsClass.SetsDomain <> prop_inj meth
+R4097:4111 SetsClass.SetsDomain <> complement meth
+R4137:4150 SetsClass.SetsDomain <> intersect meth
+R4176:4185 SetsClass.SetsDomain <> union meth
+R4211:4232 SetsClass.SetsDomain <> indexed_intersect meth
+R4258:4275 SetsClass.SetsDomain <> indexed_union meth
+R4301:4322 SetsClass.SetsDomain <> general_intersect def
+R4348:4365 SetsClass.SetsDomain <> general_union def
+R4391:4400 SetsClass.SetsDomain <> equiv meth
+R4426:4438 SetsClass.SetsDomain <> included meth
+R4464:4477 SetsClass.SetsDomain <> singleton def
+inst 4503:4511 <> Prop_SETS
+R4514:4522 SetsClass.SetsDomain <> SETS class
+R4541:4549 SetsClass.SetsDomain <> full meth
+R4541:4549 SetsClass.SetsDomain <> full meth
+R4564:4573 SetsClass.SetsDomain <> empty meth
+R4589:4601 SetsClass.SetsDomain <> prop_inj meth
+R4622:4636 SetsClass.SetsDomain <> complement meth
+R4650:4663 SetsClass.SetsDomain <> intersect meth
+R4677:4686 SetsClass.SetsDomain <> union meth
+R4699:4720 SetsClass.SetsDomain <> indexed_intersect meth
+R4755:4772 SetsClass.SetsDomain <> indexed_union meth
+R4786:4795 SetsClass.SetsDomain <> equiv meth
+R4809:4821 SetsClass.SetsDomain <> included meth
+R4849:4857 SetsClass.SetsDomain <> Taux meth
+R4886:4894 SetsClass.SetsDomain <> Qaux meth
+R4922:4930 SetsClass.SetsDomain <> Paux meth
+R4962:4974 SetsClass.SetsDomain <> conj_aux meth
+R5011:5024 SetsClass.SetsDomain <> imply_aux meth
+R5061:5075 SetsClass.SetsDomain <> forall_aux meth
+R5111:5125 SetsClass.SetsDomain <> exists_aux meth
+R5161:5172 SetsClass.SetsDomain <> inj_aux meth
+R5198:5213 SetsClass.SetsDomain <> derives_aux meth
+binder 5222:5223 <> T0:180
+binder 5225:5225 <> x:181
+binder 5227:5227 <> y:182
+binder 5229:5230 <> t0:183
+R5239:5242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5243:5243 SetsClass.SetsDomain <> y:182 var
+R5245:5246 SetsClass.SetsDomain <> t0:183 var
+R5235:5235 SetsClass.SetsDomain <> x:181 var
+R5237:5238 SetsClass.SetsDomain <> t0:183 var
+binder 5181:5182 <> T0:184
+binder 5184:5184 <> P:185
+R5191:5191 SetsClass.SetsDomain <> P:185 var
+binder 5134:5135 <> T0:186
+binder 5137:5137 <> P:187
+R5142:5148 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5150:5151 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5149:5149 <> x:188
+R5152:5152 SetsClass.SetsDomain <> P:187 var
+R5154:5154 SetsClass.SetsDomain <> x:188 var
+binder 5084:5085 <> T0:189
+binder 5087:5087 <> P:190
+binder 5099:5099 <> x:191
+R5102:5102 SetsClass.SetsDomain <> P:190 var
+R5104:5104 SetsClass.SetsDomain <> x:191 var
+binder 5033:5034 <> T0:192
+binder 5036:5036 <> x:193
+binder 5038:5038 <> y:194
+binder 5040:5040 <> a:195
+R5048:5051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5052:5052 SetsClass.SetsDomain <> y:194 var
+R5054:5054 SetsClass.SetsDomain <> a:195 var
+R5045:5045 SetsClass.SetsDomain <> x:193 var
+R5047:5047 SetsClass.SetsDomain <> a:195 var
+binder 4983:4984 <> T0:196
+binder 4986:4986 <> x:197
+binder 4988:4988 <> y:198
+binder 4990:4990 <> a:199
+R4998:5001 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4995:4995 SetsClass.SetsDomain <> x:197 var
+R4997:4997 SetsClass.SetsDomain <> a:199 var
+R5002:5002 SetsClass.SetsDomain <> y:198 var
+R5004:5004 SetsClass.SetsDomain <> a:199 var
+binder 4939:4940 <> T0:200
+binder 4942:4944 <> inj:201
+binder 4946:4946 <> P:202
+R4951:4953 SetsClass.SetsDomain <> inj:201 var
+R4955:4955 SetsClass.SetsDomain <> P:202 var
+binder 4903:4904 <> T0:203
+binder 4906:4906 <> X:204
+binder 4908:4908 <> P:205
+R4913:4913 SetsClass.SetsDomain <> X:204 var
+R4915:4915 SetsClass.SetsDomain <> P:205 var
+binder 4866:4866 <> T:206
+R4872:4875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4871:4871 SetsClass.SetsDomain <> T:206 var
+binder 4830:4830 <> P:207
+binder 4832:4832 <> Q:208
+R4838:4841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4842:4842 SetsClass.SetsDomain <> Q:208 var
+R4837:4837 SetsClass.SetsDomain <> P:207 var
+R4800:4802 Coq.Init.Logic <> iff def
+R4778:4779 Coq.Init.Logic <> ex ind
+binder 4729:4729 <> I:209
+binder 4731:4731 <> P:210
+binder 4743:4743 <> i:211
+R4746:4746 SetsClass.SetsDomain <> P:210 var
+R4748:4748 SetsClass.SetsDomain <> i:211 var
+R4691:4692 Coq.Init.Logic <> or ind
+R4668:4670 Coq.Init.Logic <> and ind
+R4641:4643 Coq.Init.Logic <> not def
+binder 4610:4610 <> P:212
+R4615:4615 SetsClass.SetsDomain <> P:212 var
+R4578:4582 Coq.Init.Logic <> False ind
+R4554:4557 Coq.Init.Logic <> True ind
+inst 5264:5272 <> lift_SETS
+binder 5275:5275 <> A:213
+binder 5277:5277 <> B:214
+R5294:5302 SetsClass.SetsDomain <> SETS class
+R5304:5304 SetsClass.SetsDomain <> B:214 var
+binder 5287:5291 <> _SETS:215
+R5308:5316 SetsClass.SetsDomain <> SETS class
+R5320:5323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5324:5324 SetsClass.SetsDomain <> B:214 var
+R5319:5319 SetsClass.SetsDomain <> A:213 var
+R5339:5347 SetsClass.SetsDomain <> full meth
+R5339:5347 SetsClass.SetsDomain <> full meth
+R5372:5381 SetsClass.SetsDomain <> empty meth
+R5407:5419 SetsClass.SetsDomain <> prop_inj meth
+R5448:5462 SetsClass.SetsDomain <> complement meth
+R5493:5506 SetsClass.SetsDomain <> intersect meth
+R5536:5545 SetsClass.SetsDomain <> union meth
+R5571:5592 SetsClass.SetsDomain <> indexed_intersect meth
+R5637:5654 SetsClass.SetsDomain <> indexed_union meth
+R5695:5704 SetsClass.SetsDomain <> equiv meth
+R5730:5742 SetsClass.SetsDomain <> included meth
+R5771:5779 SetsClass.SetsDomain <> Taux meth
+R5811:5819 SetsClass.SetsDomain <> Qaux meth
+R5844:5852 SetsClass.SetsDomain <> Paux meth
+R5877:5889 SetsClass.SetsDomain <> conj_aux meth
+R5918:5931 SetsClass.SetsDomain <> imply_aux meth
+R5961:5975 SetsClass.SetsDomain <> forall_aux meth
+R6006:6020 SetsClass.SetsDomain <> exists_aux meth
+R6051:6062 SetsClass.SetsDomain <> inj_aux meth
+R6090:6105 SetsClass.SetsDomain <> derives_aux meth
+R6110:6130 SetsClass.SetsDomain <> lift_derives_aux def
+R6067:6083 SetsClass.SetsDomain <> lift_inj_aux def
+R6025:6044 SetsClass.SetsDomain <> lift_exists_aux def
+R5980:5999 SetsClass.SetsDomain <> lift_forall_aux def
+R5936:5954 SetsClass.SetsDomain <> lift_imply_aux def
+R5894:5911 SetsClass.SetsDomain <> lift_conj_aux def
+R5857:5870 SetsClass.SetsDomain <> lift_Paux def
+R5824:5837 SetsClass.SetsDomain <> lift_Qaux def
+R5785:5798 SetsClass.SetsDomain <> lift_Taux def
+R5747:5764 SetsClass.SetsDomain <> lift_included def
+R5709:5723 SetsClass.SetsDomain <> lift_equiv def
+R5660:5682 SetsClass.SetsDomain <> lift_indexed_union def
+R5598:5624 SetsClass.SetsDomain <> lift_indexed_intersect def
+R5550:5564 SetsClass.SetsDomain <> lift_union def
+R5511:5529 SetsClass.SetsDomain <> lift_intersect def
+R5467:5486 SetsClass.SetsDomain <> lift_complement def
+R5424:5441 SetsClass.SetsDomain <> lift_prop_inj def
+R5386:5400 SetsClass.SetsDomain <> lift_empty def
+R5352:5365 SetsClass.SetsDomain <> lift_full def
+R6190:6198 SetsClass.SetsDomain <> lift_SETS inst
+R6190:6198 SetsClass.SetsDomain <> lift_SETS inst
+R6283:6291 SetsClass.SetsDomain <> Prop_SETS inst
+R6283:6291 SetsClass.SetsDomain <> Prop_SETS inst
+R6366:6380 SetsClass.SetsDomain <> Build_SETS constr
+R6366:6380 SetsClass.SetsDomain <> Build_SETS constr
+R6521:6529 SetsClass.SetsDomain <> lift_SETS inst
+R6521:6529 SetsClass.SetsDomain <> lift_SETS inst
+R6562:6570 SetsClass.SetsDomain <> Prop_SETS inst
+R6562:6570 SetsClass.SetsDomain <> Prop_SETS inst
+R6598:6612 SetsClass.SetsDomain <> Build_SETS constr
+R6598:6612 SetsClass.SetsDomain <> Build_SETS constr
+R6687:6688 Coq.Init.Datatypes <> tt constr
+R6589:6590 Coq.Init.Datatypes <> tt constr
+R6554:6555 Coq.Init.Datatypes <> tt constr
+R8203:8214 SetsClass.SetsDomain <> filter1 def
+R8203:8214 SetsClass.SetsDomain <> filter1 def
+R8264:8267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8260:8260 <> P:216
+R8279:8282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8275:8275 <> X:217
+binder 8287:8287 <> a:218
+R8297:8310 SetsClass.SetsDomain <> intersect meth
+R8347:8347 SetsClass.SetsDomain <> X:217 var
+R8349:8349 SetsClass.SetsDomain <> a:218 var
+R8321:8330 SetsClass.SetsDomain <> test1 def
+R8343:8343 SetsClass.SetsDomain <> a:218 var
+R8341:8341 SetsClass.SetsDomain <> P:216 var
+R8706:8714 SetsClass.SetsDomain <> full meth
+R8706:8714 SetsClass.SetsDomain <> full meth
+R8891:8900 SetsClass.SetsDomain <> empty meth
+R8891:8900 SetsClass.SetsDomain <> empty meth
+R9078:9090 SetsClass.SetsDomain <> prop_inj meth
+R9078:9090 SetsClass.SetsDomain <> prop_inj meth
+R9271:9285 SetsClass.SetsDomain <> complement meth
+R9271:9285 SetsClass.SetsDomain <> complement meth
+R9468:9477 SetsClass.SetsDomain <> equiv meth
+R9468:9477 SetsClass.SetsDomain <> equiv meth
+R9655:9668 SetsClass.SetsDomain <> intersect meth
+R9655:9668 SetsClass.SetsDomain <> intersect meth
+R9850:9859 SetsClass.SetsDomain <> union meth
+R9850:9859 SetsClass.SetsDomain <> union meth
+R10037:10058 SetsClass.SetsDomain <> indexed_intersect meth
+R10037:10058 SetsClass.SetsDomain <> indexed_intersect meth
+R10248:10265 SetsClass.SetsDomain <> indexed_union meth
+R10248:10265 SetsClass.SetsDomain <> indexed_union meth
+R10451:10472 SetsClass.SetsDomain <> general_intersect def
+R10451:10472 SetsClass.SetsDomain <> general_intersect def
+R10662:10679 SetsClass.SetsDomain <> general_union def
+R10662:10679 SetsClass.SetsDomain <> general_union def
+R10865:10873 SetsClass.SetsDomain <> Taux meth
+R10865:10873 SetsClass.SetsDomain <> Taux meth
+R11050:11058 SetsClass.SetsDomain <> Paux meth
+R11050:11058 SetsClass.SetsDomain <> Paux meth
+R11235:11243 SetsClass.SetsDomain <> Qaux meth
+R11235:11243 SetsClass.SetsDomain <> Qaux meth
+R11420:11432 SetsClass.SetsDomain <> conj_aux meth
+R11420:11432 SetsClass.SetsDomain <> conj_aux meth
+R11613:11626 SetsClass.SetsDomain <> imply_aux meth
+R11613:11626 SetsClass.SetsDomain <> imply_aux meth
+R11808:11822 SetsClass.SetsDomain <> exists_aux meth
+R11808:11822 SetsClass.SetsDomain <> exists_aux meth
+R12005:12019 SetsClass.SetsDomain <> forall_aux meth
+R12005:12019 SetsClass.SetsDomain <> forall_aux meth
+R12202:12214 SetsClass.SetsDomain <> included meth
+R12202:12214 SetsClass.SetsDomain <> included meth
+R12395:12406 SetsClass.SetsDomain <> filter1 def
+R12395:12406 SetsClass.SetsDomain <> filter1 def
+R12591:12600 SetsClass.SetsDomain <> lift1 def
+R12591:12600 SetsClass.SetsDomain <> lift1 def
+R12783:12792 SetsClass.SetsDomain <> test1 def
+R12783:12792 SetsClass.SetsDomain <> test1 def
+R12848:12857 SetsClass.SetsDomain <> test1 def
+R12656:12665 SetsClass.SetsDomain <> lift1 def
+R12462:12473 SetsClass.SetsDomain <> filter1 def
+R12267:12279 SetsClass.SetsDomain <> included meth
+R12072:12086 SetsClass.SetsDomain <> forall_aux meth
+R11875:11889 SetsClass.SetsDomain <> exists_aux meth
+R11679:11692 SetsClass.SetsDomain <> imply_aux meth
+R11485:11497 SetsClass.SetsDomain <> conj_aux meth
+R11296:11304 SetsClass.SetsDomain <> Qaux meth
+R11111:11119 SetsClass.SetsDomain <> Paux meth
+R10926:10934 SetsClass.SetsDomain <> Taux meth
+R10732:10749 SetsClass.SetsDomain <> general_union def
+R10525:10546 SetsClass.SetsDomain <> general_intersect def
+R10318:10335 SetsClass.SetsDomain <> indexed_union meth
+R10111:10132 SetsClass.SetsDomain <> indexed_intersect meth
+R9912:9921 SetsClass.SetsDomain <> union meth
+R9721:9734 SetsClass.SetsDomain <> intersect meth
+R9530:9539 SetsClass.SetsDomain <> equiv meth
+R9338:9352 SetsClass.SetsDomain <> complement meth
+R9143:9155 SetsClass.SetsDomain <> prop_inj meth
+R8953:8962 SetsClass.SetsDomain <> empty meth
+R8767:8775 SetsClass.SetsDomain <> full meth
+def 13663:13680 <> add_In_Marker_curr
+binder 13683:13683 <> A:219
+binder 13685:13685 <> B:220
+R13699:13702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13703:13703 SetsClass.SetsDomain <> B:220 var
+R13698:13698 SetsClass.SetsDomain <> A:219 var
+binder 13695:13695 <> f:221
+R13710:13710 SetsClass.SetsDomain <> A:219 var
+binder 13707:13707 <> a:222
+R13716:13716 SetsClass.SetsDomain <> f:221 var
+R13718:13718 SetsClass.SetsDomain <> a:222 var
+def 13732:13745 <> add_In_Marker1
+binder 13748:13748 <> A:223
+binder 13750:13750 <> B:224
+R13764:13767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13768:13768 SetsClass.SetsDomain <> B:224 var
+R13763:13763 SetsClass.SetsDomain <> A:223 var
+binder 13760:13760 <> f:225
+R13775:13775 SetsClass.SetsDomain <> A:223 var
+binder 13772:13772 <> a:226
+R13781:13781 SetsClass.SetsDomain <> f:225 var
+R13783:13783 SetsClass.SetsDomain <> a:226 var
+def 13797:13811 <> add_In_Marker1i
+binder 13814:13814 <> A:227
+binder 13816:13816 <> B:228
+R13830:13833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13834:13834 SetsClass.SetsDomain <> B:228 var
+R13829:13829 SetsClass.SetsDomain <> A:227 var
+binder 13826:13826 <> f:229
+R13841:13841 SetsClass.SetsDomain <> A:227 var
+binder 13838:13838 <> a:230
+R13847:13847 SetsClass.SetsDomain <> f:229 var
+R13849:13849 SetsClass.SetsDomain <> a:230 var
+def 13863:13876 <> add_In_Marker2
+binder 13879:13879 <> A:231
+binder 13881:13881 <> B:232
+R13895:13898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13899:13899 SetsClass.SetsDomain <> B:232 var
+R13894:13894 SetsClass.SetsDomain <> A:231 var
+binder 13891:13891 <> f:233
+R13906:13906 SetsClass.SetsDomain <> A:231 var
+binder 13903:13903 <> a:234
+R13912:13912 SetsClass.SetsDomain <> f:233 var
+R13914:13914 SetsClass.SetsDomain <> a:234 var
+def 13928:13942 <> add_In_Marker2t
+binder 13945:13945 <> A:235
+binder 13947:13947 <> B:236
+R13961:13964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13965:13965 SetsClass.SetsDomain <> B:236 var
+R13960:13960 SetsClass.SetsDomain <> A:235 var
+binder 13957:13957 <> f:237
+R13972:13972 SetsClass.SetsDomain <> A:235 var
+binder 13969:13969 <> a:238
+R13978:13978 SetsClass.SetsDomain <> f:237 var
+R13980:13980 SetsClass.SetsDomain <> a:238 var
+def 13994:14011 <> add_In_Marker_head
+binder 14014:14014 <> A:239
+R14027:14027 SetsClass.SetsDomain <> A:239 var
+binder 14024:14024 <> a:240
+R14033:14033 SetsClass.SetsDomain <> a:240 var
+def 14047:14060 <> MarkerWrapper0
+binder 14063:14063 <> A:241
+binder 14065:14065 <> B:242
+R14079:14082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14083:14083 SetsClass.SetsDomain <> B:242 var
+R14078:14078 SetsClass.SetsDomain <> A:241 var
+binder 14075:14075 <> f:243
+R14088:14091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14092:14092 SetsClass.SetsDomain <> B:242 var
+R14087:14087 SetsClass.SetsDomain <> A:241 var
+R14107:14107 SetsClass.SetsDomain <> A:241 var
+binder 14104:14104 <> a:244
+R14117:14134 SetsClass.SetsDomain <> add_In_Marker_head def
+R14137:14137 SetsClass.SetsDomain <> f:243 var
+R14139:14139 SetsClass.SetsDomain <> a:244 var
+def 14154:14167 <> MarkerWrapper1
+binder 14170:14170 <> A:245
+binder 14172:14172 <> B:246
+binder 14174:14174 <> C:247
+R14188:14191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14193:14196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14197:14197 SetsClass.SetsDomain <> C:247 var
+R14192:14192 SetsClass.SetsDomain <> B:246 var
+R14187:14187 SetsClass.SetsDomain <> A:245 var
+binder 14184:14184 <> f:248
+R14202:14205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14207:14210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14211:14211 SetsClass.SetsDomain <> C:247 var
+R14206:14206 SetsClass.SetsDomain <> B:246 var
+R14201:14201 SetsClass.SetsDomain <> A:245 var
+R14226:14226 SetsClass.SetsDomain <> A:245 var
+binder 14223:14223 <> a:249
+R14233:14233 SetsClass.SetsDomain <> B:246 var
+binder 14230:14230 <> x:250
+R14243:14260 SetsClass.SetsDomain <> add_In_Marker_head def
+R14263:14276 SetsClass.SetsDomain <> add_In_Marker1 def
+R14282:14282 SetsClass.SetsDomain <> x:250 var
+R14280:14280 SetsClass.SetsDomain <> a:249 var
+R14278:14278 SetsClass.SetsDomain <> f:248 var
+def 14297:14311 <> MarkerWrapper1N
+binder 14314:14314 <> A:251
+binder 14316:14316 <> B:252
+binder 14318:14318 <> C:253
+R14332:14335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14337:14340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14341:14341 SetsClass.SetsDomain <> C:253 var
+R14336:14336 SetsClass.SetsDomain <> B:252 var
+R14331:14331 SetsClass.SetsDomain <> A:251 var
+binder 14328:14328 <> f:254
+R14346:14349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14351:14354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14355:14355 SetsClass.SetsDomain <> C:253 var
+R14350:14350 SetsClass.SetsDomain <> B:252 var
+R14345:14345 SetsClass.SetsDomain <> A:251 var
+R14370:14370 SetsClass.SetsDomain <> A:251 var
+binder 14367:14367 <> a:255
+R14377:14377 SetsClass.SetsDomain <> B:252 var
+binder 14374:14374 <> x:256
+R14387:14404 SetsClass.SetsDomain <> add_In_Marker_head def
+R14407:14407 SetsClass.SetsDomain <> f:254 var
+R14411:14411 SetsClass.SetsDomain <> x:256 var
+R14409:14409 SetsClass.SetsDomain <> a:255 var
+def 14426:14440 <> MarkerWrapper1i
+binder 14443:14443 <> A:257
+binder 14445:14445 <> B:258
+R14459:14462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14470:14470 <> I:259
+R14479:14479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14486:14490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14491:14491 SetsClass.SetsDomain <> B:258 var
+R14481:14484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14485:14485 SetsClass.SetsDomain <> B:258 var
+R14480:14480 SetsClass.SetsDomain <> I:259 var
+R14458:14458 SetsClass.SetsDomain <> A:257 var
+binder 14455:14455 <> f:260
+R14498:14501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14509:14509 <> I:261
+R14518:14518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14525:14529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14530:14530 SetsClass.SetsDomain <> B:258 var
+R14520:14523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14524:14524 SetsClass.SetsDomain <> B:258 var
+R14519:14519 SetsClass.SetsDomain <> I:261 var
+R14497:14497 SetsClass.SetsDomain <> A:257 var
+R14545:14545 SetsClass.SetsDomain <> A:257 var
+binder 14542:14542 <> a:262
+binder 14548:14548 <> I:263
+R14555:14558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14559:14559 SetsClass.SetsDomain <> B:258 var
+R14554:14554 SetsClass.SetsDomain <> I:263 var
+binder 14551:14551 <> x:264
+R14569:14586 SetsClass.SetsDomain <> add_In_Marker_head def
+R14589:14603 SetsClass.SetsDomain <> add_In_Marker1i def
+R14611:14611 SetsClass.SetsDomain <> x:264 var
+R14609:14609 SetsClass.SetsDomain <> I:263 var
+R14607:14607 SetsClass.SetsDomain <> a:262 var
+R14605:14605 SetsClass.SetsDomain <> f:260 var
+def 14626:14639 <> MarkerWrapper2
+binder 14653:14653 <> A:265
+binder 14655:14655 <> B:266
+binder 14657:14657 <> C:267
+binder 14659:14659 <> D:268
+R14684:14687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14689:14692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14694:14697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14698:14698 SetsClass.SetsDomain <> D:268 var
+R14693:14693 SetsClass.SetsDomain <> C:267 var
+R14688:14688 SetsClass.SetsDomain <> B:266 var
+R14683:14683 SetsClass.SetsDomain <> A:265 var
+binder 14680:14680 <> f:269
+R14703:14706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14708:14711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14713:14716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14717:14717 SetsClass.SetsDomain <> D:268 var
+R14712:14712 SetsClass.SetsDomain <> C:267 var
+R14707:14707 SetsClass.SetsDomain <> B:266 var
+R14702:14702 SetsClass.SetsDomain <> A:265 var
+R14732:14732 SetsClass.SetsDomain <> A:265 var
+binder 14729:14729 <> a:270
+R14739:14739 SetsClass.SetsDomain <> B:266 var
+binder 14736:14736 <> x:271
+R14746:14746 SetsClass.SetsDomain <> C:267 var
+binder 14743:14743 <> y:272
+R14756:14773 SetsClass.SetsDomain <> add_In_Marker_head def
+R14776:14789 SetsClass.SetsDomain <> add_In_Marker2 def
+R14797:14797 SetsClass.SetsDomain <> y:272 var
+R14795:14795 SetsClass.SetsDomain <> x:271 var
+R14793:14793 SetsClass.SetsDomain <> a:270 var
+R14791:14791 SetsClass.SetsDomain <> f:269 var
+def 14812:14826 <> MarkerWrapper2t
+binder 14840:14840 <> A:273
+binder 14842:14842 <> B:274
+binder 14844:14844 <> C:275
+R14869:14872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14874:14877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14879:14882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14883:14883 SetsClass.SetsDomain <> C:275 var
+R14878:14878 SetsClass.SetsDomain <> C:275 var
+R14873:14873 SetsClass.SetsDomain <> B:274 var
+R14868:14868 SetsClass.SetsDomain <> A:273 var
+binder 14865:14865 <> f:276
+R14888:14891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14893:14896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14898:14901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14902:14902 SetsClass.SetsDomain <> C:275 var
+R14897:14897 SetsClass.SetsDomain <> C:275 var
+R14892:14892 SetsClass.SetsDomain <> B:274 var
+R14887:14887 SetsClass.SetsDomain <> A:273 var
+R14917:14917 SetsClass.SetsDomain <> A:273 var
+binder 14914:14914 <> a:277
+R14924:14924 SetsClass.SetsDomain <> B:274 var
+binder 14921:14921 <> x:278
+R14931:14931 SetsClass.SetsDomain <> C:275 var
+binder 14928:14928 <> y:279
+R14941:14958 SetsClass.SetsDomain <> add_In_Marker_head def
+R14961:14975 SetsClass.SetsDomain <> add_In_Marker2t def
+R14983:14983 SetsClass.SetsDomain <> y:279 var
+R14981:14981 SetsClass.SetsDomain <> x:278 var
+R14979:14979 SetsClass.SetsDomain <> a:277 var
+R14977:14977 SetsClass.SetsDomain <> f:276 var
+R15099:15107 SetsClass.SetsDomain <> full meth
+R15099:15107 SetsClass.SetsDomain <> full meth
+R15298:15307 SetsClass.SetsDomain <> empty meth
+R15298:15307 SetsClass.SetsDomain <> empty meth
+R15499:15511 SetsClass.SetsDomain <> prop_inj meth
+R15499:15511 SetsClass.SetsDomain <> prop_inj meth
+R15707:15721 SetsClass.SetsDomain <> complement meth
+R15707:15721 SetsClass.SetsDomain <> complement meth
+R15918:15927 SetsClass.SetsDomain <> equiv meth
+R15918:15927 SetsClass.SetsDomain <> equiv meth
+R16119:16132 SetsClass.SetsDomain <> intersect meth
+R16119:16132 SetsClass.SetsDomain <> intersect meth
+R16328:16337 SetsClass.SetsDomain <> union meth
+R16328:16337 SetsClass.SetsDomain <> union meth
+R16529:16550 SetsClass.SetsDomain <> indexed_intersect meth
+R16529:16550 SetsClass.SetsDomain <> indexed_intersect meth
+R16755:16772 SetsClass.SetsDomain <> indexed_union meth
+R16755:16772 SetsClass.SetsDomain <> indexed_union meth
+R16973:16994 SetsClass.SetsDomain <> general_intersect def
+R16973:16994 SetsClass.SetsDomain <> general_intersect def
+R17199:17216 SetsClass.SetsDomain <> general_union def
+R17199:17216 SetsClass.SetsDomain <> general_union def
+R17417:17429 SetsClass.SetsDomain <> included meth
+R17417:17429 SetsClass.SetsDomain <> included meth
+R17624:17635 SetsClass.SetsDomain <> filter1 def
+R17624:17635 SetsClass.SetsDomain <> filter1 def
+R17835:17844 SetsClass.SetsDomain <> lift1 def
+R17835:17844 SetsClass.SetsDomain <> lift1 def
+R18041:18050 SetsClass.SetsDomain <> test1 def
+R18041:18050 SetsClass.SetsDomain <> test1 def
+R18092:18106 SetsClass.SetsDomain <> MarkerWrapper2t def
+R18110:18119 SetsClass.SetsDomain <> test1 def
+R17886:17899 SetsClass.SetsDomain <> MarkerWrapper1 def
+R17903:17912 SetsClass.SetsDomain <> lift1 def
+R17677:17691 SetsClass.SetsDomain <> MarkerWrapper1N def
+R17695:17706 SetsClass.SetsDomain <> filter1 def
+R17468:17481 SetsClass.SetsDomain <> MarkerWrapper2 def
+R17485:17497 SetsClass.SetsDomain <> included meth
+R17255:17269 SetsClass.SetsDomain <> MarkerWrapper1N def
+R17273:17290 SetsClass.SetsDomain <> general_union def
+R17033:17047 SetsClass.SetsDomain <> MarkerWrapper1N def
+R17051:17072 SetsClass.SetsDomain <> general_intersect def
+R16811:16825 SetsClass.SetsDomain <> MarkerWrapper1i def
+R16829:16846 SetsClass.SetsDomain <> indexed_union meth
+R16589:16603 SetsClass.SetsDomain <> MarkerWrapper1i def
+R16607:16628 SetsClass.SetsDomain <> indexed_intersect meth
+R16376:16389 SetsClass.SetsDomain <> MarkerWrapper2 def
+R16393:16402 SetsClass.SetsDomain <> union meth
+R16171:16184 SetsClass.SetsDomain <> MarkerWrapper2 def
+R16188:16201 SetsClass.SetsDomain <> intersect meth
+R15966:15979 SetsClass.SetsDomain <> MarkerWrapper2 def
+R15983:15992 SetsClass.SetsDomain <> equiv meth
+R15760:15773 SetsClass.SetsDomain <> MarkerWrapper1 def
+R15777:15791 SetsClass.SetsDomain <> complement meth
+R15550:15564 SetsClass.SetsDomain <> MarkerWrapper1N def
+R15568:15580 SetsClass.SetsDomain <> prop_inj meth
+R15346:15359 SetsClass.SetsDomain <> MarkerWrapper0 def
+R15363:15372 SetsClass.SetsDomain <> empty meth
+R15146:15159 SetsClass.SetsDomain <> MarkerWrapper0 def
+R15163:15171 SetsClass.SetsDomain <> full meth
+R18421:18434 SetsClass.SetsDomain <> add_In_Marker1 def
+R18421:18434 SetsClass.SetsDomain <> add_In_Marker1 def
+R19044:19058 SetsClass.SetsDomain <> add_In_Marker1i def
+R19044:19058 SetsClass.SetsDomain <> add_In_Marker1i def
+R19758:19771 SetsClass.SetsDomain <> add_In_Marker2 def
+R19758:19771 SetsClass.SetsDomain <> add_In_Marker2 def
+R19834:19837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19840:19843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19834:19837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19840:19843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19880:19897 SetsClass.SetsDomain <> add_In_Marker_curr def
+R19957:19974 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20073:20090 SetsClass.SetsDomain <> add_In_Marker_head def
+R20027:20044 SetsClass.SetsDomain <> add_In_Marker_head def
+R19957:19974 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20073:20090 SetsClass.SetsDomain <> add_In_Marker_head def
+R20027:20044 SetsClass.SetsDomain <> add_In_Marker_head def
+R20243:20260 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20313:20330 SetsClass.SetsDomain <> add_In_Marker_head def
+R20243:20260 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20313:20330 SetsClass.SetsDomain <> add_In_Marker_head def
+R20599:20616 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20694:20711 SetsClass.SetsDomain <> add_In_Marker_head def
+R20599:20616 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20694:20711 SetsClass.SetsDomain <> add_In_Marker_head def
+R20955:20972 SetsClass.SetsDomain <> add_In_Marker_curr def
+R20955:20972 SetsClass.SetsDomain <> add_In_Marker_curr def
+binder 21217:21217 <> a:280
+binder 21224:21224 <> b:281
+R21253:21253 SetsClass.SetsDomain <> b:281 var
+R21246:21246 SetsClass.SetsDomain <> a:280 var
+binder 20821:20821 <> a:282
+binder 20828:20828 <> b:283
+R20853:20853 SetsClass.SetsDomain <> b:283 var
+R20850:20850 SetsClass.SetsDomain <> a:282 var
+binder 20465:20465 <> a:284
+binder 20472:20472 <> b:285
+R20496:20496 SetsClass.SetsDomain <> b:285 var
+R20490:20490 SetsClass.SetsDomain <> a:284 var
+binder 19126:19126 <> I:286
+R19129:19129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19137:19141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19131:19134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19130:19130 SetsClass.SetsDomain <> I:286 var
+binder 19126:19126 <> I:287
+R19129:19129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19137:19141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19131:19134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19130:19130 SetsClass.SetsDomain <> I:287 var
+R19179:19196 SetsClass.SetsDomain <> add_In_Marker_curr def
+R19256:19273 SetsClass.SetsDomain <> add_In_Marker_curr def
+R19291:19308 SetsClass.SetsDomain <> add_In_Marker_head def
+R19256:19273 SetsClass.SetsDomain <> add_In_Marker_curr def
+R19291:19308 SetsClass.SetsDomain <> add_In_Marker_head def
+binder 19583:19583 <> I:288
+R19597:19600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19596:19596 SetsClass.SetsDomain <> I:288 var
+binder 19593:19593 <> a:289
+R19626:19626 SetsClass.SetsDomain <> I:288 var
+binder 19623:19623 <> i:290
+R19634:19634 SetsClass.SetsDomain <> a:289 var
+R19636:19636 SetsClass.SetsDomain <> i:290 var
+R19616:19616 SetsClass.SetsDomain <> I:288 var
+R18497:18500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18497:18500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18537:18554 SetsClass.SetsDomain <> add_In_Marker_curr def
+R18614:18631 SetsClass.SetsDomain <> add_In_Marker_curr def
+R18638:18655 SetsClass.SetsDomain <> add_In_Marker_head def
+R18614:18631 SetsClass.SetsDomain <> add_In_Marker_curr def
+R18638:18655 SetsClass.SetsDomain <> add_In_Marker_head def
+binder 18903:18903 <> a:291
+R18923:18923 SetsClass.SetsDomain <> a:291 var
+R21496:21513 SetsClass.SetsDomain <> general_union def
+R21496:21513 SetsClass.SetsDomain <> general_union def
+R21746:21767 SetsClass.SetsDomain <> general_intersect def
+R21746:21767 SetsClass.SetsDomain <> general_intersect def
+binder 21862:21862 <> P:292
+R21883:21897 SetsClass.SetsDomain <> forall_aux meth
+R21902:21915 SetsClass.SetsDomain <> imply_aux meth
+R21936:21944 SetsClass.SetsDomain <> Paux meth
+binder 21953:21953 <> x:293
+R21960:21960 SetsClass.SetsDomain <> x:293 var
+R21920:21928 SetsClass.SetsDomain <> Qaux meth
+R21932:21932 SetsClass.SetsDomain <> P:292 var
+binder 21608:21608 <> P:294
+R21629:21643 SetsClass.SetsDomain <> exists_aux meth
+R21648:21660 SetsClass.SetsDomain <> conj_aux meth
+R21681:21689 SetsClass.SetsDomain <> Paux meth
+binder 21698:21698 <> x:295
+R21705:21705 SetsClass.SetsDomain <> x:295 var
+R21665:21673 SetsClass.SetsDomain <> Qaux meth
+R21677:21677 SetsClass.SetsDomain <> P:294 var
+rec 22915:22929 <> SETS_Properties
+proj 22975:22992 <> Sets_included_refl
+proj 23022:23040 <> Sets_included_trans
+proj 23071:23094 <> Sets_equiv_Sets_included
+proj 23172:23190 <> Sets_empty_included
+proj 23233:23250 <> Sets_included_full
+proj 23292:23313 <> Sets_prop_inj_included
+proj 23422:23443 <> Sets_included_prop_inj
+proj 23508:23527 <> Sets_complement_fact
+proj 23628:23651 <> Sets_intersect_included1
+proj 23706:23729 <> Sets_intersect_included2
+proj 23784:23806 <> Sets_included_intersect
+proj 23905:23924 <> Sets_included_union1
+proj 23975:23994 <> Sets_included_union2
+proj 24045:24071 <> Sets_union_included_strong2
+proj 24225:24259 <> Sets_indexed_union_included_strong2
+proj 24416:24442 <> Sets_included_indexed_union
+proj 24518:24544 <> Sets_indexed_union_included
+proj 24653:24683 <> Sets_indexed_intersect_included
+proj 24763:24793 <> Sets_included_indexed_intersect
+proj 24906:24930 <> Sets_included_derives_aux
+proj 25038:25059 <> Sets_derives_aux_trans
+proj 25130:25144 <> Sets_Qaux_right
+proj 25243:25256 <> Sets_Paux_left
+proj 25364:25378 <> Sets_Paux_right
+proj 25486:25507 <> Sets_Qaux_left_extract
+proj 25667:25689 <> Sets_Qaux_right_extract
+proj 25850:25871 <> Sets_Qaux_implies_left
+proj 26034:26052 <> Sets_conj_aux_right
+proj 26204:26223 <> Sets_exists_aux_left
+proj 26352:26372 <> Sets_exists_aux_right
+proj 26491:26510 <> Sets_forall_aux_left
+proj 26629:26649 <> Sets_forall_aux_right
+binder 22932:22932 <> T:296
+R22949:22957 SetsClass.SetsDomain <> SETS class
+R22959:22959 SetsClass.SetsDomain <> T:296 var
+binder 22942:22946 <> _SETS:297
+R22995:23003 Coq.Classes.RelationClasses <> Reflexive class
+R23005:23017 SetsClass.SetsDomain <> included meth
+R23043:23052 Coq.Classes.RelationClasses <> Transitive class
+R23054:23066 SetsClass.SetsDomain <> included meth
+binder 23104:23104 <> x:301
+binder 23106:23106 <> y:302
+R23123:23128 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23167:23167 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23109:23118 SetsClass.SetsDomain <> equiv meth
+R23122:23122 SetsClass.SetsDomain <> y:302 var
+R23120:23120 SetsClass.SetsDomain <> x:301 var
+R23146:23149 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23129:23141 SetsClass.SetsDomain <> included meth
+R23145:23145 SetsClass.SetsDomain <> y:302 var
+R23143:23143 SetsClass.SetsDomain <> x:301 var
+R23150:23162 SetsClass.SetsDomain <> included meth
+R23166:23166 SetsClass.SetsDomain <> x:301 var
+R23164:23164 SetsClass.SetsDomain <> y:302 var
+binder 23200:23200 <> x:304
+R23203:23215 SetsClass.SetsDomain <> included meth
+R23228:23228 SetsClass.SetsDomain <> x:304 var
+R23217:23226 SetsClass.SetsDomain <> empty meth
+binder 23260:23260 <> x:306
+R23263:23275 SetsClass.SetsDomain <> included meth
+R23279:23287 SetsClass.SetsDomain <> full meth
+R23277:23277 SetsClass.SetsDomain <> x:306 var
+binder 23324:23324 <> P:308
+binder 23333:23333 <> x:309
+binder 23335:23335 <> y:310
+R23338:23338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23361:23365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23366:23378 SetsClass.SetsDomain <> included meth
+R23417:23417 SetsClass.SetsDomain <> y:310 var
+R23381:23394 SetsClass.SetsDomain <> intersect meth
+R23414:23414 SetsClass.SetsDomain <> x:309 var
+R23397:23409 SetsClass.SetsDomain <> prop_inj meth
+R23411:23411 SetsClass.SetsDomain <> P:308 var
+R23340:23343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23344:23356 SetsClass.SetsDomain <> included meth
+R23360:23360 SetsClass.SetsDomain <> y:310 var
+R23358:23358 SetsClass.SetsDomain <> x:309 var
+R23339:23339 SetsClass.SetsDomain <> P:308 var
+binder 23454:23454 <> P:312
+binder 23463:23463 <> x:313
+R23467:23470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23471:23483 SetsClass.SetsDomain <> included meth
+R23488:23500 SetsClass.SetsDomain <> prop_inj meth
+R23502:23502 SetsClass.SetsDomain <> P:312 var
+R23485:23485 SetsClass.SetsDomain <> x:313 var
+R23466:23466 SetsClass.SetsDomain <> P:312 var
+binder 23537:23537 <> x:315
+binder 23539:23539 <> y:316
+R23577:23581 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23542:23554 SetsClass.SetsDomain <> included meth
+R23559:23573 SetsClass.SetsDomain <> complement meth
+R23575:23575 SetsClass.SetsDomain <> y:316 var
+R23556:23556 SetsClass.SetsDomain <> x:315 var
+R23582:23591 SetsClass.SetsDomain <> equiv meth
+R23614:23623 SetsClass.SetsDomain <> empty meth
+R23594:23607 SetsClass.SetsDomain <> intersect meth
+R23611:23611 SetsClass.SetsDomain <> y:316 var
+R23609:23609 SetsClass.SetsDomain <> x:315 var
+binder 23661:23661 <> x:318
+binder 23663:23663 <> y:319
+R23666:23678 SetsClass.SetsDomain <> included meth
+R23701:23701 SetsClass.SetsDomain <> x:318 var
+R23681:23694 SetsClass.SetsDomain <> intersect meth
+R23698:23698 SetsClass.SetsDomain <> y:319 var
+R23696:23696 SetsClass.SetsDomain <> x:318 var
+binder 23739:23739 <> x:321
+binder 23741:23741 <> y:322
+R23744:23756 SetsClass.SetsDomain <> included meth
+R23779:23779 SetsClass.SetsDomain <> y:322 var
+R23759:23772 SetsClass.SetsDomain <> intersect meth
+R23776:23776 SetsClass.SetsDomain <> y:322 var
+R23774:23774 SetsClass.SetsDomain <> x:321 var
+binder 23816:23816 <> x:324
+binder 23818:23818 <> y:325
+binder 23820:23820 <> z:326
+R23840:23843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23861:23864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23865:23877 SetsClass.SetsDomain <> included meth
+R23882:23895 SetsClass.SetsDomain <> intersect meth
+R23899:23899 SetsClass.SetsDomain <> z:326 var
+R23897:23897 SetsClass.SetsDomain <> y:325 var
+R23879:23879 SetsClass.SetsDomain <> x:324 var
+R23844:23856 SetsClass.SetsDomain <> included meth
+R23860:23860 SetsClass.SetsDomain <> z:326 var
+R23858:23858 SetsClass.SetsDomain <> x:324 var
+R23823:23835 SetsClass.SetsDomain <> included meth
+R23839:23839 SetsClass.SetsDomain <> y:325 var
+R23837:23837 SetsClass.SetsDomain <> x:324 var
+binder 23934:23934 <> x:328
+binder 23936:23936 <> y:329
+R23939:23951 SetsClass.SetsDomain <> included meth
+R23956:23965 SetsClass.SetsDomain <> union meth
+R23969:23969 SetsClass.SetsDomain <> y:329 var
+R23967:23967 SetsClass.SetsDomain <> x:328 var
+R23953:23953 SetsClass.SetsDomain <> x:328 var
+binder 24004:24004 <> x:331
+binder 24006:24006 <> y:332
+R24009:24021 SetsClass.SetsDomain <> included meth
+R24026:24035 SetsClass.SetsDomain <> union meth
+R24039:24039 SetsClass.SetsDomain <> y:332 var
+R24037:24037 SetsClass.SetsDomain <> x:331 var
+R24023:24023 SetsClass.SetsDomain <> y:332 var
+binder 24081:24081 <> x:334
+binder 24083:24083 <> y:335
+binder 24085:24085 <> z:336
+binder 24087:24087 <> u:337
+R24126:24129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24166:24169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24170:24182 SetsClass.SetsDomain <> included meth
+R24220:24220 SetsClass.SetsDomain <> z:336 var
+R24185:24198 SetsClass.SetsDomain <> intersect meth
+R24217:24217 SetsClass.SetsDomain <> u:337 var
+R24201:24210 SetsClass.SetsDomain <> union meth
+R24214:24214 SetsClass.SetsDomain <> y:335 var
+R24212:24212 SetsClass.SetsDomain <> x:334 var
+R24130:24142 SetsClass.SetsDomain <> included meth
+R24165:24165 SetsClass.SetsDomain <> z:336 var
+R24145:24158 SetsClass.SetsDomain <> intersect meth
+R24162:24162 SetsClass.SetsDomain <> u:337 var
+R24160:24160 SetsClass.SetsDomain <> y:335 var
+R24090:24102 SetsClass.SetsDomain <> included meth
+R24125:24125 SetsClass.SetsDomain <> z:336 var
+R24105:24118 SetsClass.SetsDomain <> intersect meth
+R24122:24122 SetsClass.SetsDomain <> u:337 var
+R24120:24120 SetsClass.SetsDomain <> x:334 var
+binder 24270:24270 <> I:339
+R24285:24288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24289:24289 SetsClass.SetsDomain <> T:296 var
+R24284:24284 SetsClass.SetsDomain <> I:339 var
+binder 24280:24281 <> xs:340
+binder 24292:24292 <> z:341
+binder 24294:24294 <> u:342
+R24297:24297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24349:24353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24354:24366 SetsClass.SetsDomain <> included meth
+R24411:24411 SetsClass.SetsDomain <> z:341 var
+R24369:24382 SetsClass.SetsDomain <> intersect meth
+R24408:24408 SetsClass.SetsDomain <> u:342 var
+R24385:24402 SetsClass.SetsDomain <> indexed_union meth
+R24404:24405 SetsClass.SetsDomain <> xs:340 var
+binder 24305:24305 <> i:343
+R24308:24320 SetsClass.SetsDomain <> included meth
+R24348:24348 SetsClass.SetsDomain <> z:341 var
+R24323:24336 SetsClass.SetsDomain <> intersect meth
+R24345:24345 SetsClass.SetsDomain <> u:342 var
+R24339:24340 SetsClass.SetsDomain <> xs:340 var
+R24342:24342 SetsClass.SetsDomain <> i:343 var
+binder 24452:24452 <> I:345
+R24460:24463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24464:24464 SetsClass.SetsDomain <> T:296 var
+R24459:24459 SetsClass.SetsDomain <> I:345 var
+binder 24455:24456 <> xs:346
+binder 24467:24467 <> n:347
+R24470:24482 SetsClass.SetsDomain <> included meth
+R24492:24509 SetsClass.SetsDomain <> indexed_union meth
+R24511:24512 SetsClass.SetsDomain <> xs:346 var
+R24485:24486 SetsClass.SetsDomain <> xs:346 var
+R24488:24488 SetsClass.SetsDomain <> n:347 var
+binder 24554:24554 <> I:349
+R24562:24565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24566:24566 SetsClass.SetsDomain <> T:296 var
+R24561:24561 SetsClass.SetsDomain <> I:349 var
+binder 24557:24558 <> xs:350
+binder 24569:24569 <> y:351
+R24572:24572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24605:24609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24610:24622 SetsClass.SetsDomain <> included meth
+R24648:24648 SetsClass.SetsDomain <> y:351 var
+R24625:24642 SetsClass.SetsDomain <> indexed_union meth
+R24644:24645 SetsClass.SetsDomain <> xs:350 var
+binder 24580:24580 <> n:352
+R24583:24595 SetsClass.SetsDomain <> included meth
+R24604:24604 SetsClass.SetsDomain <> y:351 var
+R24598:24599 SetsClass.SetsDomain <> xs:350 var
+R24601:24601 SetsClass.SetsDomain <> n:352 var
+binder 24693:24693 <> I:354
+R24701:24704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24705:24705 SetsClass.SetsDomain <> T:296 var
+R24700:24700 SetsClass.SetsDomain <> I:354 var
+binder 24696:24697 <> xs:355
+binder 24708:24708 <> n:356
+R24711:24723 SetsClass.SetsDomain <> included meth
+R24754:24755 SetsClass.SetsDomain <> xs:355 var
+R24757:24757 SetsClass.SetsDomain <> n:356 var
+R24726:24747 SetsClass.SetsDomain <> indexed_intersect meth
+R24749:24750 SetsClass.SetsDomain <> xs:355 var
+binder 24803:24803 <> I:358
+R24811:24814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24815:24815 SetsClass.SetsDomain <> T:296 var
+R24810:24810 SetsClass.SetsDomain <> I:358 var
+binder 24806:24807 <> xs:359
+binder 24818:24818 <> y:360
+R24821:24821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24854:24858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24859:24871 SetsClass.SetsDomain <> included meth
+R24876:24897 SetsClass.SetsDomain <> indexed_intersect meth
+R24899:24900 SetsClass.SetsDomain <> xs:359 var
+R24873:24873 SetsClass.SetsDomain <> y:360 var
+binder 24829:24829 <> n:361
+R24832:24844 SetsClass.SetsDomain <> included meth
+R24849:24850 SetsClass.SetsDomain <> xs:359 var
+R24852:24852 SetsClass.SetsDomain <> n:361 var
+R24846:24846 SetsClass.SetsDomain <> y:360 var
+binder 24940:24941 <> T0:363
+binder 24943:24943 <> x:364
+binder 24945:24945 <> y:365
+binder 24947:24948 <> t0:366
+R24968:24971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24972:24987 SetsClass.SetsDomain <> derives_aux meth
+R25032:25033 SetsClass.SetsDomain <> t0:366 var
+R25013:25024 SetsClass.SetsDomain <> inj_aux meth
+R25029:25029 SetsClass.SetsDomain <> y:365 var
+R25026:25027 SetsClass.SetsDomain <> T0:363 var
+R24993:25004 SetsClass.SetsDomain <> inj_aux meth
+R25009:25009 SetsClass.SetsDomain <> x:364 var
+R25006:25007 SetsClass.SetsDomain <> T0:363 var
+R24989:24990 SetsClass.SetsDomain <> T0:363 var
+R24951:24963 SetsClass.SetsDomain <> included meth
+R24967:24967 SetsClass.SetsDomain <> y:365 var
+R24965:24965 SetsClass.SetsDomain <> x:364 var
+binder 25069:25070 <> T0:368
+binder 25072:25073 <> t0:369
+R25076:25085 Coq.Classes.RelationClasses <> Transitive class
+binder 25092:25092 <> x:370
+binder 25094:25094 <> y:371
+R25099:25114 SetsClass.SetsDomain <> derives_aux meth
+R25123:25124 SetsClass.SetsDomain <> t0:369 var
+R25121:25121 SetsClass.SetsDomain <> y:371 var
+R25119:25119 SetsClass.SetsDomain <> x:370 var
+R25116:25117 SetsClass.SetsDomain <> T0:368 var
+binder 25154:25155 <> T0:373
+binder 25157:25158 <> t0:374
+R25167:25170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25165:25166 SetsClass.SetsDomain <> T0:373 var
+binder 25161:25162 <> Pr:375
+binder 25177:25177 <> P:376
+R25189:25196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25197:25212 SetsClass.SetsDomain <> derives_aux meth
+R25237:25238 SetsClass.SetsDomain <> t0:374 var
+R25220:25228 SetsClass.SetsDomain <> Qaux meth
+R25233:25234 SetsClass.SetsDomain <> Pr:375 var
+R25230:25231 SetsClass.SetsDomain <> T0:373 var
+R25217:25217 SetsClass.SetsDomain <> P:376 var
+R25214:25215 SetsClass.SetsDomain <> T0:373 var
+R25184:25185 SetsClass.SetsDomain <> Pr:375 var
+R25187:25188 SetsClass.SetsDomain <> t0:374 var
+binder 25266:25267 <> T0:378
+binder 25269:25270 <> t0:379
+R25280:25283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25284:25284 SetsClass.SetsDomain <> T:296 var
+R25278:25279 SetsClass.SetsDomain <> T0:378 var
+binder 25273:25275 <> inj:380
+R25292:25307 SetsClass.SetsDomain <> derives_aux meth
+R25358:25359 SetsClass.SetsDomain <> t0:379 var
+R25332:25343 SetsClass.SetsDomain <> inj_aux meth
+R25349:25351 SetsClass.SetsDomain <> inj:380 var
+R25353:25354 SetsClass.SetsDomain <> t0:379 var
+R25345:25346 SetsClass.SetsDomain <> T0:378 var
+R25313:25321 SetsClass.SetsDomain <> Paux meth
+R25326:25328 SetsClass.SetsDomain <> inj:380 var
+R25323:25324 SetsClass.SetsDomain <> T0:378 var
+R25309:25310 SetsClass.SetsDomain <> T0:378 var
+binder 25388:25389 <> T0:382
+binder 25391:25392 <> t0:383
+R25402:25405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25406:25406 SetsClass.SetsDomain <> T:296 var
+R25400:25401 SetsClass.SetsDomain <> T0:382 var
+binder 25395:25397 <> inj:384
+R25414:25429 SetsClass.SetsDomain <> derives_aux meth
+R25480:25481 SetsClass.SetsDomain <> t0:383 var
+R25462:25470 SetsClass.SetsDomain <> Paux meth
+R25475:25477 SetsClass.SetsDomain <> inj:384 var
+R25472:25473 SetsClass.SetsDomain <> T0:382 var
+R25435:25446 SetsClass.SetsDomain <> inj_aux meth
+R25452:25454 SetsClass.SetsDomain <> inj:384 var
+R25456:25457 SetsClass.SetsDomain <> t0:383 var
+R25448:25449 SetsClass.SetsDomain <> T0:382 var
+R25431:25432 SetsClass.SetsDomain <> T0:382 var
+binder 25517:25518 <> T0:386
+binder 25520:25521 <> t0:387
+R25530:25533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25528:25529 SetsClass.SetsDomain <> T0:386 var
+binder 25524:25525 <> Pr:388
+binder 25540:25541 <> Q1:389
+binder 25543:25544 <> Q2:390
+R25551:25551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25589:25597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25598:25613 SetsClass.SetsDomain <> derives_aux meth
+R25661:25662 SetsClass.SetsDomain <> t0:387 var
+R25658:25659 SetsClass.SetsDomain <> Q2:390 var
+R25619:25631 SetsClass.SetsDomain <> conj_aux meth
+R25654:25655 SetsClass.SetsDomain <> Q1:389 var
+R25637:25645 SetsClass.SetsDomain <> Qaux meth
+R25650:25651 SetsClass.SetsDomain <> Pr:388 var
+R25647:25648 SetsClass.SetsDomain <> T0:386 var
+R25633:25634 SetsClass.SetsDomain <> T0:386 var
+R25615:25616 SetsClass.SetsDomain <> T0:386 var
+R25557:25560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25561:25576 SetsClass.SetsDomain <> derives_aux meth
+R25587:25588 SetsClass.SetsDomain <> t0:387 var
+R25584:25585 SetsClass.SetsDomain <> Q2:390 var
+R25581:25582 SetsClass.SetsDomain <> Q1:389 var
+R25578:25579 SetsClass.SetsDomain <> T0:386 var
+R25552:25553 SetsClass.SetsDomain <> Pr:388 var
+R25555:25556 SetsClass.SetsDomain <> t0:387 var
+binder 25699:25700 <> T0:392
+binder 25702:25703 <> t0:393
+R25712:25715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25710:25711 SetsClass.SetsDomain <> T0:392 var
+binder 25706:25707 <> Pr:394
+binder 25722:25723 <> Q1:395
+binder 25725:25726 <> Q2:396
+R25733:25733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25771:25779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25780:25795 SetsClass.SetsDomain <> derives_aux meth
+R25844:25845 SetsClass.SetsDomain <> t0:393 var
+R25804:25817 SetsClass.SetsDomain <> imply_aux meth
+R25840:25841 SetsClass.SetsDomain <> Q2:396 var
+R25823:25831 SetsClass.SetsDomain <> Qaux meth
+R25836:25837 SetsClass.SetsDomain <> Pr:394 var
+R25833:25834 SetsClass.SetsDomain <> T0:392 var
+R25819:25820 SetsClass.SetsDomain <> T0:392 var
+R25800:25801 SetsClass.SetsDomain <> Q1:395 var
+R25797:25798 SetsClass.SetsDomain <> T0:392 var
+R25739:25742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25743:25758 SetsClass.SetsDomain <> derives_aux meth
+R25769:25770 SetsClass.SetsDomain <> t0:393 var
+R25766:25767 SetsClass.SetsDomain <> Q2:396 var
+R25763:25764 SetsClass.SetsDomain <> Q1:395 var
+R25760:25761 SetsClass.SetsDomain <> T0:392 var
+R25734:25735 SetsClass.SetsDomain <> Pr:394 var
+R25737:25738 SetsClass.SetsDomain <> t0:393 var
+binder 25881:25882 <> T0:398
+binder 25884:25885 <> t0:399
+R25894:25897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25892:25893 SetsClass.SetsDomain <> T0:398 var
+binder 25888:25889 <> Pr:400
+binder 25904:25905 <> Q1:401
+binder 25907:25908 <> Q2:402
+R25920:25927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25956:25963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25964:25979 SetsClass.SetsDomain <> derives_aux meth
+R26028:26029 SetsClass.SetsDomain <> t0:399 var
+R26025:26026 SetsClass.SetsDomain <> Q2:402 var
+R25985:25998 SetsClass.SetsDomain <> imply_aux meth
+R26021:26022 SetsClass.SetsDomain <> Q1:401 var
+R26004:26012 SetsClass.SetsDomain <> Qaux meth
+R26017:26018 SetsClass.SetsDomain <> Pr:400 var
+R26014:26015 SetsClass.SetsDomain <> T0:398 var
+R26000:26001 SetsClass.SetsDomain <> T0:398 var
+R25981:25982 SetsClass.SetsDomain <> T0:398 var
+R25928:25943 SetsClass.SetsDomain <> derives_aux meth
+R25954:25955 SetsClass.SetsDomain <> t0:399 var
+R25951:25952 SetsClass.SetsDomain <> Q2:402 var
+R25948:25949 SetsClass.SetsDomain <> Q1:401 var
+R25945:25946 SetsClass.SetsDomain <> T0:398 var
+R25915:25916 SetsClass.SetsDomain <> Pr:400 var
+R25918:25919 SetsClass.SetsDomain <> t0:399 var
+binder 26062:26063 <> T0:404
+binder 26065:26066 <> t0:405
+binder 26068:26068 <> P:406
+binder 26070:26071 <> Q1:407
+binder 26073:26074 <> Q2:408
+R26108:26115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26143:26150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26151:26166 SetsClass.SetsDomain <> derives_aux meth
+R26198:26199 SetsClass.SetsDomain <> t0:405 var
+R26174:26186 SetsClass.SetsDomain <> conj_aux meth
+R26194:26195 SetsClass.SetsDomain <> Q2:408 var
+R26191:26192 SetsClass.SetsDomain <> Q1:407 var
+R26188:26189 SetsClass.SetsDomain <> T0:404 var
+R26171:26171 SetsClass.SetsDomain <> P:406 var
+R26168:26169 SetsClass.SetsDomain <> T0:404 var
+R26116:26131 SetsClass.SetsDomain <> derives_aux meth
+R26141:26142 SetsClass.SetsDomain <> t0:405 var
+R26138:26139 SetsClass.SetsDomain <> Q2:408 var
+R26136:26136 SetsClass.SetsDomain <> P:406 var
+R26133:26134 SetsClass.SetsDomain <> T0:404 var
+R26081:26096 SetsClass.SetsDomain <> derives_aux meth
+R26106:26107 SetsClass.SetsDomain <> t0:405 var
+R26103:26104 SetsClass.SetsDomain <> Q1:407 var
+R26101:26101 SetsClass.SetsDomain <> P:406 var
+R26098:26099 SetsClass.SetsDomain <> T0:404 var
+binder 26233:26234 <> T0:410
+binder 26236:26236 <> P:411
+binder 26238:26238 <> Q:412
+R26245:26245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26301:26309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26310:26322 SetsClass.SetsDomain <> included meth
+R26347:26347 SetsClass.SetsDomain <> P:411 var
+R26325:26339 SetsClass.SetsDomain <> exists_aux meth
+R26344:26344 SetsClass.SetsDomain <> Q:412 var
+R26341:26342 SetsClass.SetsDomain <> T0:410 var
+binder 26253:26254 <> t0:413
+R26257:26272 SetsClass.SetsDomain <> derives_aux meth
+R26299:26300 SetsClass.SetsDomain <> t0:413 var
+R26280:26291 SetsClass.SetsDomain <> inj_aux meth
+R26296:26296 SetsClass.SetsDomain <> P:411 var
+R26293:26294 SetsClass.SetsDomain <> T0:410 var
+R26277:26277 SetsClass.SetsDomain <> Q:412 var
+R26274:26275 SetsClass.SetsDomain <> T0:410 var
+binder 26382:26383 <> T0:415
+binder 26385:26386 <> t0:416
+binder 26388:26388 <> P:417
+binder 26390:26390 <> Q:418
+R26441:26448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26449:26461 SetsClass.SetsDomain <> included meth
+R26466:26480 SetsClass.SetsDomain <> exists_aux meth
+R26485:26485 SetsClass.SetsDomain <> Q:418 var
+R26482:26483 SetsClass.SetsDomain <> T0:415 var
+R26463:26463 SetsClass.SetsDomain <> P:417 var
+R26397:26412 SetsClass.SetsDomain <> derives_aux meth
+R26439:26440 SetsClass.SetsDomain <> t0:416 var
+R26437:26437 SetsClass.SetsDomain <> Q:418 var
+R26418:26429 SetsClass.SetsDomain <> inj_aux meth
+R26434:26434 SetsClass.SetsDomain <> P:417 var
+R26431:26432 SetsClass.SetsDomain <> T0:415 var
+R26414:26415 SetsClass.SetsDomain <> T0:415 var
+binder 26520:26521 <> T0:420
+binder 26523:26524 <> t0:421
+binder 26526:26526 <> P:422
+binder 26528:26528 <> Q:423
+R26579:26586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26587:26599 SetsClass.SetsDomain <> included meth
+R26624:26624 SetsClass.SetsDomain <> P:422 var
+R26602:26616 SetsClass.SetsDomain <> forall_aux meth
+R26621:26621 SetsClass.SetsDomain <> Q:423 var
+R26618:26619 SetsClass.SetsDomain <> T0:420 var
+R26535:26550 SetsClass.SetsDomain <> derives_aux meth
+R26577:26578 SetsClass.SetsDomain <> t0:421 var
+R26558:26569 SetsClass.SetsDomain <> inj_aux meth
+R26574:26574 SetsClass.SetsDomain <> P:422 var
+R26571:26572 SetsClass.SetsDomain <> T0:420 var
+R26555:26555 SetsClass.SetsDomain <> Q:423 var
+R26552:26553 SetsClass.SetsDomain <> T0:420 var
+binder 26659:26660 <> T0:425
+binder 26662:26662 <> P:426
+binder 26664:26664 <> Q:427
+R26671:26671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26727:26735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26736:26748 SetsClass.SetsDomain <> included meth
+R26753:26767 SetsClass.SetsDomain <> forall_aux meth
+R26772:26772 SetsClass.SetsDomain <> Q:427 var
+R26769:26770 SetsClass.SetsDomain <> T0:425 var
+R26750:26750 SetsClass.SetsDomain <> P:426 var
+binder 26679:26680 <> t0:428
+R26683:26698 SetsClass.SetsDomain <> derives_aux meth
+R26725:26726 SetsClass.SetsDomain <> t0:428 var
+R26723:26723 SetsClass.SetsDomain <> Q:427 var
+R26704:26715 SetsClass.SetsDomain <> inj_aux meth
+R26720:26720 SetsClass.SetsDomain <> P:426 var
+R26717:26718 SetsClass.SetsDomain <> T0:425 var
+R26700:26701 SetsClass.SetsDomain <> T0:425 var
+prf 26846:26872 <> Sets_included_general_union
+binder 26883:26883 <> T:430
+R26894:26902 SetsClass.SetsDomain <> SETS class
+R26904:26904 SetsClass.SetsDomain <> T:430 var
+binder 26887:26891 <> _SETS:431
+R26926:26940 SetsClass.SetsDomain <> SETS_Properties class
+R26942:26942 SetsClass.SetsDomain <> T:430 var
+binder 26908:26923 <> _SETS_Properties:432
+R26951:26954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26946:26947 <> xs:433
+binder 26961:26961 <> x:434
+R26968:26971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26972:26984 SetsClass.SetsDomain <> included meth
+R26989:27006 SetsClass.SetsDomain <> general_union def
+R27008:27009 SetsClass.SetsDomain <> xs:433 var
+R26986:26986 SetsClass.SetsDomain <> x:434 var
+R26964:26965 SetsClass.SetsDomain <> xs:433 var
+R26967:26967 SetsClass.SetsDomain <> x:434 var
+R27038:27058 SetsClass.SetsDomain <> Sets_exists_aux_right meth
+R27038:27058 SetsClass.SetsDomain <> Sets_exists_aux_right meth
+R27076:27094 SetsClass.SetsDomain <> Sets_conj_aux_right meth
+R27076:27094 SetsClass.SetsDomain <> Sets_conj_aux_right meth
+R27107:27121 SetsClass.SetsDomain <> Sets_Qaux_right meth
+R27107:27121 SetsClass.SetsDomain <> Sets_Qaux_right meth
+R27141:27155 SetsClass.SetsDomain <> Sets_Paux_right meth
+binder 27166:27166 <> x:435
+R27171:27171 SetsClass.SetsDomain <> x:435 var
+R27141:27155 SetsClass.SetsDomain <> Sets_Paux_right meth
+binder 27166:27166 <> x:436
+R27171:27171 SetsClass.SetsDomain <> x:436 var
+prf 27188:27214 <> Sets_general_union_included
+binder 27225:27225 <> T:437
+R27236:27244 SetsClass.SetsDomain <> SETS class
+R27246:27246 SetsClass.SetsDomain <> T:437 var
+binder 27229:27233 <> _SETS:438
+R27268:27282 SetsClass.SetsDomain <> SETS_Properties class
+R27284:27284 SetsClass.SetsDomain <> T:437 var
+binder 27250:27265 <> _SETS_Properties:439
+R27293:27296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 27288:27289 <> xs:440
+binder 27303:27303 <> y:441
+R27306:27306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27342:27346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27347:27359 SetsClass.SetsDomain <> included meth
+R27385:27385 SetsClass.SetsDomain <> y:441 var
+R27362:27379 SetsClass.SetsDomain <> general_union def
+R27381:27382 SetsClass.SetsDomain <> xs:440 var
+binder 27314:27314 <> x:442
+R27321:27324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27325:27337 SetsClass.SetsDomain <> included meth
+R27341:27341 SetsClass.SetsDomain <> y:441 var
+R27339:27339 SetsClass.SetsDomain <> x:442 var
+R27317:27318 SetsClass.SetsDomain <> xs:440 var
+R27320:27320 SetsClass.SetsDomain <> x:442 var
+R27413:27432 SetsClass.SetsDomain <> Sets_exists_aux_left meth
+R27413:27432 SetsClass.SetsDomain <> Sets_exists_aux_left meth
+R27451:27472 SetsClass.SetsDomain <> Sets_Qaux_left_extract meth
+R27451:27472 SetsClass.SetsDomain <> Sets_Qaux_left_extract meth
+R27510:27534 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R27510:27534 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R27555:27576 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R27555:27576 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R27595:27608 SetsClass.SetsDomain <> Sets_Paux_left meth
+binder 27620:27620 <> x:443
+R27625:27625 SetsClass.SetsDomain <> x:443 var
+R27595:27608 SetsClass.SetsDomain <> Sets_Paux_left meth
+binder 27620:27620 <> x:444
+R27625:27625 SetsClass.SetsDomain <> x:444 var
+prf 27642:27672 <> Sets_general_intersect_included
+binder 27683:27683 <> T:445
+R27694:27702 SetsClass.SetsDomain <> SETS class
+R27704:27704 SetsClass.SetsDomain <> T:445 var
+binder 27687:27691 <> _SETS:446
+R27726:27740 SetsClass.SetsDomain <> SETS_Properties class
+R27742:27742 SetsClass.SetsDomain <> T:445 var
+binder 27708:27723 <> _SETS_Properties:447
+R27751:27754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 27746:27747 <> xs:448
+binder 27761:27761 <> x:449
+R27768:27771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27772:27784 SetsClass.SetsDomain <> included meth
+R27814:27814 SetsClass.SetsDomain <> x:449 var
+R27787:27808 SetsClass.SetsDomain <> general_intersect def
+R27810:27811 SetsClass.SetsDomain <> xs:448 var
+R27764:27765 SetsClass.SetsDomain <> xs:448 var
+R27767:27767 SetsClass.SetsDomain <> x:449 var
+R27842:27861 SetsClass.SetsDomain <> Sets_forall_aux_left meth
+R27842:27861 SetsClass.SetsDomain <> Sets_forall_aux_left meth
+R27879:27900 SetsClass.SetsDomain <> Sets_Qaux_implies_left meth
+R27879:27900 SetsClass.SetsDomain <> Sets_Qaux_implies_left meth
+R27918:27931 SetsClass.SetsDomain <> Sets_Paux_left meth
+binder 27942:27942 <> x:450
+R27947:27947 SetsClass.SetsDomain <> x:450 var
+R27918:27931 SetsClass.SetsDomain <> Sets_Paux_left meth
+binder 27942:27942 <> x:451
+R27947:27947 SetsClass.SetsDomain <> x:451 var
+prf 27964:27994 <> Sets_included_general_intersect
+binder 28005:28005 <> T:452
+R28016:28024 SetsClass.SetsDomain <> SETS class
+R28026:28026 SetsClass.SetsDomain <> T:452 var
+binder 28009:28013 <> _SETS:453
+R28048:28062 SetsClass.SetsDomain <> SETS_Properties class
+R28064:28064 SetsClass.SetsDomain <> T:452 var
+binder 28030:28045 <> _SETS_Properties:454
+R28073:28076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 28068:28069 <> xs:455
+binder 28083:28083 <> y:456
+R28086:28086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28122:28126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28127:28139 SetsClass.SetsDomain <> included meth
+R28144:28165 SetsClass.SetsDomain <> general_intersect def
+R28167:28168 SetsClass.SetsDomain <> xs:455 var
+R28141:28141 SetsClass.SetsDomain <> y:456 var
+binder 28094:28094 <> x:457
+R28101:28104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28105:28117 SetsClass.SetsDomain <> included meth
+R28121:28121 SetsClass.SetsDomain <> x:457 var
+R28119:28119 SetsClass.SetsDomain <> y:456 var
+R28097:28098 SetsClass.SetsDomain <> xs:455 var
+R28100:28100 SetsClass.SetsDomain <> x:457 var
+R28197:28217 SetsClass.SetsDomain <> Sets_forall_aux_right meth
+R28197:28217 SetsClass.SetsDomain <> Sets_forall_aux_right meth
+R28236:28258 SetsClass.SetsDomain <> Sets_Qaux_right_extract meth
+R28236:28258 SetsClass.SetsDomain <> Sets_Qaux_right_extract meth
+R28296:28320 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R28296:28320 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R28341:28362 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R28341:28362 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R28381:28395 SetsClass.SetsDomain <> Sets_Paux_right meth
+binder 28407:28407 <> x:458
+R28412:28412 SetsClass.SetsDomain <> x:458 var
+R28381:28395 SetsClass.SetsDomain <> Sets_Paux_right meth
+binder 28407:28407 <> x:459
+R28412:28412 SetsClass.SetsDomain <> x:459 var
+prf 28429:28445 <> Sets_filter1_defn
+binder 28456:28456 <> S:460
+binder 28458:28458 <> T:461
+R28469:28477 SetsClass.SetsDomain <> SETS class
+R28479:28479 SetsClass.SetsDomain <> T:461 var
+binder 28462:28466 <> _SETS:462
+R28487:28490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28486:28486 SetsClass.SetsDomain <> S:460 var
+binder 28483:28483 <> P:463
+R28502:28505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28506:28506 SetsClass.SetsDomain <> T:461 var
+R28501:28501 SetsClass.SetsDomain <> S:460 var
+binder 28498:28498 <> Q:464
+R28528:28530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28512:28523 SetsClass.SetsDomain <> filter1 def
+R28527:28527 SetsClass.SetsDomain <> Q:464 var
+R28525:28525 SetsClass.SetsDomain <> P:463 var
+R28531:28544 SetsClass.SetsDomain <> intersect meth
+R28561:28561 SetsClass.SetsDomain <> Q:464 var
+R28547:28556 SetsClass.SetsDomain <> test1 def
+R28558:28558 SetsClass.SetsDomain <> P:463 var
+inst 28611:28625 <> Sets_equiv_refl
+binder 28628:28628 <> T:465
+R28639:28647 SetsClass.SetsDomain <> SETS class
+R28649:28649 SetsClass.SetsDomain <> T:465 var
+binder 28632:28636 <> _SETS:466
+R28671:28685 SetsClass.SetsDomain <> SETS_Properties class
+R28687:28687 SetsClass.SetsDomain <> T:465 var
+binder 28653:28668 <> _SETS_Properties:467
+R28691:28699 Coq.Classes.RelationClasses <> Reflexive class
+R28701:28710 SetsClass.SetsDomain <> equiv meth
+R28743:28766 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R28743:28766 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R28784:28801 SetsClass.SetsDomain <> Sets_included_refl meth
+R28784:28801 SetsClass.SetsDomain <> Sets_included_refl meth
+R28784:28801 SetsClass.SetsDomain <> Sets_included_refl meth
+inst 28819:28832 <> Sets_equiv_sym
+binder 28835:28835 <> T:468
+R28846:28854 SetsClass.SetsDomain <> SETS class
+R28856:28856 SetsClass.SetsDomain <> T:468 var
+binder 28839:28843 <> _SETS:469
+R28878:28892 SetsClass.SetsDomain <> SETS_Properties class
+R28894:28894 SetsClass.SetsDomain <> T:468 var
+binder 28860:28875 <> _SETS_Properties:470
+R28898:28906 Coq.Classes.RelationClasses <> Symmetric class
+R28908:28917 SetsClass.SetsDomain <> equiv meth
+R28952:28975 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R28952:28975 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R28952:28975 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+inst 29012:29027 <> Sets_equiv_trans
+binder 29030:29030 <> T:471
+R29041:29049 SetsClass.SetsDomain <> SETS class
+R29051:29051 SetsClass.SetsDomain <> T:471 var
+binder 29034:29038 <> _SETS:472
+R29073:29087 SetsClass.SetsDomain <> SETS_Properties class
+R29089:29089 SetsClass.SetsDomain <> T:471 var
+binder 29055:29070 <> _SETS_Properties:473
+R29093:29102 Coq.Classes.RelationClasses <> Transitive class
+R29104:29113 SetsClass.SetsDomain <> equiv meth
+R29148:29171 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R29148:29171 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R29148:29171 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R29222:29240 SetsClass.SetsDomain <> Sets_included_trans meth
+R29222:29240 SetsClass.SetsDomain <> Sets_included_trans meth
+R29222:29240 SetsClass.SetsDomain <> Sets_included_trans meth
+inst 29265:29280 <> Sets_equiv_equiv
+binder 29283:29283 <> T:474
+R29294:29302 SetsClass.SetsDomain <> SETS class
+R29304:29304 SetsClass.SetsDomain <> T:474 var
+binder 29287:29291 <> _SETS:475
+R29326:29340 SetsClass.SetsDomain <> SETS_Properties class
+R29342:29342 SetsClass.SetsDomain <> T:474 var
+binder 29308:29323 <> _SETS_Properties:476
+R29346:29356 Coq.Classes.RelationClasses <> Equivalence class
+R29358:29367 SetsClass.SetsDomain <> equiv meth
+R29408:29422 SetsClass.SetsDomain <> Sets_equiv_refl inst
+R29408:29422 SetsClass.SetsDomain <> Sets_equiv_refl inst
+R29441:29454 SetsClass.SetsDomain <> Sets_equiv_sym inst
+R29441:29454 SetsClass.SetsDomain <> Sets_equiv_sym inst
+R29473:29488 SetsClass.SetsDomain <> Sets_equiv_trans inst
+R29473:29488 SetsClass.SetsDomain <> Sets_equiv_trans inst
+inst 29512:29530 <> Sets_included_congr
+binder 29533:29533 <> T:477
+R29544:29552 SetsClass.SetsDomain <> SETS class
+R29554:29554 SetsClass.SetsDomain <> T:477 var
+binder 29537:29541 <> _SETS:478
+R29576:29590 SetsClass.SetsDomain <> SETS_Properties class
+R29592:29592 SetsClass.SetsDomain <> T:477 var
+binder 29558:29573 <> _SETS_Properties:479
+R29596:29601 Coq.Classes.Morphisms <> Proper class
+R29639:29651 SetsClass.SetsDomain <> included meth
+R29614:29618 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R29604:29613 SetsClass.SetsDomain <> equiv meth
+R29629:29633 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R29619:29628 SetsClass.SetsDomain <> equiv meth
+R29634:29636 Coq.Init.Logic <> iff def
+R29670:29675 Coq.Classes.Morphisms <> Proper class
+R29678:29687 Coq.Classes.Morphisms <> respectful def
+R29710:29733 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R29710:29733 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R29710:29733 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R29797:29815 SetsClass.SetsDomain <> Sets_included_trans meth
+R29797:29815 SetsClass.SetsDomain <> Sets_included_trans meth
+R29797:29815 SetsClass.SetsDomain <> Sets_included_trans meth
+R29797:29815 SetsClass.SetsDomain <> Sets_included_trans meth
+R29797:29815 SetsClass.SetsDomain <> Sets_included_trans meth
+prf 29838:29856 <> Sets_intersect_full
+binder 29859:29859 <> T:480
+R29870:29878 SetsClass.SetsDomain <> SETS class
+R29880:29880 SetsClass.SetsDomain <> T:480 var
+binder 29863:29867 <> _SETS:481
+R29902:29916 SetsClass.SetsDomain <> SETS_Properties class
+R29918:29918 SetsClass.SetsDomain <> T:480 var
+binder 29884:29899 <> _SETS_Properties:482
+binder 29931:29931 <> x:483
+R29934:29943 SetsClass.SetsDomain <> equiv meth
+R29974:29974 SetsClass.SetsDomain <> x:483 var
+R29946:29959 SetsClass.SetsDomain <> intersect meth
+R29963:29971 SetsClass.SetsDomain <> full meth
+R29961:29961 SetsClass.SetsDomain <> x:483 var
+R30002:30025 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R30002:30025 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R30047:30070 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R30047:30070 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R30083:30105 SetsClass.SetsDomain <> Sets_included_intersect meth
+R30083:30105 SetsClass.SetsDomain <> Sets_included_intersect meth
+R30139:30156 SetsClass.SetsDomain <> Sets_included_full meth
+R30139:30156 SetsClass.SetsDomain <> Sets_included_full meth
+prf 30171:30189 <> Sets_full_intersect
+binder 30192:30192 <> T:484
+R30203:30211 SetsClass.SetsDomain <> SETS class
+R30213:30213 SetsClass.SetsDomain <> T:484 var
+binder 30196:30200 <> _SETS:485
+R30235:30249 SetsClass.SetsDomain <> SETS_Properties class
+R30251:30251 SetsClass.SetsDomain <> T:484 var
+binder 30217:30232 <> _SETS_Properties:486
+binder 30264:30264 <> x:487
+R30267:30276 SetsClass.SetsDomain <> equiv meth
+R30307:30307 SetsClass.SetsDomain <> x:487 var
+R30279:30292 SetsClass.SetsDomain <> intersect meth
+R30304:30304 SetsClass.SetsDomain <> x:487 var
+R30294:30302 SetsClass.SetsDomain <> full meth
+R30335:30358 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R30335:30358 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R30380:30403 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R30380:30403 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R30416:30438 SetsClass.SetsDomain <> Sets_included_intersect meth
+R30416:30438 SetsClass.SetsDomain <> Sets_included_intersect meth
+R30453:30470 SetsClass.SetsDomain <> Sets_included_full meth
+R30453:30470 SetsClass.SetsDomain <> Sets_included_full meth
+prf 30504:30522 <> Sets_union_included
+binder 30525:30525 <> T:488
+R30536:30544 SetsClass.SetsDomain <> SETS class
+R30546:30546 SetsClass.SetsDomain <> T:488 var
+binder 30529:30533 <> _SETS:489
+R30568:30582 SetsClass.SetsDomain <> SETS_Properties class
+R30584:30584 SetsClass.SetsDomain <> T:488 var
+binder 30550:30565 <> _SETS_Properties:490
+binder 30597:30597 <> x:491
+binder 30599:30599 <> y:492
+binder 30601:30601 <> z:493
+R30621:30624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30642:30645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30646:30658 SetsClass.SetsDomain <> included meth
+R30677:30677 SetsClass.SetsDomain <> z:493 var
+R30661:30670 SetsClass.SetsDomain <> union meth
+R30674:30674 SetsClass.SetsDomain <> y:492 var
+R30672:30672 SetsClass.SetsDomain <> x:491 var
+R30625:30637 SetsClass.SetsDomain <> included meth
+R30641:30641 SetsClass.SetsDomain <> z:493 var
+R30639:30639 SetsClass.SetsDomain <> y:492 var
+R30604:30616 SetsClass.SetsDomain <> included meth
+R30620:30620 SetsClass.SetsDomain <> z:493 var
+R30618:30618 SetsClass.SetsDomain <> x:491 var
+R30710:30736 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R30744:30752 SetsClass.SetsDomain <> full meth
+R30710:30736 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R30744:30752 SetsClass.SetsDomain <> full meth
+R30766:30784 SetsClass.SetsDomain <> Sets_intersect_full thm
+R30766:30784 SetsClass.SetsDomain <> Sets_intersect_full thm
+R30766:30784 SetsClass.SetsDomain <> Sets_intersect_full thm
+R30766:30784 SetsClass.SetsDomain <> Sets_intersect_full thm
+R30766:30784 SetsClass.SetsDomain <> Sets_intersect_full thm
+R30766:30784 SetsClass.SetsDomain <> Sets_intersect_full thm
+inst 30816:30830 <> Sets_union_mono
+binder 30833:30833 <> T:494
+R30844:30852 SetsClass.SetsDomain <> SETS class
+R30854:30854 SetsClass.SetsDomain <> T:494 var
+binder 30837:30841 <> _SETS:495
+R30876:30890 SetsClass.SetsDomain <> SETS_Properties class
+R30892:30892 SetsClass.SetsDomain <> T:494 var
+binder 30858:30873 <> _SETS_Properties:496
+R30896:30901 Coq.Classes.Morphisms <> Proper class
+R30955:30964 SetsClass.SetsDomain <> union meth
+R30917:30921 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R30904:30916 SetsClass.SetsDomain <> included meth
+R30935:30939 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R30922:30934 SetsClass.SetsDomain <> included meth
+R30940:30952 SetsClass.SetsDomain <> included meth
+R30983:30988 Coq.Classes.Morphisms <> Proper class
+R30991:31000 Coq.Classes.Morphisms <> respectful def
+R31021:31039 SetsClass.SetsDomain <> Sets_union_included thm
+R31021:31039 SetsClass.SetsDomain <> Sets_union_included thm
+R31052:31070 SetsClass.SetsDomain <> Sets_included_trans meth
+R31052:31070 SetsClass.SetsDomain <> Sets_included_trans meth
+R31096:31115 SetsClass.SetsDomain <> Sets_included_union1 meth
+R31096:31115 SetsClass.SetsDomain <> Sets_included_union1 meth
+R31128:31146 SetsClass.SetsDomain <> Sets_included_trans meth
+R31128:31146 SetsClass.SetsDomain <> Sets_included_trans meth
+R31173:31192 SetsClass.SetsDomain <> Sets_included_union2 meth
+R31173:31192 SetsClass.SetsDomain <> Sets_included_union2 meth
+inst 31210:31225 <> Sets_union_congr
+binder 31228:31228 <> T:497
+R31239:31247 SetsClass.SetsDomain <> SETS class
+R31249:31249 SetsClass.SetsDomain <> T:497 var
+binder 31232:31236 <> _SETS:498
+R31271:31285 SetsClass.SetsDomain <> SETS_Properties class
+R31287:31287 SetsClass.SetsDomain <> T:497 var
+binder 31253:31268 <> _SETS_Properties:499
+R31291:31296 Coq.Classes.Morphisms <> Proper class
+R31341:31350 SetsClass.SetsDomain <> union meth
+R31309:31313 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R31299:31308 SetsClass.SetsDomain <> equiv meth
+R31324:31328 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R31314:31323 SetsClass.SetsDomain <> equiv meth
+R31329:31338 SetsClass.SetsDomain <> equiv meth
+R31396:31419 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R31396:31419 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R31435:31458 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R31435:31458 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R31475:31498 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R31516:31530 SetsClass.SetsDomain <> Sets_union_mono inst
+R31475:31498 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R31516:31530 SetsClass.SetsDomain <> Sets_union_mono inst
+R31516:31530 SetsClass.SetsDomain <> Sets_union_mono inst
+inst 31555:31573 <> Sets_intersect_mono
+binder 31576:31576 <> T:500
+R31587:31595 SetsClass.SetsDomain <> SETS class
+R31597:31597 SetsClass.SetsDomain <> T:500 var
+binder 31580:31584 <> _SETS:501
+R31619:31633 SetsClass.SetsDomain <> SETS_Properties class
+R31635:31635 SetsClass.SetsDomain <> T:500 var
+binder 31601:31616 <> _SETS_Properties:502
+R31639:31644 Coq.Classes.Morphisms <> Proper class
+R31698:31711 SetsClass.SetsDomain <> intersect meth
+R31660:31664 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R31647:31659 SetsClass.SetsDomain <> included meth
+R31678:31682 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R31665:31677 SetsClass.SetsDomain <> included meth
+R31683:31695 SetsClass.SetsDomain <> included meth
+R31730:31735 Coq.Classes.Morphisms <> Proper class
+R31738:31747 Coq.Classes.Morphisms <> respectful def
+R31768:31790 SetsClass.SetsDomain <> Sets_included_intersect meth
+R31768:31790 SetsClass.SetsDomain <> Sets_included_intersect meth
+R31821:31844 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R31821:31844 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R31876:31899 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R31876:31899 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+inst 31917:31936 <> Sets_intersect_congr
+binder 31939:31939 <> T:503
+R31950:31958 SetsClass.SetsDomain <> SETS class
+R31960:31960 SetsClass.SetsDomain <> T:503 var
+binder 31943:31947 <> _SETS:504
+R31982:31996 SetsClass.SetsDomain <> SETS_Properties class
+R31998:31998 SetsClass.SetsDomain <> T:503 var
+binder 31964:31979 <> _SETS_Properties:505
+R32002:32007 Coq.Classes.Morphisms <> Proper class
+R32052:32065 SetsClass.SetsDomain <> intersect meth
+R32020:32024 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R32010:32019 SetsClass.SetsDomain <> equiv meth
+R32035:32039 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R32025:32034 SetsClass.SetsDomain <> equiv meth
+R32040:32049 SetsClass.SetsDomain <> equiv meth
+R32111:32134 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32111:32134 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32150:32173 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32150:32173 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32190:32213 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32231:32249 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R32190:32213 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32231:32249 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R32231:32249 SetsClass.SetsDomain <> Sets_intersect_mono inst
+inst 32274:32296 <> Sets_indexed_union_mono
+binder 32299:32299 <> A:506
+binder 32301:32301 <> T:507
+R32312:32320 SetsClass.SetsDomain <> SETS class
+R32322:32322 SetsClass.SetsDomain <> T:507 var
+binder 32305:32309 <> _SETS:508
+R32344:32358 SetsClass.SetsDomain <> SETS_Properties class
+R32360:32360 SetsClass.SetsDomain <> T:507 var
+binder 32326:32341 <> _SETS_Properties:509
+R32364:32369 Coq.Classes.Morphisms <> Proper class
+R32407:32424 SetsClass.SetsDomain <> indexed_union meth
+R32430:32430 SetsClass.SetsDomain <> A:506 var
+R32385:32389 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R32372:32384 SetsClass.SetsDomain <> included meth
+R32390:32402 SetsClass.SetsDomain <> included meth
+R32450:32455 Coq.Classes.Morphisms <> Proper class
+R32458:32467 Coq.Classes.Morphisms <> respectful def
+R32488:32514 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R32488:32514 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R32535:32553 SetsClass.SetsDomain <> Sets_included_trans meth
+R32535:32553 SetsClass.SetsDomain <> Sets_included_trans meth
+R32581:32607 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R32581:32607 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+inst 32625:32648 <> Sets_indexed_union_congr
+binder 32651:32651 <> A:510
+binder 32653:32653 <> T:511
+R32664:32672 SetsClass.SetsDomain <> SETS class
+R32674:32674 SetsClass.SetsDomain <> T:511 var
+binder 32657:32661 <> _SETS:512
+R32696:32710 SetsClass.SetsDomain <> SETS_Properties class
+R32712:32712 SetsClass.SetsDomain <> T:511 var
+binder 32678:32693 <> _SETS_Properties:513
+R32716:32721 Coq.Classes.Morphisms <> Proper class
+R32753:32770 SetsClass.SetsDomain <> indexed_union meth
+R32776:32776 SetsClass.SetsDomain <> A:510 var
+R32734:32738 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R32724:32733 SetsClass.SetsDomain <> equiv meth
+R32739:32748 SetsClass.SetsDomain <> equiv meth
+R32810:32833 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32851:32873 SetsClass.SetsDomain <> Sets_indexed_union_mono inst
+R32914:32937 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32810:32833 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32851:32873 SetsClass.SetsDomain <> Sets_indexed_union_mono inst
+R32851:32873 SetsClass.SetsDomain <> Sets_indexed_union_mono inst
+R32914:32937 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R32914:32937 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+inst 32967:32993 <> Sets_indexed_intersect_mono
+binder 32996:32996 <> A:514
+binder 32998:32998 <> T:515
+R33009:33017 SetsClass.SetsDomain <> SETS class
+R33019:33019 SetsClass.SetsDomain <> T:515 var
+binder 33002:33006 <> _SETS:516
+R33041:33055 SetsClass.SetsDomain <> SETS_Properties class
+R33057:33057 SetsClass.SetsDomain <> T:515 var
+binder 33023:33038 <> _SETS_Properties:517
+R33061:33066 Coq.Classes.Morphisms <> Proper class
+R33104:33125 SetsClass.SetsDomain <> indexed_intersect meth
+R33131:33131 SetsClass.SetsDomain <> A:514 var
+R33082:33086 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R33069:33081 SetsClass.SetsDomain <> included meth
+R33087:33099 SetsClass.SetsDomain <> included meth
+R33151:33156 Coq.Classes.Morphisms <> Proper class
+R33159:33168 Coq.Classes.Morphisms <> respectful def
+R33189:33219 SetsClass.SetsDomain <> Sets_included_indexed_intersect meth
+R33189:33219 SetsClass.SetsDomain <> Sets_included_indexed_intersect meth
+R33240:33258 SetsClass.SetsDomain <> Sets_included_trans meth
+R33240:33258 SetsClass.SetsDomain <> Sets_included_trans meth
+R33286:33316 SetsClass.SetsDomain <> Sets_indexed_intersect_included meth
+R33286:33316 SetsClass.SetsDomain <> Sets_indexed_intersect_included meth
+inst 33334:33361 <> Sets_indexed_intersect_congr
+binder 33364:33364 <> A:518
+binder 33366:33366 <> T:519
+R33377:33385 SetsClass.SetsDomain <> SETS class
+R33387:33387 SetsClass.SetsDomain <> T:519 var
+binder 33370:33374 <> _SETS:520
+R33409:33423 SetsClass.SetsDomain <> SETS_Properties class
+R33425:33425 SetsClass.SetsDomain <> T:519 var
+binder 33391:33406 <> _SETS_Properties:521
+R33429:33434 Coq.Classes.Morphisms <> Proper class
+R33466:33487 SetsClass.SetsDomain <> indexed_intersect meth
+R33493:33493 SetsClass.SetsDomain <> A:518 var
+R33447:33451 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R33437:33446 SetsClass.SetsDomain <> equiv meth
+R33452:33461 SetsClass.SetsDomain <> equiv meth
+R33527:33550 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R33568:33594 SetsClass.SetsDomain <> Sets_indexed_intersect_mono inst
+R33635:33658 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R33527:33550 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R33568:33594 SetsClass.SetsDomain <> Sets_indexed_intersect_mono inst
+R33568:33594 SetsClass.SetsDomain <> Sets_indexed_intersect_mono inst
+R33635:33658 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R33635:33658 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+prf 33685:33706 <> Sets_intersect_absorb1
+binder 33709:33709 <> T:522
+R33720:33728 SetsClass.SetsDomain <> SETS class
+R33730:33730 SetsClass.SetsDomain <> T:522 var
+binder 33713:33717 <> _SETS:523
+R33752:33766 SetsClass.SetsDomain <> SETS_Properties class
+R33768:33768 SetsClass.SetsDomain <> T:522 var
+binder 33734:33749 <> _SETS_Properties:524
+binder 33781:33781 <> x:525
+binder 33783:33783 <> y:526
+R33807:33814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33815:33824 SetsClass.SetsDomain <> equiv meth
+R33847:33847 SetsClass.SetsDomain <> x:525 var
+R33827:33840 SetsClass.SetsDomain <> intersect meth
+R33844:33844 SetsClass.SetsDomain <> y:526 var
+R33842:33842 SetsClass.SetsDomain <> x:525 var
+R33790:33802 SetsClass.SetsDomain <> included meth
+R33806:33806 SetsClass.SetsDomain <> y:526 var
+R33804:33804 SetsClass.SetsDomain <> x:525 var
+R33875:33898 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R33875:33898 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R33918:33941 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R33918:33941 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R33954:33976 SetsClass.SetsDomain <> Sets_included_intersect meth
+R33954:33976 SetsClass.SetsDomain <> Sets_included_intersect meth
+prf 34022:34043 <> Sets_intersect_absorb2
+binder 34046:34046 <> T:527
+R34057:34065 SetsClass.SetsDomain <> SETS class
+R34067:34067 SetsClass.SetsDomain <> T:527 var
+binder 34050:34054 <> _SETS:528
+R34089:34103 SetsClass.SetsDomain <> SETS_Properties class
+R34105:34105 SetsClass.SetsDomain <> T:527 var
+binder 34071:34086 <> _SETS_Properties:529
+binder 34118:34118 <> x:530
+binder 34120:34120 <> y:531
+R34144:34151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34152:34161 SetsClass.SetsDomain <> equiv meth
+R34184:34184 SetsClass.SetsDomain <> x:530 var
+R34164:34177 SetsClass.SetsDomain <> intersect meth
+R34181:34181 SetsClass.SetsDomain <> x:530 var
+R34179:34179 SetsClass.SetsDomain <> y:531 var
+R34127:34139 SetsClass.SetsDomain <> included meth
+R34143:34143 SetsClass.SetsDomain <> y:531 var
+R34141:34141 SetsClass.SetsDomain <> x:530 var
+R34212:34235 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R34212:34235 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R34255:34278 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R34255:34278 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R34291:34313 SetsClass.SetsDomain <> Sets_included_intersect meth
+R34291:34313 SetsClass.SetsDomain <> Sets_included_intersect meth
+prf 34359:34376 <> Sets_union_absorb1
+binder 34379:34379 <> T:532
+R34390:34398 SetsClass.SetsDomain <> SETS class
+R34400:34400 SetsClass.SetsDomain <> T:532 var
+binder 34383:34387 <> _SETS:533
+R34422:34436 SetsClass.SetsDomain <> SETS_Properties class
+R34438:34438 SetsClass.SetsDomain <> T:532 var
+binder 34404:34419 <> _SETS_Properties:534
+binder 34451:34451 <> x:535
+binder 34453:34453 <> y:536
+R34477:34484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34485:34494 SetsClass.SetsDomain <> equiv meth
+R34513:34513 SetsClass.SetsDomain <> x:535 var
+R34497:34506 SetsClass.SetsDomain <> union meth
+R34510:34510 SetsClass.SetsDomain <> y:536 var
+R34508:34508 SetsClass.SetsDomain <> x:535 var
+R34460:34472 SetsClass.SetsDomain <> included meth
+R34476:34476 SetsClass.SetsDomain <> x:535 var
+R34474:34474 SetsClass.SetsDomain <> y:536 var
+R34541:34564 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R34541:34564 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R34584:34602 SetsClass.SetsDomain <> Sets_union_included thm
+R34584:34602 SetsClass.SetsDomain <> Sets_union_included thm
+R34646:34665 SetsClass.SetsDomain <> Sets_included_union1 meth
+R34646:34665 SetsClass.SetsDomain <> Sets_included_union1 meth
+prf 34680:34697 <> Sets_union_absorb2
+binder 34700:34700 <> T:537
+R34711:34719 SetsClass.SetsDomain <> SETS class
+R34721:34721 SetsClass.SetsDomain <> T:537 var
+binder 34704:34708 <> _SETS:538
+R34743:34757 SetsClass.SetsDomain <> SETS_Properties class
+R34759:34759 SetsClass.SetsDomain <> T:537 var
+binder 34725:34740 <> _SETS_Properties:539
+binder 34772:34772 <> x:540
+binder 34774:34774 <> y:541
+R34798:34805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34806:34815 SetsClass.SetsDomain <> equiv meth
+R34834:34834 SetsClass.SetsDomain <> y:541 var
+R34818:34827 SetsClass.SetsDomain <> union meth
+R34831:34831 SetsClass.SetsDomain <> y:541 var
+R34829:34829 SetsClass.SetsDomain <> x:540 var
+R34781:34793 SetsClass.SetsDomain <> included meth
+R34797:34797 SetsClass.SetsDomain <> y:541 var
+R34795:34795 SetsClass.SetsDomain <> x:540 var
+R34862:34885 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R34862:34885 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R34905:34923 SetsClass.SetsDomain <> Sets_union_included thm
+R34905:34923 SetsClass.SetsDomain <> Sets_union_included thm
+R34967:34986 SetsClass.SetsDomain <> Sets_included_union2 meth
+R34967:34986 SetsClass.SetsDomain <> Sets_included_union2 meth
+prf 35001:35015 <> Sets_union_comm
+binder 35018:35018 <> T:542
+R35029:35037 SetsClass.SetsDomain <> SETS class
+R35039:35039 SetsClass.SetsDomain <> T:542 var
+binder 35022:35026 <> _SETS:543
+R35061:35075 SetsClass.SetsDomain <> SETS_Properties class
+R35077:35077 SetsClass.SetsDomain <> T:542 var
+binder 35043:35058 <> _SETS_Properties:544
+binder 35088:35088 <> x:545
+binder 35090:35090 <> y:546
+R35095:35104 SetsClass.SetsDomain <> equiv meth
+R35124:35133 SetsClass.SetsDomain <> union meth
+R35137:35137 SetsClass.SetsDomain <> x:545 var
+R35135:35135 SetsClass.SetsDomain <> y:546 var
+R35107:35116 SetsClass.SetsDomain <> union meth
+R35120:35120 SetsClass.SetsDomain <> y:546 var
+R35118:35118 SetsClass.SetsDomain <> x:545 var
+R35168:35191 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R35207:35225 SetsClass.SetsDomain <> Sets_union_included thm
+R35244:35263 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35273:35292 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35168:35191 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R35168:35191 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R35207:35225 SetsClass.SetsDomain <> Sets_union_included thm
+R35207:35225 SetsClass.SetsDomain <> Sets_union_included thm
+R35244:35263 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35273:35292 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35244:35263 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35244:35263 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35273:35292 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35244:35263 SetsClass.SetsDomain <> Sets_included_union1 meth
+prf 35309:35324 <> Sets_union_assoc
+binder 35327:35327 <> T:547
+R35338:35346 SetsClass.SetsDomain <> SETS class
+R35348:35348 SetsClass.SetsDomain <> T:547 var
+binder 35331:35335 <> _SETS:548
+R35370:35384 SetsClass.SetsDomain <> SETS_Properties class
+R35386:35386 SetsClass.SetsDomain <> T:547 var
+binder 35352:35367 <> _SETS_Properties:549
+binder 35399:35399 <> x:550
+binder 35401:35401 <> y:551
+binder 35403:35403 <> z:552
+R35410:35419 SetsClass.SetsDomain <> equiv meth
+R35466:35475 SetsClass.SetsDomain <> union meth
+R35480:35489 SetsClass.SetsDomain <> union meth
+R35493:35493 SetsClass.SetsDomain <> z:552 var
+R35491:35491 SetsClass.SetsDomain <> y:551 var
+R35477:35477 SetsClass.SetsDomain <> x:550 var
+R35428:35437 SetsClass.SetsDomain <> union meth
+R35456:35456 SetsClass.SetsDomain <> z:552 var
+R35440:35449 SetsClass.SetsDomain <> union meth
+R35453:35453 SetsClass.SetsDomain <> y:551 var
+R35451:35451 SetsClass.SetsDomain <> x:550 var
+R35523:35546 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35523:35546 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35573:35591 SetsClass.SetsDomain <> Sets_union_included thm
+R35604:35623 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35604:35623 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35641:35660 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35641:35660 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35641:35660 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35673:35692 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35673:35692 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35710:35729 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35710:35729 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35710:35729 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35742:35761 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35742:35761 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35779:35798 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35779:35798 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35779:35798 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35811:35830 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35811:35830 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35848:35867 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35848:35867 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35848:35867 SetsClass.SetsDomain <> Sets_included_union1 meth
+R35880:35899 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35880:35899 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35912:35931 SetsClass.SetsDomain <> Sets_included_union2 meth
+R35912:35931 SetsClass.SetsDomain <> Sets_included_union2 meth
+prf 35946:35964 <> Sets_intersect_comm
+binder 35967:35967 <> T:553
+R35978:35986 SetsClass.SetsDomain <> SETS class
+R35988:35988 SetsClass.SetsDomain <> T:553 var
+binder 35971:35975 <> _SETS:554
+R36010:36024 SetsClass.SetsDomain <> SETS_Properties class
+R36026:36026 SetsClass.SetsDomain <> T:553 var
+binder 35992:36007 <> _SETS_Properties:555
+binder 36037:36037 <> x:556
+binder 36039:36039 <> y:557
+R36044:36053 SetsClass.SetsDomain <> equiv meth
+R36077:36090 SetsClass.SetsDomain <> intersect meth
+R36094:36094 SetsClass.SetsDomain <> x:556 var
+R36092:36092 SetsClass.SetsDomain <> y:557 var
+R36056:36069 SetsClass.SetsDomain <> intersect meth
+R36073:36073 SetsClass.SetsDomain <> y:557 var
+R36071:36071 SetsClass.SetsDomain <> x:556 var
+R36125:36148 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R36164:36186 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36205:36228 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36238:36261 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36125:36148 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R36125:36148 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R36164:36186 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36164:36186 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36205:36228 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36238:36261 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36205:36228 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36205:36228 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36238:36261 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36205:36228 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+prf 36278:36297 <> Sets_intersect_assoc
+binder 36300:36300 <> T:558
+R36311:36319 SetsClass.SetsDomain <> SETS class
+R36321:36321 SetsClass.SetsDomain <> T:558 var
+binder 36304:36308 <> _SETS:559
+R36343:36357 SetsClass.SetsDomain <> SETS_Properties class
+R36359:36359 SetsClass.SetsDomain <> T:558 var
+binder 36325:36340 <> _SETS_Properties:560
+binder 36372:36372 <> x:561
+binder 36374:36374 <> y:562
+binder 36376:36376 <> z:563
+R36383:36392 SetsClass.SetsDomain <> equiv meth
+R36447:36460 SetsClass.SetsDomain <> intersect meth
+R36465:36478 SetsClass.SetsDomain <> intersect meth
+R36482:36482 SetsClass.SetsDomain <> z:563 var
+R36480:36480 SetsClass.SetsDomain <> y:562 var
+R36462:36462 SetsClass.SetsDomain <> x:561 var
+R36401:36414 SetsClass.SetsDomain <> intersect meth
+R36437:36437 SetsClass.SetsDomain <> z:563 var
+R36417:36430 SetsClass.SetsDomain <> intersect meth
+R36434:36434 SetsClass.SetsDomain <> y:562 var
+R36432:36432 SetsClass.SetsDomain <> x:561 var
+R36512:36535 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R36512:36535 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R36562:36584 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36562:36584 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36562:36584 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36562:36584 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36562:36584 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36562:36584 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36601:36624 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36601:36624 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36601:36624 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36639:36662 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36639:36662 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36679:36702 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36679:36702 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36679:36702 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36717:36740 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36717:36740 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36755:36778 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36755:36778 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36798:36820 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36798:36820 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36798:36820 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36798:36820 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36798:36820 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36798:36820 SetsClass.SetsDomain <> Sets_included_intersect meth
+R36835:36858 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36835:36858 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36875:36898 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36875:36898 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36875:36898 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36913:36936 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36913:36936 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R36953:36976 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36953:36976 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36953:36976 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36991:37014 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R36991:37014 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+prf 37029:37055 <> Sets_union_included_strong1
+binder 37058:37058 <> T:564
+R37069:37077 SetsClass.SetsDomain <> SETS class
+R37079:37079 SetsClass.SetsDomain <> T:564 var
+binder 37062:37066 <> _SETS:565
+R37101:37115 SetsClass.SetsDomain <> SETS_Properties class
+R37117:37117 SetsClass.SetsDomain <> T:564 var
+binder 37083:37098 <> _SETS_Properties:566
+binder 37130:37130 <> x:567
+binder 37132:37132 <> y:568
+binder 37134:37134 <> z:569
+binder 37136:37136 <> u:570
+R37175:37178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37215:37218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37219:37231 SetsClass.SetsDomain <> included meth
+R37269:37269 SetsClass.SetsDomain <> z:569 var
+R37234:37247 SetsClass.SetsDomain <> intersect meth
+R37252:37261 SetsClass.SetsDomain <> union meth
+R37265:37265 SetsClass.SetsDomain <> y:568 var
+R37263:37263 SetsClass.SetsDomain <> x:567 var
+R37249:37249 SetsClass.SetsDomain <> u:570 var
+R37179:37191 SetsClass.SetsDomain <> included meth
+R37214:37214 SetsClass.SetsDomain <> z:569 var
+R37194:37207 SetsClass.SetsDomain <> intersect meth
+R37211:37211 SetsClass.SetsDomain <> y:568 var
+R37209:37209 SetsClass.SetsDomain <> u:570 var
+R37139:37151 SetsClass.SetsDomain <> included meth
+R37174:37174 SetsClass.SetsDomain <> z:569 var
+R37154:37167 SetsClass.SetsDomain <> intersect meth
+R37171:37171 SetsClass.SetsDomain <> x:567 var
+R37169:37169 SetsClass.SetsDomain <> u:570 var
+R37299:37317 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37299:37317 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37299:37317 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37342:37368 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R37342:37368 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+prf 37389:37423 <> Sets_indexed_union_included_strong1
+binder 37426:37426 <> I:571
+binder 37428:37428 <> T:572
+R37439:37447 SetsClass.SetsDomain <> SETS class
+R37449:37449 SetsClass.SetsDomain <> T:572 var
+binder 37432:37436 <> _SETS:573
+R37471:37485 SetsClass.SetsDomain <> SETS_Properties class
+R37487:37487 SetsClass.SetsDomain <> T:572 var
+binder 37453:37468 <> _SETS_Properties:574
+R37506:37509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37510:37510 SetsClass.SetsDomain <> T:572 var
+R37505:37505 SetsClass.SetsDomain <> I:571 var
+binder 37501:37502 <> xs:575
+binder 37513:37513 <> z:576
+binder 37515:37515 <> u:577
+R37518:37518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37570:37574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37575:37587 SetsClass.SetsDomain <> included meth
+R37632:37632 SetsClass.SetsDomain <> z:576 var
+R37590:37603 SetsClass.SetsDomain <> intersect meth
+R37608:37625 SetsClass.SetsDomain <> indexed_union meth
+R37627:37628 SetsClass.SetsDomain <> xs:575 var
+R37605:37605 SetsClass.SetsDomain <> u:577 var
+binder 37526:37526 <> i:578
+R37529:37541 SetsClass.SetsDomain <> included meth
+R37569:37569 SetsClass.SetsDomain <> z:576 var
+R37544:37557 SetsClass.SetsDomain <> intersect meth
+R37562:37563 SetsClass.SetsDomain <> xs:575 var
+R37565:37565 SetsClass.SetsDomain <> i:578 var
+R37559:37559 SetsClass.SetsDomain <> u:577 var
+R37662:37680 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37662:37680 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37662:37680 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37691:37725 SetsClass.SetsDomain <> Sets_indexed_union_included_strong2 meth
+R37691:37725 SetsClass.SetsDomain <> Sets_indexed_union_included_strong2 meth
+R37748:37766 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37748:37766 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R37748:37766 SetsClass.SetsDomain <> Sets_intersect_comm thm
+prf 37792:37807 <> Sets_union_empty
+binder 37810:37810 <> T:579
+R37821:37829 SetsClass.SetsDomain <> SETS class
+R37831:37831 SetsClass.SetsDomain <> T:579 var
+binder 37814:37818 <> _SETS:580
+R37853:37867 SetsClass.SetsDomain <> SETS_Properties class
+R37869:37869 SetsClass.SetsDomain <> T:579 var
+binder 37835:37850 <> _SETS_Properties:581
+binder 37880:37880 <> x:582
+R37885:37894 SetsClass.SetsDomain <> equiv meth
+R37922:37922 SetsClass.SetsDomain <> x:582 var
+R37897:37906 SetsClass.SetsDomain <> union meth
+R37910:37919 SetsClass.SetsDomain <> empty meth
+R37908:37908 SetsClass.SetsDomain <> x:582 var
+R37952:37975 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R37952:37975 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R37952:37975 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R37995:38013 SetsClass.SetsDomain <> Sets_union_included thm
+R37995:38013 SetsClass.SetsDomain <> Sets_union_included thm
+R38047:38065 SetsClass.SetsDomain <> Sets_empty_included meth
+R38047:38065 SetsClass.SetsDomain <> Sets_empty_included meth
+R38078:38097 SetsClass.SetsDomain <> Sets_included_union1 meth
+R38078:38097 SetsClass.SetsDomain <> Sets_included_union1 meth
+prf 38112:38127 <> Sets_empty_union
+binder 38130:38130 <> T:583
+R38141:38149 SetsClass.SetsDomain <> SETS class
+R38151:38151 SetsClass.SetsDomain <> T:583 var
+binder 38134:38138 <> _SETS:584
+R38173:38187 SetsClass.SetsDomain <> SETS_Properties class
+R38189:38189 SetsClass.SetsDomain <> T:583 var
+binder 38155:38170 <> _SETS_Properties:585
+binder 38200:38200 <> x:586
+R38205:38214 SetsClass.SetsDomain <> equiv meth
+R38242:38242 SetsClass.SetsDomain <> x:586 var
+R38217:38226 SetsClass.SetsDomain <> union meth
+R38239:38239 SetsClass.SetsDomain <> x:586 var
+R38228:38237 SetsClass.SetsDomain <> empty meth
+R38272:38295 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38272:38295 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38272:38295 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38315:38333 SetsClass.SetsDomain <> Sets_union_included thm
+R38315:38333 SetsClass.SetsDomain <> Sets_union_included thm
+R38348:38366 SetsClass.SetsDomain <> Sets_empty_included meth
+R38348:38366 SetsClass.SetsDomain <> Sets_empty_included meth
+R38398:38417 SetsClass.SetsDomain <> Sets_included_union2 meth
+R38398:38417 SetsClass.SetsDomain <> Sets_included_union2 meth
+prf 38432:38452 <> Sets_equiv_empty_fact
+binder 38455:38455 <> T:587
+R38466:38474 SetsClass.SetsDomain <> SETS class
+R38476:38476 SetsClass.SetsDomain <> T:587 var
+binder 38459:38463 <> _SETS:588
+R38498:38512 SetsClass.SetsDomain <> SETS_Properties class
+R38514:38514 SetsClass.SetsDomain <> T:587 var
+binder 38480:38495 <> _SETS_Properties:589
+binder 38527:38527 <> x:590
+R38560:38568 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R38534:38546 SetsClass.SetsDomain <> included meth
+R38550:38559 SetsClass.SetsDomain <> empty meth
+R38548:38548 SetsClass.SetsDomain <> x:590 var
+R38569:38578 SetsClass.SetsDomain <> equiv meth
+R38582:38591 SetsClass.SetsDomain <> empty meth
+R38580:38580 SetsClass.SetsDomain <> x:590 var
+R38621:38644 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38621:38644 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38621:38644 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38660:38678 SetsClass.SetsDomain <> Sets_empty_included meth
+R38660:38678 SetsClass.SetsDomain <> Sets_empty_included meth
+prf 38704:38723 <> Sets_intersect_empty
+binder 38726:38726 <> T:591
+R38737:38745 SetsClass.SetsDomain <> SETS class
+R38747:38747 SetsClass.SetsDomain <> T:591 var
+binder 38730:38734 <> _SETS:592
+R38769:38783 SetsClass.SetsDomain <> SETS_Properties class
+R38785:38785 SetsClass.SetsDomain <> T:591 var
+binder 38751:38766 <> _SETS_Properties:593
+binder 38796:38796 <> x:594
+R38801:38810 SetsClass.SetsDomain <> equiv meth
+R38842:38851 SetsClass.SetsDomain <> empty meth
+R38813:38826 SetsClass.SetsDomain <> intersect meth
+R38830:38839 SetsClass.SetsDomain <> empty meth
+R38828:38828 SetsClass.SetsDomain <> x:594 var
+R38881:38904 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38881:38904 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38881:38904 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R38924:38947 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R38924:38947 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R38960:38978 SetsClass.SetsDomain <> Sets_empty_included meth
+R38960:38978 SetsClass.SetsDomain <> Sets_empty_included meth
+prf 38993:39012 <> Sets_empty_intersect
+binder 39015:39015 <> T:595
+R39026:39034 SetsClass.SetsDomain <> SETS class
+R39036:39036 SetsClass.SetsDomain <> T:595 var
+binder 39019:39023 <> _SETS:596
+R39058:39072 SetsClass.SetsDomain <> SETS_Properties class
+R39074:39074 SetsClass.SetsDomain <> T:595 var
+binder 39040:39055 <> _SETS_Properties:597
+binder 39085:39085 <> x:598
+R39090:39099 SetsClass.SetsDomain <> equiv meth
+R39131:39140 SetsClass.SetsDomain <> empty meth
+R39102:39115 SetsClass.SetsDomain <> intersect meth
+R39128:39128 SetsClass.SetsDomain <> x:598 var
+R39117:39126 SetsClass.SetsDomain <> empty meth
+R39170:39193 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R39170:39193 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R39170:39193 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R39213:39236 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R39213:39236 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R39249:39267 SetsClass.SetsDomain <> Sets_empty_included meth
+R39249:39267 SetsClass.SetsDomain <> Sets_empty_included meth
+prf 39282:39312 <> Sets_prop_inj_included_prop_inj
+binder 39315:39315 <> T:599
+R39326:39334 SetsClass.SetsDomain <> SETS class
+R39336:39336 SetsClass.SetsDomain <> T:599 var
+binder 39319:39323 <> _SETS:600
+R39358:39372 SetsClass.SetsDomain <> SETS_Properties class
+R39374:39374 SetsClass.SetsDomain <> T:599 var
+binder 39340:39355 <> _SETS_Properties:601
+binder 39386:39386 <> P:602
+binder 39388:39388 <> Q:603
+R39400:39400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39407:39413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39414:39426 SetsClass.SetsDomain <> included meth
+R39455:39467 SetsClass.SetsDomain <> prop_inj meth
+R39469:39469 SetsClass.SetsDomain <> Q:603 var
+R39433:39445 SetsClass.SetsDomain <> prop_inj meth
+R39447:39447 SetsClass.SetsDomain <> P:602 var
+R39402:39405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39406:39406 SetsClass.SetsDomain <> Q:603 var
+R39401:39401 SetsClass.SetsDomain <> P:602 var
+R39503:39521 SetsClass.SetsDomain <> Sets_intersect_full thm
+R39503:39521 SetsClass.SetsDomain <> Sets_intersect_full thm
+R39503:39521 SetsClass.SetsDomain <> Sets_intersect_full thm
+R39532:39553 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R39532:39553 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R39574:39595 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R39574:39595 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+prf 39619:39635 <> Sets_prop_inj_and
+binder 39638:39638 <> T:604
+R39649:39657 SetsClass.SetsDomain <> SETS class
+R39659:39659 SetsClass.SetsDomain <> T:604 var
+binder 39642:39646 <> _SETS:605
+R39681:39695 SetsClass.SetsDomain <> SETS_Properties class
+R39697:39697 SetsClass.SetsDomain <> T:604 var
+binder 39663:39678 <> _SETS_Properties:606
+binder 39708:39708 <> P:607
+binder 39710:39710 <> Q:608
+R39715:39724 SetsClass.SetsDomain <> equiv meth
+R39760:39773 SetsClass.SetsDomain <> intersect meth
+R39794:39806 SetsClass.SetsDomain <> prop_inj meth
+R39808:39808 SetsClass.SetsDomain <> Q:608 var
+R39776:39788 SetsClass.SetsDomain <> prop_inj meth
+R39790:39790 SetsClass.SetsDomain <> P:607 var
+R39731:39743 SetsClass.SetsDomain <> prop_inj meth
+R39747:39750 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R39746:39746 SetsClass.SetsDomain <> P:607 var
+R39751:39751 SetsClass.SetsDomain <> Q:608 var
+R39838:39861 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R39838:39861 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R39881:39903 SetsClass.SetsDomain <> Sets_included_intersect meth
+R39881:39903 SetsClass.SetsDomain <> Sets_included_intersect meth
+R39918:39948 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R39918:39948 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R39970:40000 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R39970:40000 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R40020:40041 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R40020:40041 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R40066:40096 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R40066:40096 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+prf 40118:40133 <> Sets_prop_inj_or
+binder 40136:40136 <> T:609
+R40147:40155 SetsClass.SetsDomain <> SETS class
+R40157:40157 SetsClass.SetsDomain <> T:609 var
+binder 40140:40144 <> _SETS:610
+R40179:40193 SetsClass.SetsDomain <> SETS_Properties class
+R40195:40195 SetsClass.SetsDomain <> T:609 var
+binder 40161:40176 <> _SETS_Properties:611
+binder 40206:40206 <> P:612
+binder 40208:40208 <> Q:613
+R40213:40222 SetsClass.SetsDomain <> equiv meth
+R40258:40267 SetsClass.SetsDomain <> union meth
+R40288:40300 SetsClass.SetsDomain <> prop_inj meth
+R40302:40302 SetsClass.SetsDomain <> Q:613 var
+R40270:40282 SetsClass.SetsDomain <> prop_inj meth
+R40284:40284 SetsClass.SetsDomain <> P:612 var
+R40229:40241 SetsClass.SetsDomain <> prop_inj meth
+R40245:40248 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R40244:40244 SetsClass.SetsDomain <> P:612 var
+R40249:40249 SetsClass.SetsDomain <> Q:613 var
+R40332:40355 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R40332:40355 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R40380:40398 SetsClass.SetsDomain <> Sets_intersect_full thm
+R40380:40398 SetsClass.SetsDomain <> Sets_intersect_full thm
+R40380:40398 SetsClass.SetsDomain <> Sets_intersect_full thm
+R40411:40432 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R40411:40432 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R40472:40491 SetsClass.SetsDomain <> Sets_included_union1 meth
+R40472:40491 SetsClass.SetsDomain <> Sets_included_union1 meth
+R40472:40491 SetsClass.SetsDomain <> Sets_included_union1 meth
+R40506:40527 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R40506:40527 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R40550:40569 SetsClass.SetsDomain <> Sets_included_union2 meth
+R40550:40569 SetsClass.SetsDomain <> Sets_included_union2 meth
+R40550:40569 SetsClass.SetsDomain <> Sets_included_union2 meth
+R40584:40605 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R40584:40605 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R40621:40639 SetsClass.SetsDomain <> Sets_union_included thm
+R40621:40639 SetsClass.SetsDomain <> Sets_union_included thm
+R40654:40684 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R40654:40684 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R40706:40736 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R40706:40736 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+prf 40758:40773 <> Sets_prop_inj_ex
+binder 40776:40776 <> I:614
+binder 40778:40778 <> T:615
+R40789:40797 SetsClass.SetsDomain <> SETS class
+R40799:40799 SetsClass.SetsDomain <> T:615 var
+binder 40782:40786 <> _SETS:616
+R40821:40835 SetsClass.SetsDomain <> SETS_Properties class
+R40837:40837 SetsClass.SetsDomain <> T:615 var
+binder 40803:40818 <> _SETS_Properties:617
+R40853:40856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40852:40852 SetsClass.SetsDomain <> I:614 var
+binder 40849:40849 <> P:618
+R40866:40875 SetsClass.SetsDomain <> equiv meth
+R40909:40926 SetsClass.SetsDomain <> indexed_union meth
+binder 40933:40933 <> i:619
+R40938:40950 SetsClass.SetsDomain <> prop_inj meth
+R40953:40953 SetsClass.SetsDomain <> P:618 var
+R40955:40955 SetsClass.SetsDomain <> i:619 var
+R40882:40894 SetsClass.SetsDomain <> prop_inj meth
+R40897:40898 Coq.Init.Logic <> ex ind
+R40900:40900 SetsClass.SetsDomain <> P:618 var
+R40986:41009 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R40986:41009 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R41034:41052 SetsClass.SetsDomain <> Sets_intersect_full thm
+R41034:41052 SetsClass.SetsDomain <> Sets_intersect_full thm
+R41034:41052 SetsClass.SetsDomain <> Sets_intersect_full thm
+R41065:41086 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R41065:41086 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R41122:41148 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R41122:41148 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R41122:41148 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R41161:41182 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R41161:41182 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R41198:41224 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R41198:41224 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R41249:41279 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R41249:41279 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+prf 41322:41337 <> Sets_test1_imply
+binder 41340:41340 <> S:620
+binder 41342:41342 <> T:621
+R41353:41361 SetsClass.SetsDomain <> SETS class
+R41363:41363 SetsClass.SetsDomain <> T:621 var
+binder 41346:41350 <> _SETS:622
+R41385:41399 SetsClass.SetsDomain <> SETS_Properties class
+R41401:41401 SetsClass.SetsDomain <> T:621 var
+binder 41367:41382 <> _SETS_Properties:623
+R41419:41422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41418:41418 SetsClass.SetsDomain <> S:620 var
+binder 41413:41413 <> P:624
+binder 41415:41415 <> Q:625
+R41432:41432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41453:41459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41460:41472 SetsClass.SetsDomain <> included meth
+R41490:41499 SetsClass.SetsDomain <> test1 def
+R41501:41501 SetsClass.SetsDomain <> Q:625 var
+R41475:41484 SetsClass.SetsDomain <> test1 def
+R41486:41486 SetsClass.SetsDomain <> P:624 var
+binder 41440:41440 <> a:626
+R41446:41449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41450:41450 SetsClass.SetsDomain <> Q:625 var
+R41452:41452 SetsClass.SetsDomain <> a:626 var
+R41443:41443 SetsClass.SetsDomain <> P:624 var
+R41445:41445 SetsClass.SetsDomain <> a:626 var
+R41565:41595 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R41565:41595 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+prf 41618:41631 <> Sets_test1_and
+binder 41634:41634 <> S:627
+binder 41636:41636 <> T:628
+R41647:41655 SetsClass.SetsDomain <> SETS class
+R41657:41657 SetsClass.SetsDomain <> T:628 var
+binder 41640:41644 <> _SETS:629
+R41679:41693 SetsClass.SetsDomain <> SETS_Properties class
+R41695:41695 SetsClass.SetsDomain <> T:628 var
+binder 41661:41676 <> _SETS_Properties:630
+R41713:41716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41712:41712 SetsClass.SetsDomain <> S:627 var
+binder 41707:41707 <> P:631
+binder 41709:41709 <> Q:632
+R41726:41735 SetsClass.SetsDomain <> equiv meth
+R41781:41794 SetsClass.SetsDomain <> intersect meth
+R41812:41821 SetsClass.SetsDomain <> test1 def
+R41823:41823 SetsClass.SetsDomain <> Q:632 var
+R41797:41806 SetsClass.SetsDomain <> test1 def
+R41808:41808 SetsClass.SetsDomain <> P:631 var
+R41742:41751 SetsClass.SetsDomain <> test1 def
+binder 41758:41758 <> a:633
+R41766:41769 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R41763:41763 SetsClass.SetsDomain <> P:631 var
+R41765:41765 SetsClass.SetsDomain <> a:633 var
+R41770:41770 SetsClass.SetsDomain <> Q:632 var
+R41772:41772 SetsClass.SetsDomain <> a:633 var
+R41888:41904 SetsClass.SetsDomain <> Sets_prop_inj_and thm
+R41888:41904 SetsClass.SetsDomain <> Sets_prop_inj_and thm
+prf 41919:41931 <> Sets_test1_or
+binder 41934:41934 <> S:634
+binder 41936:41936 <> T:635
+R41947:41955 SetsClass.SetsDomain <> SETS class
+R41957:41957 SetsClass.SetsDomain <> T:635 var
+binder 41940:41944 <> _SETS:636
+R41979:41993 SetsClass.SetsDomain <> SETS_Properties class
+R41995:41995 SetsClass.SetsDomain <> T:635 var
+binder 41961:41976 <> _SETS_Properties:637
+R42013:42016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42012:42012 SetsClass.SetsDomain <> S:634 var
+binder 42007:42007 <> P:638
+binder 42009:42009 <> Q:639
+R42026:42035 SetsClass.SetsDomain <> equiv meth
+R42081:42090 SetsClass.SetsDomain <> union meth
+R42108:42117 SetsClass.SetsDomain <> test1 def
+R42119:42119 SetsClass.SetsDomain <> Q:639 var
+R42093:42102 SetsClass.SetsDomain <> test1 def
+R42104:42104 SetsClass.SetsDomain <> P:638 var
+R42042:42051 SetsClass.SetsDomain <> test1 def
+binder 42058:42058 <> a:640
+R42066:42069 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42063:42063 SetsClass.SetsDomain <> P:638 var
+R42065:42065 SetsClass.SetsDomain <> a:640 var
+R42070:42070 SetsClass.SetsDomain <> Q:639 var
+R42072:42072 SetsClass.SetsDomain <> a:640 var
+R42184:42199 SetsClass.SetsDomain <> Sets_prop_inj_or thm
+R42184:42199 SetsClass.SetsDomain <> Sets_prop_inj_or thm
+prf 42214:42230 <> omega_union_union
+binder 42233:42233 <> T:641
+R42244:42252 SetsClass.SetsDomain <> SETS class
+R42254:42254 SetsClass.SetsDomain <> T:641 var
+binder 42237:42241 <> _SETS:642
+R42276:42290 SetsClass.SetsDomain <> SETS_Properties class
+R42292:42292 SetsClass.SetsDomain <> T:641 var
+binder 42258:42273 <> _SETS_Properties:643
+binder 42303:42303 <> x:644
+binder 42305:42305 <> y:645
+R42321:42324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42325:42325 SetsClass.SetsDomain <> T:641 var
+R42318:42320 Coq.Init.Datatypes <> nat ind
+binder 42308:42309 <> xs:646
+binder 42311:42312 <> ys:647
+binder 42314:42315 <> zs:648
+R42331:42331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42373:42379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42463:42468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42552:42557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42609:42613 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R42655:42655 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R42558:42567 SetsClass.SetsDomain <> equiv meth
+R42587:42604 SetsClass.SetsDomain <> indexed_union meth
+R42606:42607 SetsClass.SetsDomain <> zs:648 var
+R42570:42579 SetsClass.SetsDomain <> union meth
+R42583:42583 SetsClass.SetsDomain <> y:645 var
+R42581:42581 SetsClass.SetsDomain <> x:644 var
+binder 42621:42621 <> n:649
+R42624:42636 SetsClass.SetsDomain <> included meth
+R42646:42647 SetsClass.SetsDomain <> zs:648 var
+R42650:42650 Coq.Init.Datatypes <> S constr
+R42652:42652 SetsClass.SetsDomain <> n:649 var
+R42639:42640 SetsClass.SetsDomain <> zs:648 var
+R42642:42642 SetsClass.SetsDomain <> n:649 var
+R42505:42509 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R42551:42551 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R42469:42478 SetsClass.SetsDomain <> equiv meth
+R42483:42500 SetsClass.SetsDomain <> indexed_union meth
+R42502:42503 SetsClass.SetsDomain <> ys:647 var
+R42480:42480 SetsClass.SetsDomain <> y:645 var
+binder 42517:42517 <> n:650
+R42520:42532 SetsClass.SetsDomain <> included meth
+R42542:42543 SetsClass.SetsDomain <> ys:647 var
+R42546:42546 Coq.Init.Datatypes <> S constr
+R42548:42548 SetsClass.SetsDomain <> n:650 var
+R42535:42536 SetsClass.SetsDomain <> ys:647 var
+R42538:42538 SetsClass.SetsDomain <> n:650 var
+R42416:42420 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R42462:42462 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R42380:42389 SetsClass.SetsDomain <> equiv meth
+R42394:42411 SetsClass.SetsDomain <> indexed_union meth
+R42413:42414 SetsClass.SetsDomain <> xs:646 var
+R42391:42391 SetsClass.SetsDomain <> x:644 var
+binder 42428:42428 <> n:651
+R42431:42443 SetsClass.SetsDomain <> included meth
+R42453:42454 SetsClass.SetsDomain <> xs:646 var
+R42457:42457 Coq.Init.Datatypes <> S constr
+R42459:42459 SetsClass.SetsDomain <> n:651 var
+R42446:42447 SetsClass.SetsDomain <> xs:646 var
+R42449:42449 SetsClass.SetsDomain <> n:651 var
+binder 42339:42339 <> n:652
+R42346:42348 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42342:42343 SetsClass.SetsDomain <> zs:648 var
+R42345:42345 SetsClass.SetsDomain <> n:652 var
+R42349:42358 SetsClass.SetsDomain <> union meth
+R42368:42369 SetsClass.SetsDomain <> ys:647 var
+R42371:42371 SetsClass.SetsDomain <> n:652 var
+R42361:42362 SetsClass.SetsDomain <> xs:646 var
+R42364:42364 SetsClass.SetsDomain <> n:652 var
+R42758:42781 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R42758:42781 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R42804:42822 SetsClass.SetsDomain <> Sets_union_included thm
+R42831:42857 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R42804:42822 SetsClass.SetsDomain <> Sets_union_included thm
+R42831:42857 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R42831:42857 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R42885:42904 SetsClass.SetsDomain <> Sets_included_union1 meth
+R42885:42904 SetsClass.SetsDomain <> Sets_included_union1 meth
+R42885:42904 SetsClass.SetsDomain <> Sets_included_union1 meth
+R42937:42963 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R42937:42963 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R42981:43000 SetsClass.SetsDomain <> Sets_included_union2 meth
+R42981:43000 SetsClass.SetsDomain <> Sets_included_union2 meth
+R42981:43000 SetsClass.SetsDomain <> Sets_included_union2 meth
+R43031:43057 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43031:43057 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43070:43096 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R43070:43096 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R43136:43154 SetsClass.SetsDomain <> Sets_union_included thm
+R43136:43154 SetsClass.SetsDomain <> Sets_union_included thm
+R43174:43193 SetsClass.SetsDomain <> Sets_included_union1 meth
+R43174:43193 SetsClass.SetsDomain <> Sets_included_union1 meth
+R43174:43193 SetsClass.SetsDomain <> Sets_included_union1 meth
+R43208:43234 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43208:43234 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43254:43273 SetsClass.SetsDomain <> Sets_included_union2 meth
+R43254:43273 SetsClass.SetsDomain <> Sets_included_union2 meth
+R43254:43273 SetsClass.SetsDomain <> Sets_included_union2 meth
+R43288:43314 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43288:43314 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43353:43367 SetsClass.SetsDomain <> Sets_union_mono inst
+R43353:43367 SetsClass.SetsDomain <> Sets_union_mono inst
+prf 43388:43404 <> omega_union_const
+binder 43407:43407 <> T:653
+R43418:43426 SetsClass.SetsDomain <> SETS class
+R43428:43428 SetsClass.SetsDomain <> T:653 var
+binder 43411:43415 <> _SETS:654
+R43450:43464 SetsClass.SetsDomain <> SETS_Properties class
+R43466:43466 SetsClass.SetsDomain <> T:653 var
+binder 43432:43447 <> _SETS_Properties:655
+binder 43477:43477 <> x:656
+R43533:43537 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R43570:43570 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R43482:43491 SetsClass.SetsDomain <> equiv meth
+R43496:43513 SetsClass.SetsDomain <> indexed_union meth
+R43523:43525 Coq.Init.Datatypes <> nat ind
+R43530:43530 SetsClass.SetsDomain <> x:656 var
+R43493:43493 SetsClass.SetsDomain <> x:656 var
+R43548:43550 Coq.Init.Datatypes <> nat ind
+binder 43545:43545 <> n:657
+R43553:43565 SetsClass.SetsDomain <> included meth
+R43569:43569 SetsClass.SetsDomain <> x:656 var
+R43567:43567 SetsClass.SetsDomain <> x:656 var
+R43606:43629 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R43606:43629 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R43674:43674 Coq.Init.Datatypes <> O constr
+R43674:43674 Coq.Init.Datatypes <> O constr
+R43693:43719 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43693:43719 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R43732:43758 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R43732:43758 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+inst 43832:43851 <> Prop_SETS_Properties
+R43854:43868 SetsClass.SetsDomain <> SETS_Properties class
+R43905:43910 Coq.Classes.Morphisms <> Proper class
+R43913:43922 Coq.Classes.Morphisms <> respectful def
+inst 44158:44177 <> lift_SETS_Properties
+binder 44180:44180 <> A:658
+binder 44182:44182 <> B:659
+R44199:44207 SetsClass.SetsDomain <> SETS class
+R44209:44209 SetsClass.SetsDomain <> B:659 var
+binder 44192:44196 <> _SETS:660
+R44231:44245 SetsClass.SetsDomain <> SETS_Properties class
+R44247:44247 SetsClass.SetsDomain <> B:659 var
+binder 44213:44228 <> _SETS_Properties:661
+R44251:44265 SetsClass.SetsDomain <> SETS_Properties class
+R44269:44272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44273:44273 SetsClass.SetsDomain <> B:659 var
+R44268:44268 SetsClass.SetsDomain <> A:658 var
+R44306:44311 Coq.Classes.Morphisms <> Proper class
+R44314:44323 Coq.Classes.Morphisms <> respectful def
+R44374:44391 SetsClass.SetsDomain <> Sets_included_refl meth
+R44374:44391 SetsClass.SetsDomain <> Sets_included_refl meth
+R44405:44423 SetsClass.SetsDomain <> Sets_included_trans meth
+R44405:44423 SetsClass.SetsDomain <> Sets_included_trans meth
+R44505:44528 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44505:44528 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44505:44528 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44505:44528 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44505:44528 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44595:44618 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44595:44618 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44595:44618 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R44637:44655 SetsClass.SetsDomain <> Sets_empty_included meth
+R44637:44655 SetsClass.SetsDomain <> Sets_empty_included meth
+R44668:44685 SetsClass.SetsDomain <> Sets_included_full meth
+R44668:44685 SetsClass.SetsDomain <> Sets_included_full meth
+R44698:44719 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R44698:44719 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R44738:44759 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R44738:44759 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R44778:44793 Coq.Classes.Morphisms_Prop <> all_iff_morphism inst
+R44816:44835 SetsClass.SetsDomain <> Sets_complement_fact meth
+R44778:44793 Coq.Classes.Morphisms_Prop <> all_iff_morphism inst
+R44816:44835 SetsClass.SetsDomain <> Sets_complement_fact meth
+R44848:44871 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R44848:44871 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R44884:44907 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R44884:44907 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R44920:44942 SetsClass.SetsDomain <> Sets_included_intersect meth
+R44920:44942 SetsClass.SetsDomain <> Sets_included_intersect meth
+R44961:44980 SetsClass.SetsDomain <> Sets_included_union1 meth
+R44961:44980 SetsClass.SetsDomain <> Sets_included_union1 meth
+R44993:45012 SetsClass.SetsDomain <> Sets_included_union2 meth
+R44993:45012 SetsClass.SetsDomain <> Sets_included_union2 meth
+R45025:45051 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R45025:45051 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R45070:45104 SetsClass.SetsDomain <> Sets_indexed_union_included_strong2 meth
+R45070:45104 SetsClass.SetsDomain <> Sets_indexed_union_included_strong2 meth
+R45124:45150 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+binder 45159:45159 <> n:662
+R45167:45167 SetsClass.SetsDomain <> n:662 var
+R45124:45150 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+binder 45159:45159 <> n:663
+R45167:45167 SetsClass.SetsDomain <> n:663 var
+R45185:45211 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+binder 45220:45220 <> n:664
+R45228:45228 SetsClass.SetsDomain <> n:664 var
+R45185:45211 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+binder 45220:45220 <> n:665
+R45228:45228 SetsClass.SetsDomain <> n:665 var
+R45256:45286 SetsClass.SetsDomain <> Sets_indexed_intersect_included meth
+binder 45295:45295 <> n:666
+R45303:45303 SetsClass.SetsDomain <> n:666 var
+R45256:45286 SetsClass.SetsDomain <> Sets_indexed_intersect_included meth
+binder 45295:45295 <> n:667
+R45303:45303 SetsClass.SetsDomain <> n:667 var
+R45321:45351 SetsClass.SetsDomain <> Sets_included_indexed_intersect meth
+binder 45360:45360 <> n:668
+R45368:45368 SetsClass.SetsDomain <> n:668 var
+R45321:45351 SetsClass.SetsDomain <> Sets_included_indexed_intersect meth
+binder 45360:45360 <> n:669
+R45368:45368 SetsClass.SetsDomain <> n:669 var
+R45409:45433 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R45409:45433 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R45477:45498 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R45477:45498 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R45531:45545 SetsClass.SetsDomain <> Sets_Qaux_right meth
+R45531:45545 SetsClass.SetsDomain <> Sets_Qaux_right meth
+R45583:45596 SetsClass.SetsDomain <> Sets_Paux_left meth
+binder 45609:45609 <> t:670
+R45618:45618 SetsClass.SetsDomain <> t:670 var
+R45583:45596 SetsClass.SetsDomain <> Sets_Paux_left meth
+binder 45609:45609 <> t:671
+R45618:45618 SetsClass.SetsDomain <> t:671 var
+R45661:45677 SetsClass.SetsDomain <> lift_inj_aux def
+R45691:45704 SetsClass.SetsDomain <> lift_Paux def
+R45718:45732 SetsClass.SetsDomain <> Sets_Paux_right meth
+binder 45745:45745 <> t:672
+R45754:45754 SetsClass.SetsDomain <> t:672 var
+R45718:45732 SetsClass.SetsDomain <> Sets_Paux_right meth
+binder 45745:45745 <> t:673
+R45754:45754 SetsClass.SetsDomain <> t:673 var
+R45785:45806 SetsClass.SetsDomain <> Sets_Qaux_left_extract meth
+R45785:45806 SetsClass.SetsDomain <> Sets_Qaux_left_extract meth
+R45860:45882 SetsClass.SetsDomain <> Sets_Qaux_right_extract meth
+R45860:45882 SetsClass.SetsDomain <> Sets_Qaux_right_extract meth
+R45936:45957 SetsClass.SetsDomain <> Sets_Qaux_implies_left meth
+R45936:45957 SetsClass.SetsDomain <> Sets_Qaux_implies_left meth
+R45990:46008 SetsClass.SetsDomain <> Sets_conj_aux_right meth
+R45990:46008 SetsClass.SetsDomain <> Sets_conj_aux_right meth
+R46027:46046 SetsClass.SetsDomain <> Sets_exists_aux_left meth
+R46027:46046 SetsClass.SetsDomain <> Sets_exists_aux_left meth
+R46087:46107 SetsClass.SetsDomain <> Sets_exists_aux_right meth
+R46087:46107 SetsClass.SetsDomain <> Sets_exists_aux_right meth
+R46140:46159 SetsClass.SetsDomain <> Sets_forall_aux_left meth
+R46140:46159 SetsClass.SetsDomain <> Sets_forall_aux_left meth
+R46191:46211 SetsClass.SetsDomain <> Sets_forall_aux_right meth
+R46191:46211 SetsClass.SetsDomain <> Sets_forall_aux_right meth
+inst 46256:46273 <> Sets_prop_inj_mono
+binder 46276:46276 <> T:674
+R46287:46295 SetsClass.SetsDomain <> SETS class
+R46297:46297 SetsClass.SetsDomain <> T:674 var
+binder 46280:46284 <> _SETS:675
+R46319:46333 SetsClass.SetsDomain <> SETS_Properties class
+R46335:46335 SetsClass.SetsDomain <> T:674 var
+binder 46301:46316 <> _SETS_Properties:676
+R46339:46344 Coq.Classes.Morphisms <> Proper class
+R46382:46394 SetsClass.SetsDomain <> prop_inj meth
+R46396:46396 SetsClass.SetsDomain <> T:674 var
+R46360:46364 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R46347:46359 SetsClass.SetsDomain <> included meth
+R46365:46377 SetsClass.SetsDomain <> included meth
+R46418:46423 Coq.Classes.Morphisms <> Proper class
+R46426:46435 Coq.Classes.Morphisms <> respectful def
+R46438:46447 SetsClass.SetsDomain <> test1 def
+R46495:46525 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+R46495:46525 SetsClass.SetsDomain <> Sets_prop_inj_included_prop_inj thm
+inst 46551:46569 <> Sets_prop_inj_congr
+binder 46572:46572 <> T:677
+R46583:46591 SetsClass.SetsDomain <> SETS class
+R46593:46593 SetsClass.SetsDomain <> T:677 var
+binder 46576:46580 <> _SETS:678
+R46615:46629 SetsClass.SetsDomain <> SETS_Properties class
+R46631:46631 SetsClass.SetsDomain <> T:677 var
+binder 46597:46612 <> _SETS_Properties:679
+R46635:46640 Coq.Classes.Morphisms <> Proper class
+R46672:46684 SetsClass.SetsDomain <> prop_inj meth
+R46686:46686 SetsClass.SetsDomain <> T:677 var
+R46653:46657 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R46643:46652 SetsClass.SetsDomain <> equiv meth
+R46658:46667 SetsClass.SetsDomain <> equiv meth
+R46708:46713 Coq.Classes.Morphisms <> Proper class
+R46716:46725 Coq.Classes.Morphisms <> respectful def
+R46746:46769 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R46746:46769 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R46782:46805 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R46782:46805 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R46782:46805 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R46828:46845 SetsClass.SetsDomain <> Sets_prop_inj_mono inst
+R46828:46845 SetsClass.SetsDomain <> Sets_prop_inj_mono inst
+R46828:46845 SetsClass.SetsDomain <> Sets_prop_inj_mono inst
+inst 46870:46884 <> Sets_test1_mono
+binder 46887:46887 <> S:680
+binder 46889:46889 <> T:681
+R46900:46908 SetsClass.SetsDomain <> SETS class
+R46910:46910 SetsClass.SetsDomain <> T:681 var
+binder 46893:46897 <> _SETS:682
+R46932:46946 SetsClass.SetsDomain <> SETS_Properties class
+R46948:46948 SetsClass.SetsDomain <> T:681 var
+binder 46914:46929 <> _SETS_Properties:683
+R46952:46957 Coq.Classes.Morphisms <> Proper class
+R46995:47004 SetsClass.SetsDomain <> test1 def
+R47008:47008 SetsClass.SetsDomain <> T:681 var
+R47006:47006 SetsClass.SetsDomain <> S:680 var
+R46973:46977 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R46960:46972 SetsClass.SetsDomain <> included meth
+R46978:46990 SetsClass.SetsDomain <> included meth
+R47030:47035 Coq.Classes.Morphisms <> Proper class
+R47038:47047 Coq.Classes.Morphisms <> respectful def
+R47050:47059 SetsClass.SetsDomain <> test1 def
+inst 47129:47144 <> Sets_test1_congr
+binder 47147:47147 <> S:684
+binder 47149:47149 <> T:685
+R47160:47168 SetsClass.SetsDomain <> SETS class
+R47170:47170 SetsClass.SetsDomain <> T:685 var
+binder 47153:47157 <> _SETS:686
+R47192:47206 SetsClass.SetsDomain <> SETS_Properties class
+R47208:47208 SetsClass.SetsDomain <> T:685 var
+binder 47174:47189 <> _SETS_Properties:687
+R47212:47217 Coq.Classes.Morphisms <> Proper class
+R47249:47258 SetsClass.SetsDomain <> test1 def
+R47262:47262 SetsClass.SetsDomain <> T:685 var
+R47260:47260 SetsClass.SetsDomain <> S:684 var
+R47230:47234 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R47220:47229 SetsClass.SetsDomain <> equiv meth
+R47235:47244 SetsClass.SetsDomain <> equiv meth
+R47284:47289 Coq.Classes.Morphisms <> Proper class
+R47292:47301 Coq.Classes.Morphisms <> respectful def
+R47304:47313 SetsClass.SetsDomain <> test1 def
+inst 47383:47399 <> Sets_filter1_mono
+binder 47402:47402 <> S:688
+binder 47404:47404 <> T:689
+R47415:47423 SetsClass.SetsDomain <> SETS class
+R47425:47425 SetsClass.SetsDomain <> T:689 var
+binder 47408:47412 <> _SETS:690
+R47447:47461 SetsClass.SetsDomain <> SETS_Properties class
+R47463:47463 SetsClass.SetsDomain <> T:689 var
+binder 47429:47444 <> _SETS_Properties:691
+R47467:47472 Coq.Classes.Morphisms <> Proper class
+R47528:47539 SetsClass.SetsDomain <> filter1 def
+R47543:47543 SetsClass.SetsDomain <> T:689 var
+R47541:47541 SetsClass.SetsDomain <> S:688 var
+R47488:47492 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R47475:47487 SetsClass.SetsDomain <> included meth
+R47506:47510 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R47493:47505 SetsClass.SetsDomain <> included meth
+R47511:47523 SetsClass.SetsDomain <> included meth
+R47565:47570 Coq.Classes.Morphisms <> Proper class
+R47573:47582 Coq.Classes.Morphisms <> respectful def
+R47606:47622 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47606:47622 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47606:47622 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47606:47622 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47606:47622 SetsClass.SetsDomain <> Sets_filter1_defn thm
+inst 47672:47689 <> Sets_filter1_congr
+binder 47692:47692 <> S:692
+binder 47694:47694 <> T:693
+R47705:47713 SetsClass.SetsDomain <> SETS class
+R47715:47715 SetsClass.SetsDomain <> T:693 var
+binder 47698:47702 <> _SETS:694
+R47737:47751 SetsClass.SetsDomain <> SETS_Properties class
+R47753:47753 SetsClass.SetsDomain <> T:693 var
+binder 47719:47734 <> _SETS_Properties:695
+R47757:47762 Coq.Classes.Morphisms <> Proper class
+R47809:47820 SetsClass.SetsDomain <> filter1 def
+R47824:47824 SetsClass.SetsDomain <> T:693 var
+R47822:47822 SetsClass.SetsDomain <> S:692 var
+R47775:47779 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R47765:47774 SetsClass.SetsDomain <> equiv meth
+R47790:47794 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R47780:47789 SetsClass.SetsDomain <> equiv meth
+R47795:47804 SetsClass.SetsDomain <> equiv meth
+R47846:47851 Coq.Classes.Morphisms <> Proper class
+R47854:47863 Coq.Classes.Morphisms <> respectful def
+R47887:47903 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47887:47903 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47887:47903 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47887:47903 SetsClass.SetsDomain <> Sets_filter1_defn thm
+R47887:47903 SetsClass.SetsDomain <> Sets_filter1_defn thm
+inst 47953:47967 <> Sets_lift1_mono
+binder 47970:47970 <> S:696
+binder 47972:47972 <> T:697
+R47983:47991 SetsClass.SetsDomain <> SETS class
+R47993:47993 SetsClass.SetsDomain <> T:697 var
+binder 47976:47980 <> _SETS:698
+R48015:48029 SetsClass.SetsDomain <> SETS_Properties class
+R48031:48031 SetsClass.SetsDomain <> T:697 var
+binder 47997:48012 <> _SETS_Properties:699
+R48035:48040 Coq.Classes.Morphisms <> Proper class
+R48078:48087 SetsClass.SetsDomain <> lift1 def
+R48091:48091 SetsClass.SetsDomain <> T:697 var
+R48089:48089 SetsClass.SetsDomain <> S:696 var
+R48056:48060 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R48043:48055 SetsClass.SetsDomain <> included meth
+R48061:48073 SetsClass.SetsDomain <> included meth
+R48113:48118 Coq.Classes.Morphisms <> Proper class
+R48121:48130 Coq.Classes.Morphisms <> respectful def
+R48152:48161 SetsClass.SetsDomain <> lift1 def
+inst 48197:48212 <> Sets_lift1_congr
+binder 48215:48215 <> S:700
+binder 48217:48217 <> T:701
+R48228:48236 SetsClass.SetsDomain <> SETS class
+R48238:48238 SetsClass.SetsDomain <> T:701 var
+binder 48221:48225 <> _SETS:702
+R48260:48274 SetsClass.SetsDomain <> SETS_Properties class
+R48276:48276 SetsClass.SetsDomain <> T:701 var
+binder 48242:48257 <> _SETS_Properties:703
+R48280:48285 Coq.Classes.Morphisms <> Proper class
+R48317:48326 SetsClass.SetsDomain <> lift1 def
+R48330:48330 SetsClass.SetsDomain <> T:701 var
+R48328:48328 SetsClass.SetsDomain <> S:700 var
+R48298:48302 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R48288:48297 SetsClass.SetsDomain <> equiv meth
+R48303:48312 SetsClass.SetsDomain <> equiv meth
+R48352:48357 Coq.Classes.Morphisms <> Proper class
+R48360:48369 Coq.Classes.Morphisms <> respectful def
+R48391:48400 SetsClass.SetsDomain <> lift1 def
+inst 48436:48459 <> Sets_general_union_congr
+binder 48462:48462 <> T:704
+R48473:48481 SetsClass.SetsDomain <> SETS class
+R48483:48483 SetsClass.SetsDomain <> T:704 var
+binder 48466:48470 <> _SETS:705
+R48505:48519 SetsClass.SetsDomain <> SETS_Properties class
+R48521:48521 SetsClass.SetsDomain <> T:704 var
+binder 48487:48502 <> _SETS_Properties:706
+R48525:48530 Coq.Classes.Morphisms <> Proper class
+R48560:48577 SetsClass.SetsDomain <> general_union def
+R48543:48547 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R48533:48542 SetsClass.SetsDomain <> equiv meth
+R48548:48557 SetsClass.SetsDomain <> equiv meth
+R48622:48645 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R48622:48645 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R48622:48645 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R48667:48693 SetsClass.SetsDomain <> Sets_general_union_included thm
+R48667:48693 SetsClass.SetsDomain <> Sets_general_union_included thm
+R48714:48740 SetsClass.SetsDomain <> Sets_included_general_union thm
+R48714:48740 SetsClass.SetsDomain <> Sets_included_general_union thm
+R48789:48815 SetsClass.SetsDomain <> Sets_general_union_included thm
+R48789:48815 SetsClass.SetsDomain <> Sets_general_union_included thm
+R48836:48862 SetsClass.SetsDomain <> Sets_included_general_union thm
+R48836:48862 SetsClass.SetsDomain <> Sets_included_general_union thm
+inst 48910:48937 <> Sets_general_intersect_congr
+binder 48940:48940 <> T:707
+R48951:48959 SetsClass.SetsDomain <> SETS class
+R48961:48961 SetsClass.SetsDomain <> T:707 var
+binder 48944:48948 <> _SETS:708
+R48983:48997 SetsClass.SetsDomain <> SETS_Properties class
+R48999:48999 SetsClass.SetsDomain <> T:707 var
+binder 48965:48980 <> _SETS_Properties:709
+R49003:49008 Coq.Classes.Morphisms <> Proper class
+R49038:49059 SetsClass.SetsDomain <> general_intersect def
+R49021:49025 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R49011:49020 SetsClass.SetsDomain <> equiv meth
+R49026:49035 SetsClass.SetsDomain <> equiv meth
+R49104:49127 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49104:49127 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49104:49127 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49149:49179 SetsClass.SetsDomain <> Sets_included_general_intersect thm
+R49149:49179 SetsClass.SetsDomain <> Sets_included_general_intersect thm
+R49200:49230 SetsClass.SetsDomain <> Sets_general_intersect_included thm
+R49200:49230 SetsClass.SetsDomain <> Sets_general_intersect_included thm
+R49273:49303 SetsClass.SetsDomain <> Sets_included_general_intersect thm
+R49273:49303 SetsClass.SetsDomain <> Sets_included_general_intersect thm
+R49324:49354 SetsClass.SetsDomain <> Sets_general_intersect_included thm
+R49324:49354 SetsClass.SetsDomain <> Sets_general_intersect_included thm
+prf 49405:49422 <> Sets_prop_inj_full
+binder 49425:49425 <> T:710
+R49436:49444 SetsClass.SetsDomain <> SETS class
+R49446:49446 SetsClass.SetsDomain <> T:710 var
+binder 49429:49433 <> _SETS:711
+R49468:49482 SetsClass.SetsDomain <> SETS_Properties class
+R49484:49484 SetsClass.SetsDomain <> T:710 var
+binder 49450:49465 <> _SETS_Properties:712
+R49491:49500 SetsClass.SetsDomain <> equiv meth
+R49531:49539 SetsClass.SetsDomain <> full meth
+R49511:49523 SetsClass.SetsDomain <> prop_inj meth
+R49525:49528 Coq.Init.Logic <> True ind
+R49504:49508 SetsClass.SetsDomain <> _SETS:711 var
+R49502:49502 SetsClass.SetsDomain <> T:710 var
+R49563:49584 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R49592:49600 SetsClass.SetsDomain <> full meth
+R49586:49589 Coq.Init.Logic <> True ind
+R49563:49584 SetsClass.SetsDomain <> Sets_included_prop_inj meth
+R49592:49600 SetsClass.SetsDomain <> full meth
+R49586:49589 Coq.Init.Logic <> True ind
+R49615:49638 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49615:49638 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49615:49638 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49658:49675 SetsClass.SetsDomain <> Sets_included_full meth
+R49658:49675 SetsClass.SetsDomain <> Sets_included_full meth
+prf 49700:49718 <> Sets_prop_inj_empty
+binder 49721:49721 <> T:713
+R49732:49740 SetsClass.SetsDomain <> SETS class
+R49742:49742 SetsClass.SetsDomain <> T:713 var
+binder 49725:49729 <> _SETS:714
+R49764:49778 SetsClass.SetsDomain <> SETS_Properties class
+R49780:49780 SetsClass.SetsDomain <> T:713 var
+binder 49746:49761 <> _SETS_Properties:715
+R49787:49796 SetsClass.SetsDomain <> equiv meth
+R49828:49837 SetsClass.SetsDomain <> empty meth
+R49807:49819 SetsClass.SetsDomain <> prop_inj meth
+R49821:49825 Coq.Init.Logic <> False ind
+R49800:49804 SetsClass.SetsDomain <> _SETS:714 var
+R49798:49798 SetsClass.SetsDomain <> T:713 var
+R49861:49882 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R49900:49909 SetsClass.SetsDomain <> empty meth
+R49890:49898 SetsClass.SetsDomain <> full meth
+R49884:49888 Coq.Init.Logic <> False ind
+R49861:49882 SetsClass.SetsDomain <> Sets_prop_inj_included meth
+R49900:49909 SetsClass.SetsDomain <> empty meth
+R49890:49898 SetsClass.SetsDomain <> full meth
+R49884:49888 Coq.Init.Logic <> False ind
+R49923:49941 SetsClass.SetsDomain <> Sets_intersect_full thm
+R49923:49941 SetsClass.SetsDomain <> Sets_intersect_full thm
+R49923:49941 SetsClass.SetsDomain <> Sets_intersect_full thm
+R49959:49982 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49959:49982 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R49959:49982 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R50013:50031 SetsClass.SetsDomain <> Sets_empty_included meth
+R50013:50031 SetsClass.SetsDomain <> Sets_empty_included meth
+prf 50046:50073 <> Sets_intersect_union_distr_r
+binder 50076:50076 <> T:716
+R50087:50095 SetsClass.SetsDomain <> SETS class
+R50097:50097 SetsClass.SetsDomain <> T:716 var
+binder 50080:50084 <> _SETS:717
+R50119:50133 SetsClass.SetsDomain <> SETS_Properties class
+R50135:50135 SetsClass.SetsDomain <> T:716 var
+binder 50101:50116 <> _SETS_Properties:718
+binder 50148:50148 <> x:719
+binder 50150:50150 <> y:720
+binder 50152:50152 <> z:721
+R50159:50168 SetsClass.SetsDomain <> equiv meth
+R50219:50228 SetsClass.SetsDomain <> union meth
+R50252:50265 SetsClass.SetsDomain <> intersect meth
+R50269:50269 SetsClass.SetsDomain <> z:721 var
+R50267:50267 SetsClass.SetsDomain <> y:720 var
+R50231:50244 SetsClass.SetsDomain <> intersect meth
+R50248:50248 SetsClass.SetsDomain <> z:721 var
+R50246:50246 SetsClass.SetsDomain <> x:719 var
+R50177:50190 SetsClass.SetsDomain <> intersect meth
+R50209:50209 SetsClass.SetsDomain <> z:721 var
+R50193:50202 SetsClass.SetsDomain <> union meth
+R50206:50206 SetsClass.SetsDomain <> y:720 var
+R50204:50204 SetsClass.SetsDomain <> x:719 var
+R50299:50322 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R50299:50322 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R50344:50370 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R50344:50370 SetsClass.SetsDomain <> Sets_union_included_strong2 meth
+R50385:50404 SetsClass.SetsDomain <> Sets_included_union1 meth
+R50385:50404 SetsClass.SetsDomain <> Sets_included_union1 meth
+R50419:50438 SetsClass.SetsDomain <> Sets_included_union2 meth
+R50419:50438 SetsClass.SetsDomain <> Sets_included_union2 meth
+R50451:50469 SetsClass.SetsDomain <> Sets_union_included thm
+R50451:50469 SetsClass.SetsDomain <> Sets_union_included thm
+R50484:50502 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R50484:50502 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R50534:50553 SetsClass.SetsDomain <> Sets_included_union1 meth
+R50534:50553 SetsClass.SetsDomain <> Sets_included_union1 meth
+R50568:50586 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R50568:50586 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R50618:50637 SetsClass.SetsDomain <> Sets_included_union2 meth
+R50618:50637 SetsClass.SetsDomain <> Sets_included_union2 meth
+prf 50652:50679 <> Sets_intersect_union_distr_l
+binder 50682:50682 <> T:722
+R50693:50701 SetsClass.SetsDomain <> SETS class
+R50703:50703 SetsClass.SetsDomain <> T:722 var
+binder 50686:50690 <> _SETS:723
+R50725:50739 SetsClass.SetsDomain <> SETS_Properties class
+R50741:50741 SetsClass.SetsDomain <> T:722 var
+binder 50707:50722 <> _SETS_Properties:724
+binder 50754:50754 <> x:725
+binder 50756:50756 <> y:726
+binder 50758:50758 <> z:727
+R50765:50774 SetsClass.SetsDomain <> equiv meth
+R50825:50834 SetsClass.SetsDomain <> union meth
+R50858:50871 SetsClass.SetsDomain <> intersect meth
+R50875:50875 SetsClass.SetsDomain <> z:727 var
+R50873:50873 SetsClass.SetsDomain <> x:725 var
+R50837:50850 SetsClass.SetsDomain <> intersect meth
+R50854:50854 SetsClass.SetsDomain <> y:726 var
+R50852:50852 SetsClass.SetsDomain <> x:725 var
+R50783:50796 SetsClass.SetsDomain <> intersect meth
+R50801:50810 SetsClass.SetsDomain <> union meth
+R50814:50814 SetsClass.SetsDomain <> z:727 var
+R50812:50812 SetsClass.SetsDomain <> y:726 var
+R50798:50798 SetsClass.SetsDomain <> x:725 var
+R50905:50928 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R50905:50928 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R50950:50976 SetsClass.SetsDomain <> Sets_union_included_strong1 thm
+R50950:50976 SetsClass.SetsDomain <> Sets_union_included_strong1 thm
+R50991:51010 SetsClass.SetsDomain <> Sets_included_union1 meth
+R50991:51010 SetsClass.SetsDomain <> Sets_included_union1 meth
+R51025:51044 SetsClass.SetsDomain <> Sets_included_union2 meth
+R51025:51044 SetsClass.SetsDomain <> Sets_included_union2 meth
+R51057:51075 SetsClass.SetsDomain <> Sets_union_included thm
+R51057:51075 SetsClass.SetsDomain <> Sets_union_included thm
+R51090:51108 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R51090:51108 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R51140:51159 SetsClass.SetsDomain <> Sets_included_union1 meth
+R51140:51159 SetsClass.SetsDomain <> Sets_included_union1 meth
+R51174:51192 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R51174:51192 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R51224:51243 SetsClass.SetsDomain <> Sets_included_union2 meth
+R51224:51243 SetsClass.SetsDomain <> Sets_included_union2 meth
+prf 51258:51293 <> Sets_intersect_indexed_union_distr_r
+binder 51296:51296 <> I:728
+binder 51298:51298 <> T:729
+R51309:51317 SetsClass.SetsDomain <> SETS class
+R51319:51319 SetsClass.SetsDomain <> T:729 var
+binder 51302:51306 <> _SETS:730
+R51341:51355 SetsClass.SetsDomain <> SETS_Properties class
+R51357:51357 SetsClass.SetsDomain <> T:729 var
+binder 51323:51338 <> _SETS_Properties:731
+R51376:51379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51380:51380 SetsClass.SetsDomain <> T:729 var
+R51375:51375 SetsClass.SetsDomain <> I:728 var
+binder 51371:51372 <> xs:732
+binder 51383:51383 <> y:733
+R51390:51399 SetsClass.SetsDomain <> equiv meth
+R51457:51474 SetsClass.SetsDomain <> indexed_union meth
+binder 51481:51481 <> i:734
+R51486:51499 SetsClass.SetsDomain <> intersect meth
+R51508:51508 SetsClass.SetsDomain <> y:733 var
+R51502:51503 SetsClass.SetsDomain <> xs:732 var
+R51505:51505 SetsClass.SetsDomain <> i:734 var
+R51408:51421 SetsClass.SetsDomain <> intersect meth
+R51447:51447 SetsClass.SetsDomain <> y:733 var
+R51424:51441 SetsClass.SetsDomain <> indexed_union meth
+R51443:51444 SetsClass.SetsDomain <> xs:732 var
+R51538:51561 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R51538:51561 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R51583:51617 SetsClass.SetsDomain <> Sets_indexed_union_included_strong2 meth
+R51583:51617 SetsClass.SetsDomain <> Sets_indexed_union_included_strong2 meth
+R51647:51673 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R51647:51673 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R51647:51673 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R51703:51729 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R51703:51729 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R51754:51772 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R51754:51772 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R51802:51828 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R51802:51828 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+prf 51843:51878 <> Sets_intersect_indexed_union_distr_l
+binder 51881:51881 <> I:735
+binder 51883:51883 <> T:736
+R51894:51902 SetsClass.SetsDomain <> SETS class
+R51904:51904 SetsClass.SetsDomain <> T:736 var
+binder 51887:51891 <> _SETS:737
+R51926:51940 SetsClass.SetsDomain <> SETS_Properties class
+R51942:51942 SetsClass.SetsDomain <> T:736 var
+binder 51908:51923 <> _SETS_Properties:738
+binder 51955:51955 <> x:739
+R51963:51966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51967:51967 SetsClass.SetsDomain <> T:736 var
+R51962:51962 SetsClass.SetsDomain <> I:735 var
+binder 51958:51959 <> ys:740
+R51975:51984 SetsClass.SetsDomain <> equiv meth
+R52042:52059 SetsClass.SetsDomain <> indexed_union meth
+binder 52066:52066 <> i:741
+R52071:52084 SetsClass.SetsDomain <> intersect meth
+R52089:52090 SetsClass.SetsDomain <> ys:740 var
+R52092:52092 SetsClass.SetsDomain <> i:741 var
+R52086:52086 SetsClass.SetsDomain <> x:739 var
+R51993:52006 SetsClass.SetsDomain <> intersect meth
+R52011:52028 SetsClass.SetsDomain <> indexed_union meth
+R52030:52031 SetsClass.SetsDomain <> ys:740 var
+R52008:52008 SetsClass.SetsDomain <> x:739 var
+R52123:52146 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R52123:52146 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R52168:52202 SetsClass.SetsDomain <> Sets_indexed_union_included_strong1 thm
+R52168:52202 SetsClass.SetsDomain <> Sets_indexed_union_included_strong1 thm
+R52232:52258 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R52232:52258 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R52232:52258 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R52288:52314 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R52288:52314 SetsClass.SetsDomain <> Sets_indexed_union_included meth
+R52339:52357 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R52339:52357 SetsClass.SetsDomain <> Sets_intersect_mono inst
+R52387:52413 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+R52387:52413 SetsClass.SetsDomain <> Sets_included_indexed_union meth
+prf 52428:52452 <> Sets_complement_intersect
+binder 52455:52455 <> T:742
+R52466:52474 SetsClass.SetsDomain <> SETS class
+R52476:52476 SetsClass.SetsDomain <> T:742 var
+binder 52459:52463 <> _SETS:743
+R52498:52512 SetsClass.SetsDomain <> SETS_Properties class
+R52514:52514 SetsClass.SetsDomain <> T:742 var
+binder 52480:52495 <> _SETS_Properties:744
+binder 52527:52527 <> x:745
+R52534:52543 SetsClass.SetsDomain <> equiv meth
+R52596:52605 SetsClass.SetsDomain <> empty meth
+R52552:52565 SetsClass.SetsDomain <> intersect meth
+R52587:52587 SetsClass.SetsDomain <> x:745 var
+R52568:52582 SetsClass.SetsDomain <> complement meth
+R52584:52584 SetsClass.SetsDomain <> x:745 var
+R52638:52657 SetsClass.SetsDomain <> Sets_complement_fact meth
+R52638:52657 SetsClass.SetsDomain <> Sets_complement_fact meth
+R52638:52657 SetsClass.SetsDomain <> Sets_complement_fact meth
+prf 52687:52711 <> Sets_intersect_complement
+binder 52714:52714 <> T:746
+R52725:52733 SetsClass.SetsDomain <> SETS class
+R52735:52735 SetsClass.SetsDomain <> T:746 var
+binder 52718:52722 <> _SETS:747
+R52757:52771 SetsClass.SetsDomain <> SETS_Properties class
+R52773:52773 SetsClass.SetsDomain <> T:746 var
+binder 52739:52754 <> _SETS_Properties:748
+binder 52786:52786 <> x:749
+R52793:52802 SetsClass.SetsDomain <> equiv meth
+R52855:52864 SetsClass.SetsDomain <> empty meth
+R52811:52824 SetsClass.SetsDomain <> intersect meth
+R52829:52843 SetsClass.SetsDomain <> complement meth
+R52845:52845 SetsClass.SetsDomain <> x:749 var
+R52826:52826 SetsClass.SetsDomain <> x:749 var
+R52894:52912 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R52894:52912 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R52894:52912 SetsClass.SetsDomain <> Sets_intersect_comm thm
+R52923:52947 SetsClass.SetsDomain <> Sets_complement_intersect thm
+R52923:52947 SetsClass.SetsDomain <> Sets_complement_intersect thm
+prf 52962:52980 <> Sets_contrapositive
+binder 52983:52983 <> T:750
+R52994:53002 SetsClass.SetsDomain <> SETS class
+R53004:53004 SetsClass.SetsDomain <> T:750 var
+binder 52987:52991 <> _SETS:751
+R53026:53040 SetsClass.SetsDomain <> SETS_Properties class
+R53042:53042 SetsClass.SetsDomain <> T:750 var
+binder 53008:53023 <> _SETS_Properties:752
+binder 53055:53055 <> x:753
+binder 53057:53057 <> y:754
+R53081:53088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R53089:53101 SetsClass.SetsDomain <> included meth
+R53124:53138 SetsClass.SetsDomain <> complement meth
+R53140:53140 SetsClass.SetsDomain <> x:753 var
+R53104:53118 SetsClass.SetsDomain <> complement meth
+R53120:53120 SetsClass.SetsDomain <> y:754 var
+R53064:53076 SetsClass.SetsDomain <> included meth
+R53080:53080 SetsClass.SetsDomain <> y:754 var
+R53078:53078 SetsClass.SetsDomain <> x:753 var
+R53171:53190 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53171:53190 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53171:53190 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53201:53221 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53201:53221 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53247:53271 SetsClass.SetsDomain <> Sets_complement_intersect thm
+R53247:53271 SetsClass.SetsDomain <> Sets_complement_intersect thm
+R53247:53271 SetsClass.SetsDomain <> Sets_complement_intersect thm
+prf 53301:53321 <> Sets_complement_union
+binder 53324:53324 <> T:755
+R53335:53343 SetsClass.SetsDomain <> SETS class
+R53345:53345 SetsClass.SetsDomain <> T:755 var
+binder 53328:53332 <> _SETS:756
+R53367:53381 SetsClass.SetsDomain <> SETS_Properties class
+R53383:53383 SetsClass.SetsDomain <> T:755 var
+binder 53349:53364 <> _SETS_Properties:757
+binder 53396:53396 <> x:758
+binder 53398:53398 <> y:759
+R53405:53414 SetsClass.SetsDomain <> equiv meth
+R53464:53477 SetsClass.SetsDomain <> intersect meth
+R53500:53514 SetsClass.SetsDomain <> complement meth
+R53516:53516 SetsClass.SetsDomain <> y:759 var
+R53480:53494 SetsClass.SetsDomain <> complement meth
+R53496:53496 SetsClass.SetsDomain <> x:758 var
+R53423:53437 SetsClass.SetsDomain <> complement meth
+R53440:53449 SetsClass.SetsDomain <> union meth
+R53453:53453 SetsClass.SetsDomain <> y:759 var
+R53451:53451 SetsClass.SetsDomain <> x:758 var
+R53546:53569 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R53546:53569 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R53597:53619 SetsClass.SetsDomain <> Sets_included_intersect meth
+R53628:53646 SetsClass.SetsDomain <> Sets_contrapositive thm
+R53597:53619 SetsClass.SetsDomain <> Sets_included_intersect meth
+R53628:53646 SetsClass.SetsDomain <> Sets_contrapositive thm
+R53628:53646 SetsClass.SetsDomain <> Sets_contrapositive thm
+R53661:53680 SetsClass.SetsDomain <> Sets_included_union1 meth
+R53661:53680 SetsClass.SetsDomain <> Sets_included_union1 meth
+R53695:53714 SetsClass.SetsDomain <> Sets_included_union2 meth
+R53695:53714 SetsClass.SetsDomain <> Sets_included_union2 meth
+R53729:53748 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53729:53748 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53729:53748 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53763:53790 SetsClass.SetsDomain <> Sets_intersect_union_distr_l thm
+R53763:53790 SetsClass.SetsDomain <> Sets_intersect_union_distr_l thm
+R53763:53790 SetsClass.SetsDomain <> Sets_intersect_union_distr_l thm
+R53803:53823 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53803:53823 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53836:53854 SetsClass.SetsDomain <> Sets_union_included thm
+R53836:53854 SetsClass.SetsDomain <> Sets_union_included thm
+R53869:53889 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53869:53889 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53909:53928 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53909:53928 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53909:53928 SetsClass.SetsDomain <> Sets_complement_fact meth
+R53943:53966 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R53943:53966 SetsClass.SetsDomain <> Sets_intersect_included1 meth
+R53981:54001 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R53981:54001 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R54021:54040 SetsClass.SetsDomain <> Sets_complement_fact meth
+R54021:54040 SetsClass.SetsDomain <> Sets_complement_fact meth
+R54021:54040 SetsClass.SetsDomain <> Sets_complement_fact meth
+R54055:54078 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R54055:54078 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+prf 54093:54113 <> Sets_complement_empty
+binder 54116:54116 <> T:760
+R54127:54135 SetsClass.SetsDomain <> SETS class
+R54137:54137 SetsClass.SetsDomain <> T:760 var
+binder 54120:54124 <> _SETS:761
+R54159:54173 SetsClass.SetsDomain <> SETS_Properties class
+R54175:54175 SetsClass.SetsDomain <> T:760 var
+binder 54141:54156 <> _SETS_Properties:762
+R54182:54191 SetsClass.SetsDomain <> equiv meth
+R54226:54234 SetsClass.SetsDomain <> full meth
+R54198:54212 SetsClass.SetsDomain <> complement meth
+R54214:54223 SetsClass.SetsDomain <> empty meth
+R54193:54193 SetsClass.SetsDomain <> T:760 var
+R54252:54275 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R54252:54275 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R54303:54320 SetsClass.SetsDomain <> Sets_included_full meth
+R54303:54320 SetsClass.SetsDomain <> Sets_included_full meth
+R54333:54352 SetsClass.SetsDomain <> Sets_complement_fact meth
+R54333:54352 SetsClass.SetsDomain <> Sets_complement_fact meth
+R54365:54385 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R54365:54385 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R54398:54421 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+R54398:54421 SetsClass.SetsDomain <> Sets_intersect_included2 meth
+prf 54436:54455 <> Sets_complement_full
+binder 54458:54458 <> T:763
+R54469:54477 SetsClass.SetsDomain <> SETS class
+R54479:54479 SetsClass.SetsDomain <> T:763 var
+binder 54462:54466 <> _SETS:764
+R54501:54515 SetsClass.SetsDomain <> SETS_Properties class
+R54517:54517 SetsClass.SetsDomain <> T:763 var
+binder 54483:54498 <> _SETS_Properties:765
+R54524:54533 SetsClass.SetsDomain <> equiv meth
+R54567:54576 SetsClass.SetsDomain <> empty meth
+R54540:54554 SetsClass.SetsDomain <> complement meth
+R54556:54564 SetsClass.SetsDomain <> full meth
+R54535:54535 SetsClass.SetsDomain <> T:763 var
+R54600:54618 SetsClass.SetsDomain <> Sets_intersect_full thm
+R54621:54635 SetsClass.SetsDomain <> complement meth
+R54637:54645 SetsClass.SetsDomain <> full meth
+R54600:54618 SetsClass.SetsDomain <> Sets_intersect_full thm
+R54621:54635 SetsClass.SetsDomain <> complement meth
+R54637:54645 SetsClass.SetsDomain <> full meth
+R54600:54618 SetsClass.SetsDomain <> Sets_intersect_full thm
+R54621:54635 SetsClass.SetsDomain <> complement meth
+R54637:54645 SetsClass.SetsDomain <> full meth
+R54658:54677 SetsClass.SetsDomain <> Sets_complement_fact meth
+R54658:54677 SetsClass.SetsDomain <> Sets_complement_fact meth
+inst 54710:54729 <> Sets_complement_mono
+binder 54732:54732 <> T:766
+R54743:54751 SetsClass.SetsDomain <> SETS class
+R54753:54753 SetsClass.SetsDomain <> T:766 var
+binder 54736:54740 <> _SETS:767
+R54775:54789 SetsClass.SetsDomain <> SETS_Properties class
+R54791:54791 SetsClass.SetsDomain <> T:766 var
+binder 54757:54772 <> _SETS_Properties:768
+R54797:54802 Coq.Classes.Morphisms <> Proper class
+R54840:54854 SetsClass.SetsDomain <> complement meth
+R54856:54856 SetsClass.SetsDomain <> T:766 var
+R54818:54822 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'-->'_x not
+R54805:54817 SetsClass.SetsDomain <> included meth
+R54823:54835 SetsClass.SetsDomain <> included meth
+R54878:54883 Coq.Classes.Morphisms <> Proper class
+R54886:54895 Coq.Classes.Morphisms <> respectful def
+R54898:54908 Coq.Program.Basics <> flip def
+R54929:54947 SetsClass.SetsDomain <> Sets_contrapositive thm
+R54929:54947 SetsClass.SetsDomain <> Sets_contrapositive thm
+inst 54973:54993 <> Sets_complement_equiv
+binder 54996:54996 <> T:769
+R55007:55015 SetsClass.SetsDomain <> SETS class
+R55017:55017 SetsClass.SetsDomain <> T:769 var
+binder 55000:55004 <> _SETS:770
+R55039:55053 SetsClass.SetsDomain <> SETS_Properties class
+R55055:55055 SetsClass.SetsDomain <> T:769 var
+binder 55021:55036 <> _SETS_Properties:771
+R55061:55066 Coq.Classes.Morphisms <> Proper class
+R55098:55112 SetsClass.SetsDomain <> complement meth
+R55114:55114 SetsClass.SetsDomain <> T:769 var
+R55079:55083 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R55069:55078 SetsClass.SetsDomain <> equiv meth
+R55084:55093 SetsClass.SetsDomain <> equiv meth
+R55136:55141 Coq.Classes.Morphisms <> Proper class
+R55144:55153 Coq.Classes.Morphisms <> respectful def
+R55156:55166 Coq.Program.Basics <> flip def
+R55187:55210 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R55187:55210 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R55240:55263 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R55240:55263 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R55281:55300 SetsClass.SetsDomain <> Sets_complement_mono inst
+R55281:55300 SetsClass.SetsDomain <> Sets_complement_mono inst
+R55281:55300 SetsClass.SetsDomain <> Sets_complement_mono inst
+prf 55321:55338 <> general_union_lift
+binder 55341:55341 <> A:772
+binder 55343:55343 <> T:773
+R55354:55362 SetsClass.SetsDomain <> SETS class
+R55364:55364 SetsClass.SetsDomain <> T:773 var
+binder 55347:55351 <> _SETS:774
+R55386:55400 SetsClass.SetsDomain <> SETS_Properties class
+R55402:55402 SetsClass.SetsDomain <> T:773 var
+binder 55368:55383 <> _SETS_Properties:775
+R55419:55419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55426:55430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55421:55424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55425:55425 SetsClass.SetsDomain <> T:773 var
+R55420:55420 SetsClass.SetsDomain <> A:772 var
+binder 55416:55416 <> X:776
+R55441:55441 SetsClass.SetsDomain <> A:772 var
+binder 55438:55438 <> a:777
+R55449:55458 SetsClass.SetsDomain <> equiv meth
+R55498:55515 SetsClass.SetsDomain <> general_union def
+binder 55522:55522 <> y:778
+R55527:55533 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R55535:55536 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 55534:55534 <> x:779
+R55540:55543 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R55537:55537 SetsClass.SetsDomain <> X:776 var
+R55539:55539 SetsClass.SetsDomain <> x:779 var
+R55547:55549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55544:55544 SetsClass.SetsDomain <> x:779 var
+R55546:55546 SetsClass.SetsDomain <> a:777 var
+R55550:55550 SetsClass.SetsDomain <> y:778 var
+R55467:55484 SetsClass.SetsDomain <> general_union def
+R55488:55488 SetsClass.SetsDomain <> a:777 var
+R55486:55486 SetsClass.SetsDomain <> X:776 var
+R55607:55630 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R55607:55630 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R55652:55671 SetsClass.SetsDomain <> Sets_exists_aux_left meth
+R55652:55671 SetsClass.SetsDomain <> Sets_exists_aux_left meth
+R55698:55719 SetsClass.SetsDomain <> Sets_Qaux_left_extract meth
+R55698:55719 SetsClass.SetsDomain <> Sets_Qaux_left_extract meth
+R55745:55766 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R55745:55766 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R55781:55794 SetsClass.SetsDomain <> Sets_Paux_left meth
+R55781:55794 SetsClass.SetsDomain <> Sets_Paux_left meth
+R55820:55844 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R55820:55844 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R55857:55883 SetsClass.SetsDomain <> Sets_included_general_union thm
+R55857:55883 SetsClass.SetsDomain <> Sets_included_general_union thm
+R55921:55947 SetsClass.SetsDomain <> Sets_general_union_included thm
+R55921:55947 SetsClass.SetsDomain <> Sets_general_union_included thm
+R55999:56019 SetsClass.SetsDomain <> Sets_exists_aux_right meth
+R55999:56019 SetsClass.SetsDomain <> Sets_exists_aux_right meth
+R56037:56055 SetsClass.SetsDomain <> Sets_conj_aux_right meth
+R56037:56055 SetsClass.SetsDomain <> Sets_conj_aux_right meth
+R56070:56084 SetsClass.SetsDomain <> Sets_Qaux_right meth
+R56070:56084 SetsClass.SetsDomain <> Sets_Qaux_right meth
+R56107:56128 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R56140:56154 SetsClass.SetsDomain <> Sets_Paux_right meth
+R56107:56128 SetsClass.SetsDomain <> Sets_derives_aux_trans meth
+R56140:56154 SetsClass.SetsDomain <> Sets_Paux_right meth
+R56168:56192 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+R56168:56192 SetsClass.SetsDomain <> Sets_included_derives_aux meth
+prf 56224:56247 <> Sets_empty_general_union
+binder 56250:56250 <> T:780
+R56269:56277 SetsClass.SetsDomain <> SETS class
+R56279:56279 SetsClass.SetsDomain <> T:780 var
+binder 56261:56265 <> _SETS:781
+R56302:56316 SetsClass.SetsDomain <> SETS_Properties class
+R56318:56318 SetsClass.SetsDomain <> T:780 var
+binder 56283:56298 <> _SETS_Properties:782
+R56325:56334 SetsClass.SetsDomain <> equiv meth
+R56378:56387 SetsClass.SetsDomain <> empty meth
+R56337:56354 SetsClass.SetsDomain <> general_union def
+R56365:56365 SetsClass.SetsDomain <> T:780 var
+R56370:56374 Coq.Init.Logic <> False ind
+R56405:56425 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R56405:56425 SetsClass.SetsDomain <> Sets_equiv_empty_fact thm
+R56436:56462 SetsClass.SetsDomain <> Sets_general_union_included thm
+R56436:56462 SetsClass.SetsDomain <> Sets_general_union_included thm
+R56870:56879 SetsClass.SetsDomain <> empty meth
+not 56862:56862 <> ::sets_scope:'['_']'
+R56926:56935 SetsClass.SetsDomain <> empty meth
+not 56918:56918 <> ::sets_scope:'∅'
+R57001:57014 SetsClass.SetsDomain <> singleton def
+not 56990:56990 <> ::sets_scope:'['_x_']'
+R57056:57069 SetsClass.SetsDomain <> intersect meth
+not 57042:57042 <> ::sets_scope:x_'∩'_x
+R57145:57154 SetsClass.SetsDomain <> union meth
+not 57131:57131 <> ::sets_scope:x_'∪'_x
+R57228:57245 SetsClass.SetsDomain <> indexed_union meth
+not 57216:57216 <> ::sets_scope:'⋃'_x
+R57315:57336 SetsClass.SetsDomain <> indexed_intersect meth
+not 57303:57303 <> ::sets_scope:'⋂'_x
+R57407:57416 SetsClass.SetsDomain <> equiv meth
+not 57394:57394 <> ::sets_scope:x_'=='_x
+R57491:57503 SetsClass.SetsDomain <> included meth
+not 57477:57477 <> ::sets_scope:x_'⊆'_x
+R57578:57587 SetsClass.SetElement SetsEle In meth
+not 57564:57564 <> ::sets_scope:x_'∈'_x
+R57664:57676 SetsClass.SetsDomain <> prop_inj meth
+not 57648:57648 <> ::sets_scope:'⌜'_x_'⌝'
+R57769:57782 SetsClass.SetsDomain <> singleton def
+R57895:57908 SetsClass.SetsDomain <> singleton def
+R58015:58028 SetsClass.SetsDomain <> singleton def
+R58123:58136 SetsClass.SetsDomain <> singleton def

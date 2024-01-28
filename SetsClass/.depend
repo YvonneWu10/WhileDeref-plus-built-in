@@ -1,0 +1,12 @@
+SetsClass.vo SetsClass.glob SetsClass.v.beautified SetsClass.required_vo: SetsClass.v SetElement.vo SetsDomain.vo SetProd.vo RelsDomain.vo
+SetsClass.vio: SetsClass.v SetElement.vio SetsDomain.vio SetProd.vio RelsDomain.vio
+SetsDomain.vo SetsDomain.glob SetsDomain.v.beautified SetsDomain.required_vo: SetsDomain.v SetElement.vo
+SetsDomain.vio: SetsDomain.v SetElement.vio
+SetElement.vo SetElement.glob SetElement.v.beautified SetElement.required_vo: SetElement.v 
+SetElement.vio: SetElement.v 
+RelsDomain.vo RelsDomain.glob RelsDomain.v.beautified RelsDomain.required_vo: RelsDomain.v SetElement.vo SetsDomain.vo SetProd.vo
+RelsDomain.vio: RelsDomain.v SetElement.vio SetsDomain.vio SetProd.vio
+SetProd.vo SetProd.glob SetProd.v.beautified SetProd.required_vo: SetProd.v SetsDomain.vo
+SetProd.vio: SetProd.v SetsDomain.vio
+Test.vo Test.glob Test.v.beautified Test.required_vo: Test.v SetsClass.vo
+Test.vio: Test.v SetsClass.vio

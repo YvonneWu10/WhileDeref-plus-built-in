@@ -1,0 +1,45 @@
+DIGEST af65efa3d7282bd0b7c9c44d3a08589f
+FSetsClass.SetsClass
+R15:34 SetsClass.SetElement <> <> lib
+R52:71 SetsClass.SetsDomain <> <> lib
+R89:105 SetsClass.SetProd <> <> lib
+R123:142 SetsClass.RelsDomain <> <> lib
+mod 153:164 <> SetsNotation
+R248:257 SetsClass.SetsDomain Sets empty meth
+not 240:240 SetsNotation ::sets_scope:'['_']'
+R304:313 SetsClass.SetsDomain Sets empty meth
+not 296:296 SetsNotation ::sets_scope:'∅'
+R379:392 SetsClass.SetsDomain Sets singleton def
+not 368:368 SetsNotation ::sets_scope:'['_x_']'
+R434:447 SetsClass.SetsDomain Sets intersect meth
+not 420:420 SetsNotation ::sets_scope:x_'∩'_x
+R523:532 SetsClass.SetsDomain Sets union meth
+not 509:509 SetsNotation ::sets_scope:x_'∪'_x
+R606:623 SetsClass.SetsDomain Sets indexed_union meth
+not 594:594 SetsNotation ::sets_scope:'⋃'_x
+R693:714 SetsClass.SetsDomain Sets indexed_intersect meth
+not 681:681 SetsNotation ::sets_scope:'⋂'_x
+R785:794 SetsClass.SetsDomain Sets equiv meth
+not 772:772 SetsNotation ::sets_scope:x_'=='_x
+R869:881 SetsClass.SetsDomain Sets included meth
+not 855:855 SetsNotation ::sets_scope:x_'⊆'_x
+R956:965 SetsClass.SetElement SetsEle In meth
+not 942:942 SetsNotation ::sets_scope:x_'∈'_x
+R1042:1054 SetsClass.SetsDomain Sets prop_inj meth
+not 1026:1026 SetsNotation ::sets_scope:'⌜'_x_'⌝'
+R1127:1137 SetsClass.RelsDomain Rels concat meth
+not 1113:1113 SetsNotation ::sets_scope:x_'∘'_x
+R1215:1218 SetsClass.SetProd <> prod def
+not 1202:1202 SetsNotation ::sets_scope:x_'×'_x
+R1311:1314 SetsClass.SetProd <> prod def
+R1320:1328 SetsClass.SetsDomain Sets full meth
+not 1298:1298 SetsNotation ::sets_scope:x_'×'_x
+R1422:1425 SetsClass.SetProd <> prod def
+R1429:1437 SetsClass.SetsDomain Sets full meth
+not 1409:1409 SetsNotation ::sets_scope:x_'×'_x
+R1533:1536 SetsClass.SetProd <> prod def
+R1557:1565 SetsClass.SetsDomain Sets full meth
+R1540:1548 SetsClass.SetsDomain Sets full meth
+not 1520:1520 SetsNotation ::sets_scope:x_'×'_x
+not 1646:1646 SetsNotation ::sets_scope:x_'×'_x
+R1748:1759 SetsClass.SetsClass SetsNotation <> mod

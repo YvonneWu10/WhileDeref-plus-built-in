@@ -1,0 +1,1299 @@
+DIGEST 512f304b1f25e50d2b94ccfdc33ab248
+FSetsClass.Test
+R15:33 SetsClass.SetsClass <> <> lib
+mod 89:97 <> SetTest0a
+def 101:184 SetTest0a Unnamed_thm
+binder 114:114 <> A:1
+R130:133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R129:129 SetsClass.Test <> A:1 var
+binder 124:124 <> X:2
+binder 126:126 <> Y:3
+binder 141:141 <> P:4
+R160:163 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R154:158 SetsClass.SetsDomain <> ::sets_scope:x_'∩'_x not
+R153:153 SetsClass.Test <> X:2 var
+R159:159 SetsClass.Test <> Y:3 var
+R165:169 SetsClass.SetsDomain <> ::sets_scope:x_'∩'_x not
+R164:164 SetsClass.Test <> Y:3 var
+R170:182 SetsClass.SetsDomain Sets prop_inj meth
+R184:184 SetsClass.Test <> P:4 var
+binder 275:275 <> a:5
+R292:296 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R285:288 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R284:284 SetsClass.Test <> a:5 var
+R291:291 SetsClass.Test <> a:5 var
+R300:303 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R299:299 SetsClass.Test <> a:5 var
+binder 275:275 <> a:6
+R292:296 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R285:288 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R284:284 SetsClass.Test <> a:6 var
+R291:291 SetsClass.Test <> a:6 var
+R300:303 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R299:299 SetsClass.Test <> a:6 var
+R369:377 SetsClass.Test SetTest0a <> mod
+mod 388:396 <> SetTest0b
+def 400:483 SetTest0b Unnamed_thm
+binder 413:413 <> A:7
+R429:432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R428:428 SetsClass.Test <> A:7 var
+binder 423:423 <> X:8
+binder 425:425 <> Y:9
+binder 440:440 <> P:10
+R459:462 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R453:457 SetsClass.SetsDomain <> ::sets_scope:x_'∩'_x not
+R452:452 SetsClass.Test <> X:8 var
+R458:458 SetsClass.Test <> Y:9 var
+R464:468 SetsClass.SetsDomain <> ::sets_scope:x_'∩'_x not
+R463:463 SetsClass.Test <> Y:9 var
+R469:481 SetsClass.SetsDomain Sets prop_inj meth
+R483:483 SetsClass.Test <> P:10 var
+binder 574:574 <> a:11
+R599:603 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R588:591 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R582:586 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R581:581 SetsClass.Test <> a:11 var
+R593:597 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R592:592 SetsClass.Test <> a:11 var
+R611:614 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R605:609 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R604:604 SetsClass.Test <> a:11 var
+binder 574:574 <> a:12
+R599:603 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R588:591 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R582:586 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R581:581 SetsClass.Test <> a:12 var
+R593:597 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R592:592 SetsClass.Test <> a:12 var
+R611:614 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R605:609 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R604:604 SetsClass.Test <> a:12 var
+R680:688 SetsClass.Test SetTest0b <> mod
+mod 699:707 <> SetTest0c
+def 711:794 SetTest0c Unnamed_thm
+binder 724:724 <> A:13
+R740:743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R739:739 SetsClass.Test <> A:13 var
+binder 734:734 <> X:14
+binder 736:736 <> Y:15
+binder 751:751 <> P:16
+R770:773 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R764:768 SetsClass.SetsDomain <> ::sets_scope:x_'∩'_x not
+R763:763 SetsClass.Test <> X:14 var
+R769:769 SetsClass.Test <> Y:15 var
+R775:779 SetsClass.SetsDomain <> ::sets_scope:x_'∩'_x not
+R774:774 SetsClass.Test <> Y:15 var
+R780:792 SetsClass.SetsDomain Sets prop_inj meth
+R794:794 SetsClass.Test <> P:16 var
+binder 900:900 <> a:17
+R917:921 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R910:913 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R909:909 SetsClass.Test <> a:17 var
+R916:916 SetsClass.Test <> a:17 var
+R925:928 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R924:924 SetsClass.Test <> a:17 var
+binder 900:900 <> a:18
+R917:921 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R910:913 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R909:909 SetsClass.Test <> a:18 var
+R916:916 SetsClass.Test <> a:18 var
+R925:928 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R924:924 SetsClass.Test <> a:18 var
+R994:1002 SetsClass.Test SetTest0c <> mod
+mod 1013:1021 <> SetTest1a
+def 1025:1097 SetTest1a Unnamed_thm
+binder 1038:1038 <> A:19
+binder 1040:1040 <> B:20
+R1056:1059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1061:1064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1060:1060 SetsClass.Test <> B:20 var
+R1055:1055 SetsClass.Test <> A:19 var
+binder 1050:1050 <> X:21
+binder 1052:1052 <> Y:22
+R1081:1084 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1075:1079 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1074:1074 SetsClass.Test <> X:21 var
+R1080:1080 SetsClass.Test <> Y:22 var
+R1092:1096 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1086:1090 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1085:1085 SetsClass.Test <> Y:22 var
+R1091:1091 SetsClass.Test <> X:21 var
+R1097:1097 SetsClass.Test <> Y:22 var
+binder 1188:1188 <> a:23
+binder 1190:1190 <> b:24
+R1207:1230 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1198:1201 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1197:1197 SetsClass.Test <> b:24 var
+R1195:1195 SetsClass.Test <> a:23 var
+R1206:1206 SetsClass.Test <> b:24 var
+R1204:1204 SetsClass.Test <> a:23 var
+R1231:1231 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1246:1250 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1237:1240 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1236:1236 SetsClass.Test <> b:24 var
+R1234:1234 SetsClass.Test <> a:23 var
+R1245:1245 SetsClass.Test <> b:24 var
+R1243:1243 SetsClass.Test <> a:23 var
+R1255:1255 SetsClass.Test <> b:24 var
+R1253:1253 SetsClass.Test <> a:23 var
+binder 1188:1188 <> a:25
+binder 1190:1190 <> b:26
+R1207:1230 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1198:1201 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1197:1197 SetsClass.Test <> b:26 var
+R1195:1195 SetsClass.Test <> a:25 var
+R1206:1206 SetsClass.Test <> b:26 var
+R1204:1204 SetsClass.Test <> a:25 var
+R1231:1231 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1246:1250 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1237:1240 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1236:1236 SetsClass.Test <> b:26 var
+R1234:1234 SetsClass.Test <> a:25 var
+R1245:1245 SetsClass.Test <> b:26 var
+R1243:1243 SetsClass.Test <> a:25 var
+R1255:1255 SetsClass.Test <> b:26 var
+R1253:1253 SetsClass.Test <> a:25 var
+R1320:1328 SetsClass.Test SetTest1a <> mod
+mod 1339:1347 <> SetTest1b
+def 1351:1423 SetTest1b Unnamed_thm
+binder 1364:1364 <> A:27
+binder 1366:1366 <> B:28
+R1382:1385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1387:1390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1386:1386 SetsClass.Test <> B:28 var
+R1381:1381 SetsClass.Test <> A:27 var
+binder 1376:1376 <> X:29
+binder 1378:1378 <> Y:30
+R1407:1410 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1401:1405 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1400:1400 SetsClass.Test <> X:29 var
+R1406:1406 SetsClass.Test <> Y:30 var
+R1418:1422 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1412:1416 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1411:1411 SetsClass.Test <> Y:30 var
+R1417:1417 SetsClass.Test <> X:29 var
+R1423:1423 SetsClass.Test <> Y:30 var
+binder 1515:1515 <> a:31
+binder 1523:1524 <> a0:32
+R1572:1586 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1549:1553 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1542:1542 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1544:1545 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1548:1548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1543:1543 SetsClass.Test <> a:31 var
+R1546:1547 SetsClass.Test <> a0:32 var
+R1566:1570 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1559:1559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1561:1562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1565:1565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1560:1560 SetsClass.Test <> a:31 var
+R1563:1564 SetsClass.Test <> a0:32 var
+R1587:1587 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1618:1622 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1601:1604 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1595:1599 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1588:1588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1590:1591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1594:1594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1589:1589 SetsClass.Test <> a:31 var
+R1592:1593 SetsClass.Test <> a0:32 var
+R1612:1616 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1605:1605 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1607:1608 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1611:1611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1606:1606 SetsClass.Test <> a:31 var
+R1609:1610 SetsClass.Test <> a0:32 var
+R1630:1634 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1623:1623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1625:1626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1629:1629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1624:1624 SetsClass.Test <> a:31 var
+R1627:1628 SetsClass.Test <> a0:32 var
+binder 1515:1515 <> a:33
+binder 1523:1524 <> a0:34
+R1572:1586 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1549:1553 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1542:1542 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1544:1545 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1548:1548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1543:1543 SetsClass.Test <> a:33 var
+R1546:1547 SetsClass.Test <> a0:34 var
+R1566:1570 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1559:1559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1561:1562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1565:1565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1560:1560 SetsClass.Test <> a:33 var
+R1563:1564 SetsClass.Test <> a0:34 var
+R1587:1587 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1618:1622 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1601:1604 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1595:1599 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1588:1588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1590:1591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1594:1594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1589:1589 SetsClass.Test <> a:33 var
+R1592:1593 SetsClass.Test <> a0:34 var
+R1612:1616 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1605:1605 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1607:1608 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1611:1611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1606:1606 SetsClass.Test <> a:33 var
+R1609:1610 SetsClass.Test <> a0:34 var
+R1630:1634 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R1623:1623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1625:1626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1629:1629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1624:1624 SetsClass.Test <> a:33 var
+R1627:1628 SetsClass.Test <> a0:34 var
+R1700:1708 SetsClass.Test SetTest1b <> mod
+mod 1719:1727 <> SetTest2a
+def 1731:1826 SetTest2a Unnamed_thm
+binder 1744:1744 <> A:35
+R1767:1770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1772:1775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1771:1771 SetsClass.Test <> A:35 var
+R1760:1762 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1757:1759 Coq.Init.Datatypes <> nat ind
+R1763:1766 Coq.Init.Datatypes <> bool ind
+binder 1754:1754 <> X:36
+R1787:1790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1786:1786 SetsClass.Test <> A:35 var
+binder 1783:1783 <> Y:37
+R1813:1817 SetsClass.SetsDomain <> ::sets_scope:x_'⊆'_x not
+R1803:1807 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1800:1802 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+R1808:1811 SetsClass.SetsDomain <> ::sets_scope:'⋃'_x not
+R1812:1812 SetsClass.Test <> X:36 var
+R1819:1823 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R1818:1818 SetsClass.Test <> Y:37 var
+R1824:1826 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+binder 1917:1917 <> a:38
+R1963:1966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1970:1973 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1969:1969 SetsClass.Test <> a:38 var
+R1974:1978 Coq.Init.Logic <> False ind
+R1929:1933 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1962:1962 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1924:1928 Coq.Init.Logic <> False ind
+R1934:1940 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1955:1956 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1948:1950 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1945:1947 Coq.Init.Datatypes <> nat ind
+R1951:1954 Coq.Init.Datatypes <> bool ind
+binder 1941:1941 <> i:39
+R1961:1961 SetsClass.Test <> a:38 var
+R1959:1959 SetsClass.Test <> i:39 var
+binder 1917:1917 <> a:40
+R1963:1966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1970:1973 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1969:1969 SetsClass.Test <> a:40 var
+R1974:1978 Coq.Init.Logic <> False ind
+R1929:1933 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1962:1962 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1924:1928 Coq.Init.Logic <> False ind
+R1934:1940 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1955:1956 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1948:1950 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1945:1947 Coq.Init.Datatypes <> nat ind
+R1951:1954 Coq.Init.Datatypes <> bool ind
+binder 1941:1941 <> i:41
+R1961:1961 SetsClass.Test <> a:40 var
+R1959:1959 SetsClass.Test <> i:41 var
+R2043:2051 SetsClass.Test SetTest2a <> mod
+mod 2062:2070 <> SetTest2b
+def 2074:2169 SetTest2b Unnamed_thm
+binder 2087:2087 <> A:42
+R2110:2113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2115:2118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2114:2114 SetsClass.Test <> A:42 var
+R2103:2105 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2100:2102 Coq.Init.Datatypes <> nat ind
+R2106:2109 Coq.Init.Datatypes <> bool ind
+binder 2097:2097 <> X:43
+R2130:2133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2129:2129 SetsClass.Test <> A:42 var
+binder 2126:2126 <> Y:44
+R2156:2160 SetsClass.SetsDomain <> ::sets_scope:x_'⊆'_x not
+R2146:2150 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R2143:2145 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+R2151:2154 SetsClass.SetsDomain <> ::sets_scope:'⋃'_x not
+R2155:2155 SetsClass.Test <> X:43 var
+R2162:2166 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R2161:2161 SetsClass.Test <> Y:44 var
+R2167:2169 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+binder 2260:2260 <> a:45
+R2310:2313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2321:2324 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2315:2319 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2314:2314 SetsClass.Test <> a:45 var
+R2325:2329 Coq.Init.Logic <> False ind
+R2272:2276 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2309:2309 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2267:2271 Coq.Init.Logic <> False ind
+R2277:2283 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2298:2299 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2291:2293 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2288:2290 Coq.Init.Datatypes <> nat ind
+R2294:2297 Coq.Init.Datatypes <> bool ind
+binder 2284:2284 <> i:46
+R2301:2305 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2300:2300 SetsClass.Test <> a:45 var
+R2308:2308 SetsClass.Test <> i:46 var
+binder 2260:2260 <> a:47
+R2310:2313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2321:2324 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2315:2319 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2314:2314 SetsClass.Test <> a:47 var
+R2325:2329 Coq.Init.Logic <> False ind
+R2272:2276 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2309:2309 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2267:2271 Coq.Init.Logic <> False ind
+R2277:2283 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2298:2299 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2291:2293 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2288:2290 Coq.Init.Datatypes <> nat ind
+R2294:2297 Coq.Init.Datatypes <> bool ind
+binder 2284:2284 <> i:48
+R2301:2305 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2300:2300 SetsClass.Test <> a:47 var
+R2308:2308 SetsClass.Test <> i:48 var
+R2394:2402 SetsClass.Test SetTest2b <> mod
+mod 2413:2421 <> SetTest3a
+def 2425:2509 SetTest3a Unnamed_thm
+binder 2438:2438 <> A:49
+R2452:2455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2457:2460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2456:2456 SetsClass.Test <> A:49 var
+R2451:2451 SetsClass.Test <> A:49 var
+binder 2448:2448 <> X:50
+R2472:2475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2471:2471 SetsClass.Test <> A:49 var
+binder 2468:2468 <> Y:51
+R2490:2494 SetsClass.SetsDomain <> ::sets_scope:x_'⊆'_x not
+R2485:2488 SetsClass.SetsDomain <> ::sets_scope:'⋂'_x not
+R2489:2489 SetsClass.Test <> X:50 var
+R2496:2500 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R2495:2495 SetsClass.Test <> Y:51 var
+R2501:2509 SetsClass.SetsDomain Sets full meth
+binder 2600:2600 <> a:52
+R2607:2607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2627:2631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2635:2638 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2634:2634 SetsClass.Test <> a:52 var
+R2639:2642 Coq.Init.Logic <> True ind
+binder 2615:2615 <> i:53
+R2626:2626 SetsClass.Test <> a:52 var
+R2624:2624 SetsClass.Test <> i:53 var
+binder 2600:2600 <> a:54
+R2607:2607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2627:2631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2635:2638 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2634:2634 SetsClass.Test <> a:54 var
+R2639:2642 Coq.Init.Logic <> True ind
+binder 2615:2615 <> i:55
+R2626:2626 SetsClass.Test <> a:54 var
+R2624:2624 SetsClass.Test <> i:55 var
+R2707:2715 SetsClass.Test SetTest3a <> mod
+mod 2726:2734 <> SetTest3b
+def 2738:2822 SetTest3b Unnamed_thm
+binder 2751:2751 <> A:56
+R2765:2768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2770:2773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2769:2769 SetsClass.Test <> A:56 var
+R2764:2764 SetsClass.Test <> A:56 var
+binder 2761:2761 <> X:57
+R2785:2788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2784:2784 SetsClass.Test <> A:56 var
+binder 2781:2781 <> Y:58
+R2803:2807 SetsClass.SetsDomain <> ::sets_scope:x_'⊆'_x not
+R2798:2801 SetsClass.SetsDomain <> ::sets_scope:'⋂'_x not
+R2802:2802 SetsClass.Test <> X:57 var
+R2809:2813 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R2808:2808 SetsClass.Test <> Y:58 var
+R2814:2822 SetsClass.SetsDomain Sets full meth
+binder 2913:2913 <> a:59
+R2920:2920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2944:2948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2956:2959 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2950:2954 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2949:2949 SetsClass.Test <> a:59 var
+R2960:2963 Coq.Init.Logic <> True ind
+binder 2928:2928 <> i:60
+R2936:2940 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2935:2935 SetsClass.Test <> a:59 var
+R2943:2943 SetsClass.Test <> i:60 var
+binder 2913:2913 <> a:61
+R2920:2920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2944:2948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2956:2959 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2950:2954 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2949:2949 SetsClass.Test <> a:61 var
+R2960:2963 Coq.Init.Logic <> True ind
+binder 2928:2928 <> i:62
+R2936:2940 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R2935:2935 SetsClass.Test <> a:61 var
+R2943:2943 SetsClass.Test <> i:62 var
+R3028:3036 SetsClass.Test SetTest3b <> mod
+mod 3047:3055 <> SetTest4a
+def 3059:3174 SetTest4a Unnamed_thm
+binder 3072:3072 <> A:63
+R3088:3091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3093:3096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3092:3092 SetsClass.Test <> A:63 var
+R3085:3087 Coq.Init.Datatypes <> nat ind
+binder 3082:3082 <> X:64
+R3107:3107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3117:3121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3109:3112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3108:3108 SetsClass.Test <> A:63 var
+binder 3104:3104 <> Y:65
+R3151:3154 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R3131:3148 SetsClass.SetsDomain Sets indexed_union meth
+R3150:3150 SetsClass.Test <> X:64 var
+R3155:3172 SetsClass.SetsDomain Sets general_union def
+R3174:3174 SetsClass.Test <> Y:65 var
+binder 3265:3265 <> a:66
+R3272:3272 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3294:3300 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3333:3333 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3273:3279 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3287:3288 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3284:3286 Coq.Init.Datatypes <> nat ind
+binder 3280:3280 <> i:67
+R3293:3293 SetsClass.Test <> a:66 var
+R3291:3291 SetsClass.Test <> i:67 var
+R3301:3307 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3321:3322 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3313:3316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3308:3308 <> x:68
+R3326:3329 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3325:3325 SetsClass.Test <> x:68 var
+R3330:3330 SetsClass.Test <> x:68 var
+R3332:3332 SetsClass.Test <> a:66 var
+binder 3265:3265 <> a:69
+R3272:3272 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3294:3300 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3333:3333 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3273:3279 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3287:3288 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3284:3286 Coq.Init.Datatypes <> nat ind
+binder 3280:3280 <> i:70
+R3293:3293 SetsClass.Test <> a:69 var
+R3291:3291 SetsClass.Test <> i:70 var
+R3301:3307 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3321:3322 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3313:3316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3308:3308 <> x:71
+R3326:3329 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3325:3325 SetsClass.Test <> x:71 var
+R3330:3330 SetsClass.Test <> x:71 var
+R3332:3332 SetsClass.Test <> a:69 var
+R3398:3406 SetsClass.Test SetTest4a <> mod
+mod 3417:3425 <> SetTest4b
+def 3429:3544 SetTest4b Unnamed_thm
+binder 3442:3442 <> A:72
+R3458:3461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3463:3466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3462:3462 SetsClass.Test <> A:72 var
+R3455:3457 Coq.Init.Datatypes <> nat ind
+binder 3452:3452 <> X:73
+R3477:3477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3487:3491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3479:3482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3478:3478 SetsClass.Test <> A:72 var
+binder 3474:3474 <> Y:74
+R3521:3524 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R3501:3518 SetsClass.SetsDomain Sets indexed_union meth
+R3520:3520 SetsClass.Test <> X:73 var
+R3525:3542 SetsClass.SetsDomain Sets general_union def
+R3544:3544 SetsClass.Test <> Y:74 var
+binder 3635:3635 <> a:75
+R3642:3642 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3668:3674 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3711:3711 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3643:3649 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3657:3658 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3654:3656 Coq.Init.Datatypes <> nat ind
+binder 3650:3650 <> i:76
+R3660:3664 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R3659:3659 SetsClass.Test <> a:75 var
+R3667:3667 SetsClass.Test <> i:76 var
+R3675:3681 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3695:3696 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3687:3690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3682:3682 <> x:77
+R3700:3703 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3699:3699 SetsClass.Test <> x:77 var
+R3705:3709 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R3704:3704 SetsClass.Test <> a:75 var
+R3710:3710 SetsClass.Test <> x:77 var
+binder 3635:3635 <> a:78
+R3642:3642 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3668:3674 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3711:3711 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3643:3649 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3657:3658 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3654:3656 Coq.Init.Datatypes <> nat ind
+binder 3650:3650 <> i:79
+R3660:3664 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R3659:3659 SetsClass.Test <> a:78 var
+R3667:3667 SetsClass.Test <> i:79 var
+R3675:3681 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3695:3696 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3687:3690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3682:3682 <> x:80
+R3700:3703 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3699:3699 SetsClass.Test <> x:80 var
+R3705:3709 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R3704:3704 SetsClass.Test <> a:78 var
+R3710:3710 SetsClass.Test <> x:80 var
+R3776:3784 SetsClass.Test SetTest4b <> mod
+mod 3795:3803 <> SetTest5a
+def 3807:3942 SetTest5a Unnamed_thm
+binder 3820:3820 <> A:81
+binder 3822:3822 <> B:82
+R3838:3841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3843:3846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3848:3851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3847:3847 SetsClass.Test <> B:82 var
+R3842:3842 SetsClass.Test <> A:81 var
+R3835:3837 Coq.Init.Datatypes <> nat ind
+binder 3832:3832 <> X:83
+R3862:3862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3877:3881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3864:3867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3869:3872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3868:3868 SetsClass.Test <> B:82 var
+R3863:3863 SetsClass.Test <> A:81 var
+binder 3859:3859 <> Y:84
+R3915:3918 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R3891:3912 SetsClass.SetsDomain Sets indexed_intersect meth
+R3914:3914 SetsClass.Test <> X:83 var
+R3919:3940 SetsClass.SetsDomain Sets general_intersect def
+R3942:3942 SetsClass.Test <> Y:84 var
+binder 4034:4034 <> a:85
+binder 4042:4042 <> b:86
+R4055:4055 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4079:4091 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4131:4131 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4067:4069 Coq.Init.Datatypes <> nat ind
+binder 4063:4063 <> i:87
+R4078:4078 SetsClass.Test <> b:86 var
+R4076:4076 SetsClass.Test <> a:85 var
+R4074:4074 SetsClass.Test <> i:87 var
+R4104:4107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4109:4112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4099:4099 <> x:88
+R4122:4125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4126:4126 SetsClass.Test <> x:88 var
+R4130:4130 SetsClass.Test <> b:86 var
+R4128:4128 SetsClass.Test <> a:85 var
+R4121:4121 SetsClass.Test <> x:88 var
+binder 4034:4034 <> a:89
+binder 4042:4042 <> b:90
+R4055:4055 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4079:4091 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4131:4131 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4067:4069 Coq.Init.Datatypes <> nat ind
+binder 4063:4063 <> i:91
+R4078:4078 SetsClass.Test <> b:90 var
+R4076:4076 SetsClass.Test <> a:89 var
+R4074:4074 SetsClass.Test <> i:91 var
+R4104:4107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4109:4112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4099:4099 <> x:92
+R4122:4125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4126:4126 SetsClass.Test <> x:92 var
+R4130:4130 SetsClass.Test <> b:90 var
+R4128:4128 SetsClass.Test <> a:89 var
+R4121:4121 SetsClass.Test <> x:92 var
+R4196:4204 SetsClass.Test SetTest5a <> mod
+mod 4215:4223 <> SetTest5b
+def 4227:4362 SetTest5b Unnamed_thm
+binder 4240:4240 <> A:93
+binder 4242:4242 <> B:94
+R4258:4261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4263:4266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4268:4271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4267:4267 SetsClass.Test <> B:94 var
+R4262:4262 SetsClass.Test <> A:93 var
+R4255:4257 Coq.Init.Datatypes <> nat ind
+binder 4252:4252 <> X:95
+R4282:4282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4297:4301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4284:4287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4289:4292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4288:4288 SetsClass.Test <> B:94 var
+R4283:4283 SetsClass.Test <> A:93 var
+binder 4279:4279 <> Y:96
+R4335:4338 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R4311:4332 SetsClass.SetsDomain Sets indexed_intersect meth
+R4334:4334 SetsClass.Test <> X:95 var
+R4339:4360 SetsClass.SetsDomain Sets general_intersect def
+R4362:4362 SetsClass.Test <> Y:96 var
+binder 4454:4454 <> a:97
+binder 4462:4462 <> b:98
+R4475:4475 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4506:4518 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4565:4565 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4487:4489 Coq.Init.Datatypes <> nat ind
+binder 4483:4483 <> i:99
+R4498:4502 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R4492:4492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4494:4495 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4497:4497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4493:4493 SetsClass.Test <> a:97 var
+R4496:4496 SetsClass.Test <> b:98 var
+R4505:4505 SetsClass.Test <> i:99 var
+R4531:4534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4536:4539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4526:4526 <> x:100
+R4549:4552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4559:4563 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R4553:4553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4555:4556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4558:4558 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4554:4554 SetsClass.Test <> a:97 var
+R4557:4557 SetsClass.Test <> b:98 var
+R4564:4564 SetsClass.Test <> x:100 var
+R4548:4548 SetsClass.Test <> x:100 var
+binder 4454:4454 <> a:101
+binder 4462:4462 <> b:102
+R4475:4475 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4506:4518 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4565:4565 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4487:4489 Coq.Init.Datatypes <> nat ind
+binder 4483:4483 <> i:103
+R4498:4502 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R4492:4492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4494:4495 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4497:4497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4493:4493 SetsClass.Test <> a:101 var
+R4496:4496 SetsClass.Test <> b:102 var
+R4505:4505 SetsClass.Test <> i:103 var
+R4531:4534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4536:4539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4526:4526 <> x:104
+R4549:4552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4559:4563 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R4553:4553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4555:4556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4558:4558 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4554:4554 SetsClass.Test <> a:101 var
+R4557:4557 SetsClass.Test <> b:102 var
+R4564:4564 SetsClass.Test <> x:104 var
+R4548:4548 SetsClass.Test <> x:104 var
+R4630:4638 SetsClass.Test SetTest5b <> mod
+mod 4649:4656 <> SetTest6
+def 4660:4739 SetTest6 Unnamed_thm
+R4679:4682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4686:4689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4683:4685 Coq.Init.Datatypes <> nat ind
+R4676:4678 Coq.Init.Datatypes <> nat ind
+binder 4673:4673 <> X:105
+R4702:4704 Coq.Init.Datatypes <> nat ind
+binder 4697:4697 <> n:106
+binder 4699:4699 <> m:107
+R4722:4727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4734:4738 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R4728:4728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4730:4731 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4733:4733 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4729:4729 SetsClass.Test <> n:106 var
+R4732:4732 SetsClass.Test <> m:107 var
+R4739:4739 SetsClass.Test <> X:105 var
+R4716:4720 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R4710:4710 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4712:4713 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4715:4715 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4711:4711 SetsClass.Test <> n:106 var
+R4714:4714 SetsClass.Test <> m:107 var
+R4721:4721 SetsClass.Test <> X:105 var
+R4921:4928 SetsClass.Test SetTest6 <> mod
+mod 4939:4946 <> SetTest7
+def 4950:5030 SetTest7 Unnamed_thm
+R4969:4972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4966:4968 Coq.Init.Datatypes <> nat ind
+binder 4963:4963 <> X:108
+R4986:4989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4994:4997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4990:4993 Coq.Init.Datatypes <> bool ind
+R4983:4985 Coq.Init.Datatypes <> nat ind
+binder 4980:4980 <> Y:109
+binder 5004:5004 <> n:110
+binder 5006:5006 <> m:111
+R5011:5022 SetsClass.SetsDomain Sets filter1 def
+R5030:5030 SetsClass.Test <> m:111 var
+R5028:5028 SetsClass.Test <> n:110 var
+R5026:5026 SetsClass.Test <> Y:109 var
+R5024:5024 SetsClass.Test <> X:108 var
+R5116:5119 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5116:5119 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5189:5196 SetsClass.Test SetTest7 <> mod
+mod 5207:5215 <> SetTest8a
+def 5219:5314 SetTest8a Unnamed_thm
+R5238:5241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5246:5249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5242:5245 Coq.Init.Datatypes <> bool ind
+R5235:5237 Coq.Init.Datatypes <> nat ind
+binder 5232:5232 <> Y:112
+binder 5256:5256 <> n:113
+binder 5258:5258 <> m:114
+R5288:5293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5294:5308 SetsClass.SetsDomain Sets complement meth
+R5314:5314 SetsClass.Test <> m:114 var
+R5312:5312 SetsClass.Test <> n:113 var
+R5310:5310 SetsClass.Test <> Y:112 var
+R5263:5277 SetsClass.SetsDomain Sets complement meth
+R5287:5287 SetsClass.Test <> m:114 var
+R5282:5282 Coq.Init.Datatypes <> S constr
+R5284:5284 SetsClass.Test <> n:113 var
+R5279:5279 SetsClass.Test <> Y:112 var
+R5418:5419 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5423:5423 Coq.Init.Datatypes <> S constr
+R5418:5419 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5423:5423 Coq.Init.Datatypes <> S constr
+R5433:5434 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5433:5434 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5504:5512 SetsClass.Test SetTest8a <> mod
+mod 5523:5531 <> SetTest8b
+def 5535:5630 SetTest8b Unnamed_thm
+R5554:5557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5562:5565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5558:5561 Coq.Init.Datatypes <> bool ind
+R5551:5553 Coq.Init.Datatypes <> nat ind
+binder 5548:5548 <> Y:115
+binder 5572:5572 <> n:116
+binder 5574:5574 <> m:117
+R5604:5609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5610:5624 SetsClass.SetsDomain Sets complement meth
+R5630:5630 SetsClass.Test <> m:117 var
+R5628:5628 SetsClass.Test <> n:116 var
+R5626:5626 SetsClass.Test <> Y:115 var
+R5579:5593 SetsClass.SetsDomain Sets complement meth
+R5603:5603 SetsClass.Test <> m:117 var
+R5598:5598 Coq.Init.Datatypes <> S constr
+R5600:5600 SetsClass.Test <> n:116 var
+R5595:5595 SetsClass.Test <> Y:115 var
+R5734:5735 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5744:5748 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R5736:5736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5740:5741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5743:5743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5737:5737 Coq.Init.Datatypes <> S constr
+R5734:5735 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5744:5748 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R5736:5736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5740:5741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5743:5743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5737:5737 Coq.Init.Datatypes <> S constr
+R5754:5755 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5762:5766 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R5756:5756 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5758:5759 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5761:5761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5754:5755 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5762:5766 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R5756:5756 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5758:5759 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5761:5761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5832:5840 SetsClass.Test SetTest8b <> mod
+mod 5851:5859 <> SetTest9a
+def 5863:5936 SetTest9a Unnamed_thm
+R5882:5885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5879:5881 Coq.Init.Datatypes <> nat ind
+binder 5876:5876 <> Y:118
+binder 5892:5892 <> n:119
+binder 5894:5894 <> m:120
+R5917:5922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5923:5923 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R5925:5928 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R5932:5936 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R5924:5924 SetsClass.Test <> Y:118 var
+R5929:5931 Coq.Init.Datatypes <> nat ind
+R5936:5936 SetsClass.Test <> n:119 var
+R5934:5934 SetsClass.Test <> m:120 var
+R5899:5899 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R5901:5904 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R5908:5916 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R5900:5900 SetsClass.Test <> Y:118 var
+R5905:5907 Coq.Init.Datatypes <> nat ind
+R5916:5916 SetsClass.Test <> m:120 var
+R5911:5911 Coq.Init.Datatypes <> S constr
+R5913:5913 SetsClass.Test <> n:119 var
+R6047:6050 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6043:6043 Coq.Init.Datatypes <> S constr
+R6051:6054 Coq.Init.Logic <> True ind
+R6047:6050 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6043:6043 Coq.Init.Datatypes <> S constr
+R6051:6054 Coq.Init.Logic <> True ind
+R6062:6065 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6066:6069 Coq.Init.Logic <> True ind
+R6062:6065 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6066:6069 Coq.Init.Logic <> True ind
+R6134:6142 SetsClass.Test SetTest9a <> mod
+mod 6153:6161 <> SetTest9b
+def 6165:6238 SetTest9b Unnamed_thm
+R6184:6187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6181:6183 Coq.Init.Datatypes <> nat ind
+binder 6178:6178 <> Y:121
+binder 6194:6194 <> n:122
+binder 6196:6196 <> m:123
+R6219:6224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6225:6225 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R6227:6230 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R6234:6238 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R6226:6226 SetsClass.Test <> Y:121 var
+R6231:6233 Coq.Init.Datatypes <> nat ind
+R6238:6238 SetsClass.Test <> n:122 var
+R6236:6236 SetsClass.Test <> m:123 var
+R6201:6201 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R6205:6208 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R6210:6218 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R6202:6204 Coq.Init.Datatypes <> nat ind
+R6209:6209 SetsClass.Test <> Y:121 var
+R6218:6218 SetsClass.Test <> m:123 var
+R6213:6213 Coq.Init.Datatypes <> S constr
+R6215:6215 SetsClass.Test <> n:122 var
+R6346:6349 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6342:6345 Coq.Init.Logic <> True ind
+R6351:6355 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R6346:6349 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6342:6345 Coq.Init.Logic <> True ind
+R6351:6355 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R6368:6371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6362:6366 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R6372:6375 Coq.Init.Logic <> True ind
+R6368:6371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6362:6366 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R6372:6375 Coq.Init.Logic <> True ind
+R6440:6448 SetsClass.Test SetTest9b <> mod
+mod 6459:6466 <> RelTest0
+def 6470:6548 RelTest0 Unnamed_thm
+binder 6483:6483 <> A:124
+R6497:6500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6502:6505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6501:6501 SetsClass.Test <> A:124 var
+R6496:6496 SetsClass.Test <> A:124 var
+binder 6493:6493 <> X:125
+R6518:6518 SetsClass.Test <> A:124 var
+binder 6513:6513 <> x:126
+binder 6515:6515 <> y:127
+R6524:6534 SetsClass.RelsDomain Rels concat meth
+R6542:6542 SetsClass.Test <> y:127 var
+R6540:6540 SetsClass.Test <> x:126 var
+R6538:6538 SetsClass.Test <> X:125 var
+R6536:6536 SetsClass.Test <> X:125 var
+R6631:6637 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6644:6645 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6638:6639 <> x':128
+R6652:6655 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6650:6651 SetsClass.Test <> x':128 var
+R6658:6659 SetsClass.Test <> x':128 var
+R6631:6637 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6644:6645 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6638:6639 <> x':129
+R6652:6655 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6650:6651 SetsClass.Test <> x':129 var
+R6658:6659 SetsClass.Test <> x':129 var
+R6726:6733 SetsClass.Test RelTest0 <> mod
+mod 6744:6751 <> RelTest1
+def 6755:6824 RelTest1 Unnamed_thm
+binder 6768:6768 <> A:130
+R6782:6785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6781:6781 SetsClass.Test <> A:130 var
+binder 6778:6778 <> X:131
+R6798:6798 SetsClass.Test <> A:130 var
+binder 6793:6793 <> x:132
+binder 6795:6795 <> y:133
+R6804:6812 SetsClass.RelsDomain Rels test meth
+R6818:6818 SetsClass.Test <> y:133 var
+R6816:6816 SetsClass.Test <> x:132 var
+R6814:6814 SetsClass.Test <> X:131 var
+R6910:6913 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6915:6917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6910:6913 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6915:6917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6983:6990 SetsClass.Test RelTest1 <> mod
+mod 7001:7008 <> RelTest2
+def 7012:7121 RelTest2 Unnamed_thm
+binder 7025:7025 <> A:134
+R7039:7042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7044:7047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7043:7043 SetsClass.Test <> A:134 var
+R7038:7038 SetsClass.Test <> A:134 var
+binder 7035:7035 <> X:135
+R7060:7060 SetsClass.Test <> A:134 var
+binder 7055:7055 <> x:136
+binder 7057:7057 <> y:137
+R7067:7077 SetsClass.RelsDomain Rels concat meth
+R7085:7085 SetsClass.Test <> y:137 var
+R7083:7083 SetsClass.Test <> x:136 var
+R7081:7081 SetsClass.Test <> X:135 var
+R7079:7079 SetsClass.Test <> X:135 var
+binder 7064:7064 <> H:138
+R7097:7107 SetsClass.RelsDomain Rels concat meth
+R7115:7115 SetsClass.Test <> y:137 var
+R7113:7113 SetsClass.Test <> x:136 var
+R7111:7111 SetsClass.Test <> X:135 var
+R7109:7109 SetsClass.Test <> X:135 var
+R7225:7231 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7238:7239 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7232:7233 <> x':139
+R7246:7249 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7244:7245 SetsClass.Test <> x':139 var
+R7252:7253 SetsClass.Test <> x':139 var
+R7225:7231 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7238:7239 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7232:7233 <> x':140
+R7246:7249 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7244:7245 SetsClass.Test <> x':140 var
+R7252:7253 SetsClass.Test <> x':140 var
+R7260:7266 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7273:7274 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7267:7268 <> x':141
+R7281:7284 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7279:7280 SetsClass.Test <> x':141 var
+R7287:7288 SetsClass.Test <> x':141 var
+R7260:7266 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7273:7274 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7267:7268 <> x':142
+R7281:7284 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7279:7280 SetsClass.Test <> x':142 var
+R7287:7288 SetsClass.Test <> x':142 var
+R7355:7362 SetsClass.Test RelTest2 <> mod
+mod 7373:7380 <> RelTest3
+def 7384:7481 RelTest3 Unnamed_thm
+binder 7397:7397 <> A:143
+R7411:7414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7410:7410 SetsClass.Test <> A:143 var
+binder 7407:7407 <> X:144
+R7427:7427 SetsClass.Test <> A:143 var
+binder 7422:7422 <> x:145
+binder 7424:7424 <> y:146
+R7435:7443 SetsClass.RelsDomain Rels test meth
+R7449:7449 SetsClass.Test <> y:146 var
+R7447:7447 SetsClass.Test <> x:145 var
+R7445:7445 SetsClass.Test <> X:144 var
+binder 7431:7431 <> H:147
+R7461:7469 SetsClass.RelsDomain Rels test meth
+R7475:7475 SetsClass.Test <> y:146 var
+R7473:7473 SetsClass.Test <> x:145 var
+R7471:7471 SetsClass.Test <> X:144 var
+R7588:7591 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7593:7595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7588:7591 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7593:7595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7604:7607 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7609:7611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7604:7607 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7609:7611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7677:7684 SetsClass.Test RelTest3 <> mod
+mod 7695:7703 <> RelTest4a
+def 7707:7813 RelTest4a Unnamed_thm
+binder 7720:7720 <> A:148
+binder 7722:7722 <> B:149
+R7736:7739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7741:7744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7740:7740 SetsClass.Test <> B:149 var
+R7735:7735 SetsClass.Test <> A:148 var
+binder 7732:7732 <> X:150
+R7756:7759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7755:7755 SetsClass.Test <> B:149 var
+binder 7752:7752 <> Y:151
+R7770:7770 SetsClass.Test <> A:148 var
+binder 7767:7767 <> x:152
+R7787:7791 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7776:7776 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R7778:7782 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R7784:7786 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R7777:7777 SetsClass.Test <> X:150 var
+R7783:7783 SetsClass.Test <> Y:151 var
+R7786:7786 SetsClass.Test <> x:152 var
+R7792:7798 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7800:7801 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7799:7799 <> y:153
+R7807:7810 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7802:7802 SetsClass.Test <> X:150 var
+R7806:7806 SetsClass.Test <> y:153 var
+R7804:7804 SetsClass.Test <> x:152 var
+R7811:7811 SetsClass.Test <> Y:151 var
+R7813:7813 SetsClass.Test <> y:153 var
+R7897:7897 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7924:7930 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7957:7957 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7898:7904 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7910:7911 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7905:7905 <> b:154
+R7917:7920 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7916:7916 SetsClass.Test <> b:154 var
+R7923:7923 SetsClass.Test <> b:154 var
+R7931:7937 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7943:7944 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7938:7938 <> y:155
+R7950:7953 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7949:7949 SetsClass.Test <> y:155 var
+R7956:7956 SetsClass.Test <> y:155 var
+R7897:7897 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7924:7930 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7957:7957 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7898:7904 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7910:7911 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7905:7905 <> b:156
+R7917:7920 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7916:7916 SetsClass.Test <> b:156 var
+R7923:7923 SetsClass.Test <> b:156 var
+R7931:7937 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7943:7944 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7938:7938 <> y:157
+R7950:7953 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7949:7949 SetsClass.Test <> y:157 var
+R7956:7956 SetsClass.Test <> y:157 var
+R8035:8043 SetsClass.Test RelTest4a <> mod
+mod 8054:8062 <> RelTest4b
+def 8066:8154 RelTest4b Unnamed_thm
+binder 8079:8079 <> A:158
+binder 8081:8081 <> B:159
+R8095:8098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8100:8103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8099:8099 SetsClass.Test <> B:159 var
+R8094:8094 SetsClass.Test <> A:158 var
+binder 8091:8091 <> X:160
+R8115:8118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8114:8114 SetsClass.Test <> B:159 var
+binder 8111:8111 <> Y:161
+R8129:8129 SetsClass.Test <> A:158 var
+binder 8126:8126 <> x:162
+R8146:8150 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8135:8135 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R8137:8141 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R8143:8145 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R8136:8136 SetsClass.Test <> X:160 var
+R8142:8142 SetsClass.Test <> Y:161 var
+R8145:8145 SetsClass.Test <> x:162 var
+R8151:8154 Coq.Init.Logic <> True ind
+R8238:8238 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8276:8281 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8239:8245 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8251:8252 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8246:8246 <> b:163
+R8265:8268 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8259:8263 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R8253:8253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8255:8256 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8258:8258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8257:8257 SetsClass.Test <> b:163 var
+R8270:8274 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R8269:8269 SetsClass.Test <> b:163 var
+R8282:8285 Coq.Init.Logic <> True ind
+R8238:8238 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8276:8281 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8239:8245 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8251:8252 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8246:8246 <> b:164
+R8265:8268 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8259:8263 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R8253:8253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8255:8256 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8258:8258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8257:8257 SetsClass.Test <> b:164 var
+R8270:8274 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R8269:8269 SetsClass.Test <> b:164 var
+R8282:8285 Coq.Init.Logic <> True ind
+R8350:8358 SetsClass.Test RelTest4b <> mod
+mod 8369:8376 <> RelTest5
+def 8380:8469 RelTest5 Unnamed_thm
+binder 8393:8393 <> A:165
+binder 8395:8395 <> B:166
+R8409:8412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8414:8417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8413:8413 SetsClass.Test <> B:166 var
+R8408:8408 SetsClass.Test <> A:165 var
+binder 8405:8405 <> X:167
+R8428:8428 SetsClass.Test <> A:165 var
+binder 8425:8425 <> x:168
+R8435:8435 SetsClass.Test <> B:166 var
+binder 8432:8432 <> y:169
+R8460:8464 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8441:8441 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R8443:8447 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R8455:8459 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R8442:8442 SetsClass.Test <> X:167 var
+R8448:8454 SetsClass.RelsDomain Rels id meth
+R8459:8459 SetsClass.Test <> y:169 var
+R8457:8457 SetsClass.Test <> x:168 var
+R8465:8469 Coq.Init.Logic <> False ind
+R8552:8552 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8588:8593 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8553:8559 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8565:8566 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8560:8560 <> i:170
+R8579:8582 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8573:8577 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R8567:8567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8569:8570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8572:8572 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8571:8571 SetsClass.Test <> i:170 var
+R8584:8586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8583:8583 SetsClass.Test <> i:170 var
+R8594:8598 Coq.Init.Logic <> False ind
+R8552:8552 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8588:8593 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8553:8559 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8565:8566 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8560:8560 <> i:171
+R8579:8582 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8573:8577 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R8567:8567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8569:8570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8572:8572 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8571:8571 SetsClass.Test <> i:171 var
+R8584:8586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8583:8583 SetsClass.Test <> i:171 var
+R8594:8598 Coq.Init.Logic <> False ind
+R8663:8670 SetsClass.Test RelTest5 <> mod
+mod 8681:8688 <> RelTest6
+def 8692:8777 RelTest6 Unnamed_thm
+binder 8705:8705 <> A:172
+R8719:8722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8718:8718 SetsClass.Test <> A:172 var
+binder 8715:8715 <> X:173
+R8735:8735 SetsClass.Test <> A:172 var
+binder 8730:8730 <> x:174
+binder 8732:8732 <> y:175
+R8742:8745 Coq.Init.Datatypes <> list ind
+R8747:8749 Coq.Init.Datatypes <> nat ind
+binder 8739:8739 <> l:176
+R8755:8763 SetsClass.RelsDomain Rels test meth
+R8771:8771 SetsClass.Test <> y:175 var
+R8769:8769 SetsClass.Test <> l:176 var
+R8767:8767 SetsClass.Test <> x:174 var
+R8765:8765 SetsClass.Test <> X:173 var
+R8863:8866 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8874:8877 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8868:8870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8871:8873 Coq.Init.Datatypes <> nil constr
+R8879:8881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8863:8866 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8874:8877 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8868:8870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8871:8873 Coq.Init.Datatypes <> nil constr
+R8879:8881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8947:8954 SetsClass.Test RelTest6 <> mod
+mod 8965:8972 <> RelTest7
+def 8976:9062 RelTest7 Unnamed_thm
+binder 8989:8989 <> A:177
+binder 8991:8991 <> B:178
+R9005:9008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9010:9013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9009:9009 SetsClass.Test <> B:178 var
+R9004:9004 SetsClass.Test <> A:177 var
+binder 9001:9001 <> X:179
+R9025:9028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9024:9024 SetsClass.Test <> A:177 var
+binder 9021:9021 <> Y:180
+R9052:9056 SetsClass.SetsDomain <> ::sets_scope:x_'⊆'_x not
+R9038:9038 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R9045:9050 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R9040:9043 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R9039:9039 SetsClass.Test <> Y:180 var
+R9044:9044 SetsClass.Test <> A:177 var
+R9051:9051 SetsClass.Test <> X:179 var
+R9058:9061 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R9057:9057 SetsClass.Test <> Y:180 var
+R9062:9062 SetsClass.Test <> B:178 var
+R9159:9159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9219:9231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9247:9247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9239:9242 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9233:9237 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R9243:9246 Coq.Init.Logic <> True ind
+R9160:9166 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9172:9184 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9167:9168 <> a':181
+R9185:9185 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9201:9205 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9193:9196 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9187:9191 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R9197:9200 Coq.Init.Logic <> True ind
+R9213:9217 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R9206:9206 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9209:9210 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9212:9212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9207:9208 SetsClass.Test <> a':181 var
+R9159:9159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9219:9231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9247:9247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9239:9242 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9233:9237 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R9243:9246 Coq.Init.Logic <> True ind
+R9160:9166 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9172:9184 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9167:9168 <> a':182
+R9185:9185 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9201:9205 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9193:9196 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9187:9191 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R9197:9200 Coq.Init.Logic <> True ind
+R9213:9217 SetsClass.SetsDomain <> ::sets_scope:x_'∈'_x not
+R9206:9206 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9209:9210 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9212:9212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9207:9208 SetsClass.Test <> a':182 var
+R9336:9343 SetsClass.Test RelTest7 <> mod
+def 9347:9406 <> Unnamed_thm
+binder 9360:9360 <> A:183
+R9376:9379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9381:9384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9380:9380 SetsClass.Test <> A:183 var
+R9375:9375 SetsClass.Test <> A:183 var
+binder 9370:9370 <> X:184
+binder 9372:9372 <> Y:185
+R9395:9399 SetsClass.SetsDomain <> ::sets_scope:x_'⊆'_x not
+R9394:9394 SetsClass.Test <> X:184 var
+R9401:9405 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R9400:9400 SetsClass.Test <> Y:185 var
+R9406:9406 SetsClass.Test <> X:184 var
+R9483:9493 SetsClass.Test <> Unnamed_thm def
+def 9497:9590 <> Unnamed_thm0
+binder 9510:9510 <> A:186
+binder 9512:9512 <> B:187
+binder 9514:9514 <> C:188
+R9529:9532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9534:9537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9533:9533 SetsClass.Test <> B:187 var
+R9528:9528 SetsClass.Test <> A:186 var
+binder 9524:9524 <> x:189
+R9549:9552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9554:9557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9553:9553 SetsClass.Test <> C:188 var
+R9548:9548 SetsClass.Test <> B:187 var
+binder 9545:9545 <> y:190
+R9573:9576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9584:9587 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R9578:9582 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R9577:9577 SetsClass.Test <> x:189 var
+R9583:9583 SetsClass.Test <> y:190 var
+R9588:9590 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+R9566:9569 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R9565:9565 SetsClass.Test <> x:189 var
+R9570:9572 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+R9624:9642 SetsClass.RelsDomain <> Rels_concat_empty_l thm
+R9624:9642 SetsClass.RelsDomain <> Rels_concat_empty_l thm
+def 9651:9711 <> Unnamed_thm1
+binder 9664:9664 <> A:191
+binder 9666:9666 <> B:192
+R9680:9683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9685:9688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9684:9684 SetsClass.Test <> B:192 var
+R9679:9679 SetsClass.Test <> A:191 var
+binder 9676:9676 <> x:193
+R9705:9708 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R9697:9701 SetsClass.SetsClass SetsNotation ::sets_scope:x_'∘'_x not
+R9696:9696 SetsClass.Test <> x:193 var
+R9702:9704 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+R9709:9711 SetsClass.SetsDomain <> ::sets_scope:'∅' not
+R9732:9750 SetsClass.RelsDomain <> Rels_concat_empty_r thm
+R9732:9750 SetsClass.RelsDomain <> Rels_concat_empty_r thm

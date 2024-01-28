@@ -1,0 +1,1357 @@
+DIGEST 45b969d29c4189f27d7008f6785ea803
+FSetsClass.SetProd
+R15:35 Coq.Classes.Morphisms <> <> lib
+R46:59 Coq.Lists.List <> <> lib
+R77:96 SetsClass.SetsDomain <> <> lib
+rec 135:143 <> SETS_PROD
+proj 174:178 <> liftL
+proj 192:196 <> liftR
+binder 146:147 <> T1:1
+binder 149:150 <> T2:2
+binder 152:152 <> T:3
+R183:186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R187:187 SetsClass.SetProd <> T:3 var
+R181:182 SetsClass.SetProd <> T1:1 var
+R201:204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R205:205 SetsClass.SetProd <> T:3 var
+R199:200 SetsClass.SetProd <> T2:2 var
+inst 221:234 <> Prop_SETS_PROD
+binder 248:248 <> T:7
+R275:283 SetsClass.SetsDomain Sets SETS class
+R285:285 SetsClass.SetProd <> T:7 var
+binder 269:272 <> SETS:8
+R289:297 SetsClass.SetProd <> SETS_PROD class
+R306:306 SetsClass.SetProd <> T:7 var
+R304:304 SetsClass.SetProd <> T:7 var
+R316:320 SetsClass.SetProd <> liftL meth
+R316:320 SetsClass.SetProd <> liftL meth
+R353:357 SetsClass.SetProd <> liftR meth
+binder 366:366 <> x:9
+R371:371 SetsClass.SetProd <> x:9 var
+binder 329:329 <> P:10
+R334:346 SetsClass.SetsDomain Sets prop_inj meth
+R348:348 SetsClass.SetProd <> P:10 var
+inst 388:401 <> lift_SETS_PROD
+binder 415:415 <> A:11
+binder 417:418 <> T1:12
+binder 420:421 <> T2:13
+binder 423:423 <> T:14
+R451:459 SetsClass.SetProd <> SETS_PROD class
+R467:467 SetsClass.SetProd <> T:14 var
+R464:465 SetsClass.SetProd <> T2:13 var
+R461:462 SetsClass.SetProd <> T1:12 var
+binder 444:448 <> _SETS:15
+R473:481 SetsClass.SetProd <> SETS_PROD class
+R498:501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R502:502 SetsClass.SetProd <> T:14 var
+R497:497 SetsClass.SetProd <> A:11 var
+R493:494 SetsClass.SetProd <> T2:13 var
+R485:488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R489:490 SetsClass.SetProd <> T1:12 var
+R484:484 SetsClass.SetProd <> A:11 var
+R513:517 SetsClass.SetProd <> liftL meth
+R513:517 SetsClass.SetProd <> liftL meth
+R548:552 SetsClass.SetProd <> liftR meth
+binder 561:561 <> y:16
+binder 563:563 <> a:17
+R568:572 SetsClass.SetProd <> liftR meth
+R574:574 SetsClass.SetProd <> y:16 var
+binder 526:526 <> x:18
+binder 528:528 <> a:19
+R533:537 SetsClass.SetProd <> liftL meth
+R540:540 SetsClass.SetProd <> x:18 var
+R542:542 SetsClass.SetProd <> a:19 var
+rec 588:602 <> SETS_PROD_Distr
+proj 773:792 <> Sets_liftL_intersect
+proj 883:902 <> Sets_liftR_intersect
+proj 993:1008 <> Sets_liftL_union
+proj 1091:1106 <> Sets_liftR_union
+proj 1189:1207 <> Sets_liftL_prop_inj
+proj 1276:1294 <> Sets_liftR_prop_inj
+proj 1363:1377 <> Sets_liftL_mono
+proj 1446:1460 <> Sets_liftR_mono
+binder 613:614 <> T1:20
+binder 616:617 <> T2:21
+binder 619:619 <> T:22
+R647:655 SetsClass.SetsDomain Sets SETS class
+R657:658 SetsClass.SetProd <> T1:20 var
+binder 637:644 <> _SETS_T1:23
+R680:688 SetsClass.SetsDomain Sets SETS class
+R690:691 SetsClass.SetProd <> T2:21 var
+binder 670:677 <> _SETS_T2:24
+R712:720 SetsClass.SetsDomain Sets SETS class
+R722:722 SetsClass.SetProd <> T:22 var
+binder 703:709 <> _SETS_T:25
+R741:749 SetsClass.SetProd <> SETS_PROD class
+R757:757 SetsClass.SetProd <> T:22 var
+R754:755 SetsClass.SetProd <> T2:21 var
+R751:752 SetsClass.SetProd <> T1:20 var
+binder 734:738 <> _SETS:26
+R807:808 SetsClass.SetProd <> T1:20 var
+binder 802:802 <> x:28
+binder 804:804 <> y:29
+R841:844 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R815:819 SetsClass.SetProd <> liftL meth
+R822:835 SetsClass.SetsDomain Sets intersect meth
+R839:839 SetsClass.SetProd <> y:29 var
+R837:837 SetsClass.SetProd <> x:28 var
+R845:858 SetsClass.SetsDomain Sets intersect meth
+R871:875 SetsClass.SetProd <> liftL meth
+R877:877 SetsClass.SetProd <> y:29 var
+R861:865 SetsClass.SetProd <> liftL meth
+R867:867 SetsClass.SetProd <> x:28 var
+R917:918 SetsClass.SetProd <> T2:21 var
+binder 912:912 <> x:31
+binder 914:914 <> y:32
+R951:954 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R925:929 SetsClass.SetProd <> liftR meth
+R932:945 SetsClass.SetsDomain Sets intersect meth
+R949:949 SetsClass.SetProd <> y:32 var
+R947:947 SetsClass.SetProd <> x:31 var
+R955:968 SetsClass.SetsDomain Sets intersect meth
+R981:985 SetsClass.SetProd <> liftR meth
+R987:987 SetsClass.SetProd <> y:32 var
+R971:975 SetsClass.SetProd <> liftR meth
+R977:977 SetsClass.SetProd <> x:31 var
+R1023:1024 SetsClass.SetProd <> T1:20 var
+binder 1018:1018 <> x:34
+binder 1020:1020 <> y:35
+R1053:1056 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1031:1035 SetsClass.SetProd <> liftL meth
+R1038:1047 SetsClass.SetsDomain Sets union meth
+R1051:1051 SetsClass.SetProd <> y:35 var
+R1049:1049 SetsClass.SetProd <> x:34 var
+R1057:1066 SetsClass.SetsDomain Sets union meth
+R1079:1083 SetsClass.SetProd <> liftL meth
+R1085:1085 SetsClass.SetProd <> y:35 var
+R1069:1073 SetsClass.SetProd <> liftL meth
+R1075:1075 SetsClass.SetProd <> x:34 var
+R1121:1122 SetsClass.SetProd <> T2:21 var
+binder 1116:1116 <> x:37
+binder 1118:1118 <> y:38
+R1151:1154 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1129:1133 SetsClass.SetProd <> liftR meth
+R1136:1145 SetsClass.SetsDomain Sets union meth
+R1149:1149 SetsClass.SetProd <> y:38 var
+R1147:1147 SetsClass.SetProd <> x:37 var
+R1155:1164 SetsClass.SetsDomain Sets union meth
+R1177:1181 SetsClass.SetProd <> liftR meth
+R1183:1183 SetsClass.SetProd <> y:38 var
+R1167:1171 SetsClass.SetProd <> liftR meth
+R1173:1173 SetsClass.SetProd <> x:37 var
+binder 1217:1217 <> P:40
+R1253:1256 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1230:1234 SetsClass.SetProd <> liftL meth
+R1237:1249 SetsClass.SetsDomain Sets prop_inj meth
+R1251:1251 SetsClass.SetProd <> P:40 var
+R1257:1269 SetsClass.SetsDomain Sets prop_inj meth
+R1271:1271 SetsClass.SetProd <> P:40 var
+binder 1304:1304 <> P:42
+R1340:1343 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1317:1321 SetsClass.SetProd <> liftR meth
+R1324:1336 SetsClass.SetsDomain Sets prop_inj meth
+R1338:1338 SetsClass.SetProd <> P:42 var
+R1344:1356 SetsClass.SetsDomain Sets prop_inj meth
+R1358:1358 SetsClass.SetProd <> P:42 var
+R1385:1390 Coq.Classes.Morphisms <> Proper class
+R1437:1441 SetsClass.SetProd <> liftL meth
+R1412:1416 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1394:1406 SetsClass.SetsDomain Sets included meth
+R1408:1409 SetsClass.SetProd <> T1:20 var
+R1418:1430 SetsClass.SetsDomain Sets included meth
+R1432:1432 SetsClass.SetProd <> T:22 var
+R1468:1473 Coq.Classes.Morphisms <> Proper class
+R1520:1524 SetsClass.SetProd <> liftR meth
+R1495:1499 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1477:1489 SetsClass.SetsDomain Sets included meth
+R1491:1492 SetsClass.SetProd <> T2:21 var
+R1501:1513 SetsClass.SetsDomain Sets included meth
+R1515:1515 SetsClass.SetProd <> T:22 var
+rec 1537:1550 <> SETS_PROD_Comp
+proj 1815:1830 <> Sets_liftL_liftL
+proj 1881:1896 <> Sets_liftL_liftR
+proj 1955:1970 <> Sets_liftR_liftR
+binder 1561:1562 <> T1:46
+binder 1564:1565 <> T2:47
+binder 1567:1568 <> T3:48
+binder 1570:1572 <> T12:49
+binder 1574:1576 <> T23:50
+binder 1578:1578 <> T:51
+R1605:1613 SetsClass.SetsDomain Sets SETS class
+R1615:1615 SetsClass.SetProd <> T:51 var
+binder 1596:1602 <> _SETS_T:52
+R1643:1651 SetsClass.SetProd <> SETS_PROD class
+R1659:1661 SetsClass.SetProd <> T12:49 var
+R1656:1657 SetsClass.SetProd <> T2:47 var
+R1653:1654 SetsClass.SetProd <> T1:46 var
+binder 1627:1640 <> _SETS_PROD_1_2:53
+R1689:1697 SetsClass.SetProd <> SETS_PROD class
+R1705:1707 SetsClass.SetProd <> T23:50 var
+R1702:1703 SetsClass.SetProd <> T3:48 var
+R1699:1700 SetsClass.SetProd <> T2:47 var
+binder 1673:1686 <> _SETS_PROD_2_3:54
+R1736:1744 SetsClass.SetProd <> SETS_PROD class
+R1753:1753 SetsClass.SetProd <> T:51 var
+R1749:1751 SetsClass.SetProd <> T23:50 var
+R1746:1747 SetsClass.SetProd <> T1:46 var
+binder 1719:1733 <> _SETS_PROD_1_23:55
+R1782:1790 SetsClass.SetProd <> SETS_PROD class
+R1799:1799 SetsClass.SetProd <> T:51 var
+R1796:1797 SetsClass.SetProd <> T3:48 var
+R1792:1794 SetsClass.SetProd <> T12:49 var
+binder 1765:1779 <> _SETS_PROD_12_3:56
+R1843:1844 SetsClass.SetProd <> T1:46 var
+binder 1840:1840 <> x:58
+R1866:1869 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1851:1855 SetsClass.SetProd <> liftL meth
+R1858:1862 SetsClass.SetProd <> liftL meth
+R1864:1864 SetsClass.SetProd <> x:58 var
+R1870:1874 SetsClass.SetProd <> liftL meth
+R1876:1876 SetsClass.SetProd <> x:58 var
+R1909:1910 SetsClass.SetProd <> T2:47 var
+binder 1906:1906 <> x:60
+R1932:1935 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1917:1921 SetsClass.SetProd <> liftL meth
+R1924:1928 SetsClass.SetProd <> liftR meth
+R1930:1930 SetsClass.SetProd <> x:60 var
+R1936:1940 SetsClass.SetProd <> liftR meth
+R1943:1947 SetsClass.SetProd <> liftL meth
+R1949:1949 SetsClass.SetProd <> x:60 var
+R1983:1984 SetsClass.SetProd <> T3:48 var
+binder 1980:1980 <> x:62
+R2006:2009 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R1991:1995 SetsClass.SetProd <> liftR meth
+R1998:2002 SetsClass.SetProd <> liftR meth
+R2004:2004 SetsClass.SetProd <> x:62 var
+R2010:2014 SetsClass.SetProd <> liftR meth
+R2016:2016 SetsClass.SetProd <> x:62 var
+inst 2031:2050 <> Prop_SETS_PROD_Distr
+binder 2064:2064 <> T:64
+R2092:2100 SetsClass.SetsDomain Sets SETS class
+R2102:2102 SetsClass.SetProd <> T:64 var
+binder 2085:2089 <> _SETS:65
+R2135:2149 SetsClass.SetsDomain <> SETS_Properties class
+R2151:2151 SetsClass.SetProd <> T:64 var
+binder 2117:2132 <> _SETS_Properties:66
+R2158:2172 SetsClass.SetProd <> SETS_PROD_Distr class
+R2190:2203 SetsClass.SetProd <> Prop_SETS_PROD inst
+R2205:2205 SetsClass.SetProd <> T:64 var
+R2181:2181 SetsClass.SetProd <> T:64 var
+R2179:2179 SetsClass.SetProd <> T:64 var
+R2256:2272 SetsClass.SetsDomain <> Sets_prop_inj_and thm
+R2256:2272 SetsClass.SetsDomain <> Sets_prop_inj_and thm
+R2302:2317 SetsClass.SetsDomain <> Sets_prop_inj_or thm
+R2302:2317 SetsClass.SetsDomain <> Sets_prop_inj_or thm
+R2382:2387 Coq.Classes.Morphisms <> Proper class
+R2390:2399 Coq.Classes.Morphisms <> respectful def
+R2412:2429 SetsClass.SetsDomain <> Sets_prop_inj_mono inst
+R2412:2429 SetsClass.SetsDomain <> Sets_prop_inj_mono inst
+R2443:2448 Coq.Classes.Morphisms <> Proper class
+R2451:2460 Coq.Classes.Morphisms <> respectful def
+inst 2499:2517 <> Prop_SETS_PROD_Comp
+binder 2531:2532 <> T2:67
+binder 2534:2535 <> T3:68
+binder 2537:2539 <> T23:69
+R2570:2578 SetsClass.SetsDomain Sets SETS class
+R2580:2581 SetsClass.SetProd <> T2:67 var
+binder 2560:2567 <> _SETS_T2:70
+R2606:2614 SetsClass.SetsDomain Sets SETS class
+R2616:2617 SetsClass.SetProd <> T3:68 var
+binder 2596:2603 <> _SETS_T3:71
+R2643:2651 SetsClass.SetsDomain Sets SETS class
+R2653:2655 SetsClass.SetProd <> T23:69 var
+binder 2632:2640 <> _SETS_T23:72
+R2690:2704 SetsClass.SetsDomain <> SETS_Properties class
+R2706:2708 SetsClass.SetProd <> T23:69 var
+binder 2670:2687 <> _SETS_Properties23:73
+R2739:2747 SetsClass.SetProd <> SETS_PROD class
+R2755:2757 SetsClass.SetProd <> T23:69 var
+R2752:2753 SetsClass.SetProd <> T3:68 var
+R2749:2750 SetsClass.SetProd <> T2:67 var
+binder 2723:2736 <> _SETS_PROD_2_3:74
+R2794:2808 SetsClass.SetProd <> SETS_PROD_Distr class
+R2816:2818 SetsClass.SetProd <> T23:69 var
+R2813:2814 SetsClass.SetProd <> T3:68 var
+R2810:2811 SetsClass.SetProd <> T2:67 var
+binder 2772:2791 <> _SETS_PROD_Distr_2_3:75
+R2824:2837 SetsClass.SetProd <> SETS_PROD_Comp class
+R2857:2859 SetsClass.SetProd <> T23:69 var
+R2853:2855 SetsClass.SetProd <> T23:69 var
+R2850:2851 SetsClass.SetProd <> T2:67 var
+R2847:2848 SetsClass.SetProd <> T3:68 var
+R2844:2845 SetsClass.SetProd <> T2:67 var
+R2909:2927 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R2909:2927 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+inst 2979:2998 <> lift_SETS_PROD_Distr
+binder 3012:3012 <> A:76
+binder 3014:3015 <> T1:77
+binder 3017:3018 <> T2:78
+binder 3020:3020 <> T:79
+R3051:3059 SetsClass.SetsDomain Sets SETS class
+R3061:3062 SetsClass.SetProd <> T1:77 var
+binder 3041:3048 <> _SETS_T1:80
+R3087:3095 SetsClass.SetsDomain Sets SETS class
+R3097:3098 SetsClass.SetProd <> T2:78 var
+binder 3077:3084 <> _SETS_T2:81
+R3122:3130 SetsClass.SetsDomain Sets SETS class
+R3132:3132 SetsClass.SetProd <> T:79 var
+binder 3113:3119 <> _SETS_T:82
+R3154:3162 SetsClass.SetProd <> SETS_PROD class
+R3170:3170 SetsClass.SetProd <> T:79 var
+R3167:3168 SetsClass.SetProd <> T2:78 var
+R3164:3165 SetsClass.SetProd <> T1:77 var
+binder 3147:3151 <> _SETS:83
+R3206:3220 SetsClass.SetsDomain <> SETS_Properties class
+R3222:3223 SetsClass.SetProd <> T1:77 var
+binder 3185:3203 <> _SETS_Properties_T1:84
+R3259:3273 SetsClass.SetsDomain <> SETS_Properties class
+R3275:3276 SetsClass.SetProd <> T2:78 var
+binder 3238:3256 <> _SETS_Properties_T2:85
+R3311:3325 SetsClass.SetsDomain <> SETS_Properties class
+R3327:3327 SetsClass.SetProd <> T:79 var
+binder 3291:3308 <> _SETS_Properties_T:86
+R3360:3374 SetsClass.SetProd <> SETS_PROD_Distr class
+R3382:3382 SetsClass.SetProd <> T:79 var
+R3379:3380 SetsClass.SetProd <> T2:78 var
+R3376:3377 SetsClass.SetProd <> T1:77 var
+binder 3342:3357 <> _SETS_PROD_Distr:87
+R3389:3403 SetsClass.SetProd <> SETS_PROD_Distr class
+R3434:3447 SetsClass.SetProd <> lift_SETS_PROD inst
+R3457:3457 SetsClass.SetProd <> T:79 var
+R3454:3455 SetsClass.SetProd <> T2:78 var
+R3451:3452 SetsClass.SetProd <> T1:77 var
+R3449:3449 SetsClass.SetProd <> A:76 var
+R3420:3423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3424:3424 SetsClass.SetProd <> T:79 var
+R3419:3419 SetsClass.SetProd <> A:76 var
+R3415:3416 SetsClass.SetProd <> T2:78 var
+R3407:3410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3411:3412 SetsClass.SetProd <> T1:77 var
+R3406:3406 SetsClass.SetProd <> A:76 var
+R3539:3558 SetsClass.SetProd <> Sets_liftL_intersect meth
+R3539:3558 SetsClass.SetProd <> Sets_liftL_intersect meth
+R3609:3628 SetsClass.SetProd <> Sets_liftR_intersect meth
+R3609:3628 SetsClass.SetProd <> Sets_liftR_intersect meth
+R3679:3694 SetsClass.SetProd <> Sets_liftL_union meth
+R3679:3694 SetsClass.SetProd <> Sets_liftL_union meth
+R3745:3760 SetsClass.SetProd <> Sets_liftR_union meth
+R3745:3760 SetsClass.SetProd <> Sets_liftR_union meth
+R3811:3829 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R3811:3829 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R3880:3898 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R3880:3898 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R3912:3917 Coq.Classes.Morphisms <> Proper class
+R3920:3929 Coq.Classes.Morphisms <> respectful def
+R3963:3977 SetsClass.SetProd <> Sets_liftL_mono meth
+R3963:3977 SetsClass.SetProd <> Sets_liftL_mono meth
+R3994:3999 Coq.Classes.Morphisms <> Proper class
+R4002:4011 Coq.Classes.Morphisms <> respectful def
+R4045:4059 SetsClass.SetProd <> Sets_liftR_mono meth
+R4045:4059 SetsClass.SetProd <> Sets_liftR_mono meth
+inst 4080:4098 <> lift_SETS_PROD_Comp
+binder 4109:4109 <> A:88
+binder 4111:4112 <> T1:89
+binder 4114:4115 <> T2:90
+binder 4117:4118 <> T3:91
+binder 4120:4122 <> T12:92
+binder 4124:4126 <> T23:93
+binder 4128:4128 <> T:94
+R4155:4163 SetsClass.SetsDomain Sets SETS class
+R4165:4165 SetsClass.SetProd <> T:94 var
+binder 4146:4152 <> _SETS_T:95
+R4193:4201 SetsClass.SetProd <> SETS_PROD class
+R4209:4211 SetsClass.SetProd <> T12:92 var
+R4206:4207 SetsClass.SetProd <> T2:90 var
+R4203:4204 SetsClass.SetProd <> T1:89 var
+binder 4177:4190 <> _SETS_PROD_1_2:96
+R4239:4247 SetsClass.SetProd <> SETS_PROD class
+R4255:4257 SetsClass.SetProd <> T23:93 var
+R4252:4253 SetsClass.SetProd <> T3:91 var
+R4249:4250 SetsClass.SetProd <> T2:90 var
+binder 4223:4236 <> _SETS_PROD_2_3:97
+R4286:4294 SetsClass.SetProd <> SETS_PROD class
+R4303:4303 SetsClass.SetProd <> T:94 var
+R4299:4301 SetsClass.SetProd <> T23:93 var
+R4296:4297 SetsClass.SetProd <> T1:89 var
+binder 4269:4283 <> _SETS_PROD_1_23:98
+R4332:4340 SetsClass.SetProd <> SETS_PROD class
+R4349:4349 SetsClass.SetProd <> T:94 var
+R4346:4347 SetsClass.SetProd <> T3:91 var
+R4342:4344 SetsClass.SetProd <> T12:92 var
+binder 4315:4329 <> _SETS_PROD_12_3:99
+R4378:4391 SetsClass.SetProd <> SETS_PROD_Comp class
+R4410:4410 SetsClass.SetProd <> T:94 var
+R4406:4408 SetsClass.SetProd <> T23:93 var
+R4402:4404 SetsClass.SetProd <> T12:92 var
+R4399:4400 SetsClass.SetProd <> T3:91 var
+R4396:4397 SetsClass.SetProd <> T2:90 var
+R4393:4394 SetsClass.SetProd <> T1:89 var
+binder 4361:4375 <> _SETS_PROD_Comp:100
+R4416:4429 SetsClass.SetProd <> SETS_PROD_Comp class
+R4464:4467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4468:4468 SetsClass.SetProd <> T:94 var
+R4463:4463 SetsClass.SetProd <> A:88 var
+R4458:4460 SetsClass.SetProd <> T23:93 var
+R4449:4452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4453:4455 SetsClass.SetProd <> T12:92 var
+R4448:4448 SetsClass.SetProd <> A:88 var
+R4444:4445 SetsClass.SetProd <> T3:91 var
+R4441:4442 SetsClass.SetProd <> T2:90 var
+R4433:4436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4437:4438 SetsClass.SetProd <> T1:89 var
+R4432:4432 SetsClass.SetProd <> A:88 var
+R4546:4561 SetsClass.SetProd <> Sets_liftL_liftL meth
+R4546:4561 SetsClass.SetProd <> Sets_liftL_liftL meth
+R4608:4623 SetsClass.SetProd <> Sets_liftL_liftR meth
+R4608:4623 SetsClass.SetProd <> Sets_liftL_liftR meth
+R4670:4685 SetsClass.SetProd <> Sets_liftR_liftR meth
+R4670:4685 SetsClass.SetProd <> Sets_liftR_liftR meth
+R4704:4708 SetsClass.SetProd <> liftL meth
+R4734:4738 SetsClass.SetProd <> liftR meth
+def 4766:4769 <> prod
+binder 4785:4786 <> T1:101
+binder 4788:4789 <> T2:102
+binder 4791:4791 <> T:103
+R4823:4831 SetsClass.SetsDomain Sets SETS class
+R4833:4833 SetsClass.SetProd <> T:103 var
+binder 4814:4820 <> _SETS_T:104
+R4857:4865 SetsClass.SetProd <> SETS_PROD class
+R4873:4873 SetsClass.SetProd <> T:103 var
+R4870:4871 SetsClass.SetProd <> T2:102 var
+R4867:4868 SetsClass.SetProd <> T1:101 var
+binder 4850:4854 <> _SETS:105
+R4893:4894 SetsClass.SetProd <> T1:101 var
+binder 4890:4890 <> x:106
+R4901:4902 SetsClass.SetProd <> T2:102 var
+binder 4898:4898 <> y:107
+R4906:4906 SetsClass.SetProd <> T:103 var
+R4913:4926 SetsClass.SetsDomain Sets intersect meth
+R4939:4943 SetsClass.SetProd <> liftR meth
+R4945:4945 SetsClass.SetProd <> y:107 var
+R4929:4933 SetsClass.SetProd <> liftL meth
+R4935:4935 SetsClass.SetProd <> x:106 var
+R5702:5705 SetsClass.SetProd <> prod def
+R5647:5650 SetsClass.SetProd <> prod def
+R5656:5664 SetsClass.SetsDomain Sets full meth
+R5668:5671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5590:5593 SetsClass.SetProd <> prod def
+R5599:5607 SetsClass.SetsDomain Sets full meth
+R5611:5614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5486:5489 SetsClass.SetProd <> prod def
+R5493:5501 SetsClass.SetsDomain Sets full meth
+R5505:5508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5406:5409 SetsClass.SetProd <> prod def
+R5440:5448 SetsClass.SetsDomain Sets full meth
+R5452:5455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5413:5421 SetsClass.SetsDomain Sets full meth
+R5425:5428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5324:5327 SetsClass.SetProd <> prod def
+R5358:5366 SetsClass.SetsDomain Sets full meth
+R5370:5373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5331:5339 SetsClass.SetsDomain Sets full meth
+R5343:5346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5218:5221 SetsClass.SetProd <> prod def
+R5225:5233 SetsClass.SetsDomain Sets full meth
+R5237:5240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5138:5141 SetsClass.SetProd <> prod def
+R5172:5180 SetsClass.SetsDomain Sets full meth
+R5184:5187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5145:5153 SetsClass.SetsDomain Sets full meth
+R5157:5160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5056:5059 SetsClass.SetProd <> prod def
+R5090:5098 SetsClass.SetsDomain Sets full meth
+R5102:5105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5063:5071 SetsClass.SetsDomain Sets full meth
+R5075:5078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5752:5755 SetsClass.SetProd <> prod def
+not 5739:5739 <> ::sets_scope:x_'×'_x
+R5848:5851 SetsClass.SetProd <> prod def
+R5857:5865 SetsClass.SetsDomain Sets full meth
+R5869:5872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+not 5835:5835 <> ::sets_scope:x_'×'_x
+R5969:5972 SetsClass.SetProd <> prod def
+R5976:5984 SetsClass.SetsDomain Sets full meth
+R5988:5991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+not 5956:5956 <> ::sets_scope:x_'×'_x
+R6090:6093 SetsClass.SetProd <> prod def
+R6124:6132 SetsClass.SetsDomain Sets full meth
+R6136:6139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6097:6105 SetsClass.SetsDomain Sets full meth
+R6109:6112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+not 6077:6077 <> ::sets_scope:x_'×'_x
+not 6223:6223 <> ::sets_scope:x_'×'_x
+inst 6330:6345 <> Sets_liftL_congr
+binder 6356:6357 <> T1:108
+binder 6359:6360 <> T2:109
+binder 6362:6362 <> T:110
+R6390:6398 SetsClass.SetsDomain Sets SETS class
+R6400:6401 SetsClass.SetProd <> T1:108 var
+binder 6380:6387 <> _SETS_T1:111
+R6423:6431 SetsClass.SetsDomain Sets SETS class
+R6433:6434 SetsClass.SetProd <> T2:109 var
+binder 6413:6420 <> _SETS_T2:112
+R6455:6463 SetsClass.SetsDomain Sets SETS class
+R6465:6465 SetsClass.SetProd <> T:110 var
+binder 6446:6452 <> _SETS_T:113
+R6484:6492 SetsClass.SetProd <> SETS_PROD class
+R6500:6500 SetsClass.SetProd <> T:110 var
+R6497:6498 SetsClass.SetProd <> T2:109 var
+R6494:6495 SetsClass.SetProd <> T1:108 var
+binder 6477:6481 <> _SETS:114
+R6533:6547 SetsClass.SetsDomain <> SETS_Properties class
+R6549:6550 SetsClass.SetProd <> T1:108 var
+binder 6512:6530 <> _SETS_Properties_T1:115
+R6583:6597 SetsClass.SetsDomain <> SETS_Properties class
+R6599:6600 SetsClass.SetProd <> T2:109 var
+binder 6562:6580 <> _SETS_Properties_T2:116
+R6632:6646 SetsClass.SetsDomain <> SETS_Properties class
+R6648:6648 SetsClass.SetProd <> T:110 var
+binder 6612:6629 <> _SETS_Properties_T:117
+R6678:6692 SetsClass.SetProd <> SETS_PROD_Distr class
+R6700:6700 SetsClass.SetProd <> T:110 var
+R6697:6698 SetsClass.SetProd <> T2:109 var
+R6694:6695 SetsClass.SetProd <> T1:108 var
+binder 6660:6675 <> _SETS_PROD_Distr:118
+R6706:6711 Coq.Classes.Morphisms <> Proper class
+R6752:6756 SetsClass.SetProd <> liftL meth
+R6730:6734 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6715:6724 SetsClass.SetsDomain Sets equiv meth
+R6726:6727 SetsClass.SetProd <> T1:108 var
+R6736:6745 SetsClass.SetsDomain Sets equiv meth
+R6747:6747 SetsClass.SetProd <> T:110 var
+R6775:6780 Coq.Classes.Morphisms <> Proper class
+R6783:6792 Coq.Classes.Morphisms <> respectful def
+R6813:6836 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R6813:6836 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R6858:6872 SetsClass.SetProd <> Sets_liftL_mono meth
+R6858:6872 SetsClass.SetProd <> Sets_liftL_mono meth
+R6917:6931 SetsClass.SetProd <> Sets_liftL_mono meth
+R6917:6931 SetsClass.SetProd <> Sets_liftL_mono meth
+inst 6981:6996 <> Sets_liftR_congr
+binder 7007:7008 <> T1:119
+binder 7010:7011 <> T2:120
+binder 7013:7013 <> T:121
+R7041:7049 SetsClass.SetsDomain Sets SETS class
+R7051:7052 SetsClass.SetProd <> T1:119 var
+binder 7031:7038 <> _SETS_T1:122
+R7074:7082 SetsClass.SetsDomain Sets SETS class
+R7084:7085 SetsClass.SetProd <> T2:120 var
+binder 7064:7071 <> _SETS_T2:123
+R7106:7114 SetsClass.SetsDomain Sets SETS class
+R7116:7116 SetsClass.SetProd <> T:121 var
+binder 7097:7103 <> _SETS_T:124
+R7135:7143 SetsClass.SetProd <> SETS_PROD class
+R7151:7151 SetsClass.SetProd <> T:121 var
+R7148:7149 SetsClass.SetProd <> T2:120 var
+R7145:7146 SetsClass.SetProd <> T1:119 var
+binder 7128:7132 <> _SETS:125
+R7184:7198 SetsClass.SetsDomain <> SETS_Properties class
+R7200:7201 SetsClass.SetProd <> T1:119 var
+binder 7163:7181 <> _SETS_Properties_T1:126
+R7234:7248 SetsClass.SetsDomain <> SETS_Properties class
+R7250:7251 SetsClass.SetProd <> T2:120 var
+binder 7213:7231 <> _SETS_Properties_T2:127
+R7283:7297 SetsClass.SetsDomain <> SETS_Properties class
+R7299:7299 SetsClass.SetProd <> T:121 var
+binder 7263:7280 <> _SETS_Properties_T:128
+R7329:7343 SetsClass.SetProd <> SETS_PROD_Distr class
+R7351:7351 SetsClass.SetProd <> T:121 var
+R7348:7349 SetsClass.SetProd <> T2:120 var
+R7345:7346 SetsClass.SetProd <> T1:119 var
+binder 7311:7326 <> _SETS_PROD_Distr:129
+R7357:7362 Coq.Classes.Morphisms <> Proper class
+R7403:7407 SetsClass.SetProd <> liftR meth
+R7381:7385 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7366:7375 SetsClass.SetsDomain Sets equiv meth
+R7377:7378 SetsClass.SetProd <> T2:120 var
+R7387:7396 SetsClass.SetsDomain Sets equiv meth
+R7398:7398 SetsClass.SetProd <> T:121 var
+R7426:7431 Coq.Classes.Morphisms <> Proper class
+R7434:7443 Coq.Classes.Morphisms <> respectful def
+R7464:7487 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R7464:7487 SetsClass.SetsDomain <> Sets_equiv_Sets_included meth
+R7509:7523 SetsClass.SetProd <> Sets_liftR_mono meth
+R7509:7523 SetsClass.SetProd <> Sets_liftR_mono meth
+R7568:7582 SetsClass.SetProd <> Sets_liftR_mono meth
+R7568:7582 SetsClass.SetProd <> Sets_liftR_mono meth
+prf 7629:7643 <> Sets_liftL_full
+binder 7654:7655 <> T1:130
+binder 7657:7658 <> T2:131
+binder 7660:7660 <> T:132
+R7688:7696 SetsClass.SetsDomain Sets SETS class
+R7698:7699 SetsClass.SetProd <> T1:130 var
+binder 7678:7685 <> _SETS_T1:133
+R7721:7729 SetsClass.SetsDomain Sets SETS class
+R7731:7732 SetsClass.SetProd <> T2:131 var
+binder 7711:7718 <> _SETS_T2:134
+R7753:7761 SetsClass.SetsDomain Sets SETS class
+R7763:7763 SetsClass.SetProd <> T:132 var
+binder 7744:7750 <> _SETS_T:135
+R7782:7790 SetsClass.SetProd <> SETS_PROD class
+R7798:7798 SetsClass.SetProd <> T:132 var
+R7795:7796 SetsClass.SetProd <> T2:131 var
+R7792:7793 SetsClass.SetProd <> T1:130 var
+binder 7775:7779 <> _SETS:136
+R7831:7845 SetsClass.SetsDomain <> SETS_Properties class
+R7847:7848 SetsClass.SetProd <> T1:130 var
+binder 7810:7828 <> _SETS_Properties_T1:137
+R7881:7895 SetsClass.SetsDomain <> SETS_Properties class
+R7897:7898 SetsClass.SetProd <> T2:131 var
+binder 7860:7878 <> _SETS_Properties_T2:138
+R7930:7944 SetsClass.SetsDomain <> SETS_Properties class
+R7946:7946 SetsClass.SetProd <> T:132 var
+binder 7910:7927 <> _SETS_Properties_T:139
+R7976:7990 SetsClass.SetProd <> SETS_PROD_Distr class
+R7998:7998 SetsClass.SetProd <> T:132 var
+R7995:7996 SetsClass.SetProd <> T2:131 var
+R7992:7993 SetsClass.SetProd <> T1:130 var
+binder 7958:7973 <> _SETS_PROD_Distr:140
+R8019:8022 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R8004:8008 SetsClass.SetProd <> liftL meth
+R8010:8018 SetsClass.SetsDomain Sets full meth
+R8023:8031 SetsClass.SetsDomain Sets full meth
+R8064:8081 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8064:8081 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8064:8081 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8094:8112 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R8094:8112 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R8094:8112 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R8125:8142 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8125:8142 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8125:8142 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+prf 8172:8186 <> Sets_liftR_full
+binder 8197:8198 <> T1:141
+binder 8200:8201 <> T2:142
+binder 8203:8203 <> T:143
+R8231:8239 SetsClass.SetsDomain Sets SETS class
+R8241:8242 SetsClass.SetProd <> T1:141 var
+binder 8221:8228 <> _SETS_T1:144
+R8264:8272 SetsClass.SetsDomain Sets SETS class
+R8274:8275 SetsClass.SetProd <> T2:142 var
+binder 8254:8261 <> _SETS_T2:145
+R8296:8304 SetsClass.SetsDomain Sets SETS class
+R8306:8306 SetsClass.SetProd <> T:143 var
+binder 8287:8293 <> _SETS_T:146
+R8325:8333 SetsClass.SetProd <> SETS_PROD class
+R8341:8341 SetsClass.SetProd <> T:143 var
+R8338:8339 SetsClass.SetProd <> T2:142 var
+R8335:8336 SetsClass.SetProd <> T1:141 var
+binder 8318:8322 <> _SETS:147
+R8374:8388 SetsClass.SetsDomain <> SETS_Properties class
+R8390:8391 SetsClass.SetProd <> T1:141 var
+binder 8353:8371 <> _SETS_Properties_T1:148
+R8424:8438 SetsClass.SetsDomain <> SETS_Properties class
+R8440:8441 SetsClass.SetProd <> T2:142 var
+binder 8403:8421 <> _SETS_Properties_T2:149
+R8473:8487 SetsClass.SetsDomain <> SETS_Properties class
+R8489:8489 SetsClass.SetProd <> T:143 var
+binder 8453:8470 <> _SETS_Properties_T:150
+R8519:8533 SetsClass.SetProd <> SETS_PROD_Distr class
+R8541:8541 SetsClass.SetProd <> T:143 var
+R8538:8539 SetsClass.SetProd <> T2:142 var
+R8535:8536 SetsClass.SetProd <> T1:141 var
+binder 8501:8516 <> _SETS_PROD_Distr:151
+R8562:8565 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R8547:8551 SetsClass.SetProd <> liftR meth
+R8553:8561 SetsClass.SetsDomain Sets full meth
+R8566:8574 SetsClass.SetsDomain Sets full meth
+R8607:8624 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8607:8624 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8607:8624 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8637:8655 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R8637:8655 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R8637:8655 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R8668:8685 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8668:8685 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+R8668:8685 SetsClass.SetsDomain <> Sets_prop_inj_full thm
+prf 8715:8730 <> Sets_liftL_empty
+binder 8741:8742 <> T1:152
+binder 8744:8745 <> T2:153
+binder 8747:8747 <> T:154
+R8775:8783 SetsClass.SetsDomain Sets SETS class
+R8785:8786 SetsClass.SetProd <> T1:152 var
+binder 8765:8772 <> _SETS_T1:155
+R8808:8816 SetsClass.SetsDomain Sets SETS class
+R8818:8819 SetsClass.SetProd <> T2:153 var
+binder 8798:8805 <> _SETS_T2:156
+R8840:8848 SetsClass.SetsDomain Sets SETS class
+R8850:8850 SetsClass.SetProd <> T:154 var
+binder 8831:8837 <> _SETS_T:157
+R8869:8877 SetsClass.SetProd <> SETS_PROD class
+R8885:8885 SetsClass.SetProd <> T:154 var
+R8882:8883 SetsClass.SetProd <> T2:153 var
+R8879:8880 SetsClass.SetProd <> T1:152 var
+binder 8862:8866 <> _SETS:158
+R8918:8932 SetsClass.SetsDomain <> SETS_Properties class
+R8934:8935 SetsClass.SetProd <> T1:152 var
+binder 8897:8915 <> _SETS_Properties_T1:159
+R8968:8982 SetsClass.SetsDomain <> SETS_Properties class
+R8984:8985 SetsClass.SetProd <> T2:153 var
+binder 8947:8965 <> _SETS_Properties_T2:160
+R9017:9031 SetsClass.SetsDomain <> SETS_Properties class
+R9033:9033 SetsClass.SetProd <> T:154 var
+binder 8997:9014 <> _SETS_Properties_T:161
+R9063:9077 SetsClass.SetProd <> SETS_PROD_Distr class
+R9085:9085 SetsClass.SetProd <> T:154 var
+R9082:9083 SetsClass.SetProd <> T2:153 var
+R9079:9080 SetsClass.SetProd <> T1:152 var
+binder 9045:9060 <> _SETS_PROD_Distr:162
+R9107:9110 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R9091:9095 SetsClass.SetProd <> liftL meth
+R9097:9106 SetsClass.SetsDomain Sets empty meth
+R9111:9120 SetsClass.SetsDomain Sets empty meth
+R9153:9171 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9153:9171 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9153:9171 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9184:9202 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R9184:9202 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R9184:9202 SetsClass.SetProd <> Sets_liftL_prop_inj meth
+R9215:9233 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9215:9233 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9215:9233 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+prf 9263:9278 <> Sets_liftR_empty
+binder 9289:9290 <> T1:163
+binder 9292:9293 <> T2:164
+binder 9295:9295 <> T:165
+R9323:9331 SetsClass.SetsDomain Sets SETS class
+R9333:9334 SetsClass.SetProd <> T1:163 var
+binder 9313:9320 <> _SETS_T1:166
+R9356:9364 SetsClass.SetsDomain Sets SETS class
+R9366:9367 SetsClass.SetProd <> T2:164 var
+binder 9346:9353 <> _SETS_T2:167
+R9388:9396 SetsClass.SetsDomain Sets SETS class
+R9398:9398 SetsClass.SetProd <> T:165 var
+binder 9379:9385 <> _SETS_T:168
+R9417:9425 SetsClass.SetProd <> SETS_PROD class
+R9433:9433 SetsClass.SetProd <> T:165 var
+R9430:9431 SetsClass.SetProd <> T2:164 var
+R9427:9428 SetsClass.SetProd <> T1:163 var
+binder 9410:9414 <> _SETS:169
+R9466:9480 SetsClass.SetsDomain <> SETS_Properties class
+R9482:9483 SetsClass.SetProd <> T1:163 var
+binder 9445:9463 <> _SETS_Properties_T1:170
+R9516:9530 SetsClass.SetsDomain <> SETS_Properties class
+R9532:9533 SetsClass.SetProd <> T2:164 var
+binder 9495:9513 <> _SETS_Properties_T2:171
+R9565:9579 SetsClass.SetsDomain <> SETS_Properties class
+R9581:9581 SetsClass.SetProd <> T:165 var
+binder 9545:9562 <> _SETS_Properties_T:172
+R9611:9625 SetsClass.SetProd <> SETS_PROD_Distr class
+R9633:9633 SetsClass.SetProd <> T:165 var
+R9630:9631 SetsClass.SetProd <> T2:164 var
+R9627:9628 SetsClass.SetProd <> T1:163 var
+binder 9593:9608 <> _SETS_PROD_Distr:173
+R9655:9658 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R9639:9643 SetsClass.SetProd <> liftR meth
+R9645:9654 SetsClass.SetsDomain Sets empty meth
+R9659:9668 SetsClass.SetsDomain Sets empty meth
+R9701:9719 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9701:9719 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9701:9719 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9732:9750 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R9732:9750 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R9732:9750 SetsClass.SetProd <> Sets_liftR_prop_inj meth
+R9763:9781 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9763:9781 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+R9763:9781 SetsClass.SetsDomain <> Sets_prop_inj_empty thm
+prf 9811:9833 <> Sets_prod_union_distr_r
+binder 9844:9845 <> T1:174
+binder 9847:9848 <> T2:175
+binder 9850:9850 <> T:176
+R9878:9886 SetsClass.SetsDomain Sets SETS class
+R9888:9889 SetsClass.SetProd <> T1:174 var
+binder 9868:9875 <> _SETS_T1:177
+R9911:9919 SetsClass.SetsDomain Sets SETS class
+R9921:9922 SetsClass.SetProd <> T2:175 var
+binder 9901:9908 <> _SETS_T2:178
+R9943:9951 SetsClass.SetsDomain Sets SETS class
+R9953:9953 SetsClass.SetProd <> T:176 var
+binder 9934:9940 <> _SETS_T:179
+R9972:9980 SetsClass.SetProd <> SETS_PROD class
+R9988:9988 SetsClass.SetProd <> T:176 var
+R9985:9986 SetsClass.SetProd <> T2:175 var
+R9982:9983 SetsClass.SetProd <> T1:174 var
+binder 9965:9969 <> _SETS:180
+R10021:10035 SetsClass.SetsDomain <> SETS_Properties class
+R10037:10038 SetsClass.SetProd <> T1:174 var
+binder 10000:10018 <> _SETS_Properties_T1:181
+R10071:10085 SetsClass.SetsDomain <> SETS_Properties class
+R10087:10088 SetsClass.SetProd <> T2:175 var
+binder 10050:10068 <> _SETS_Properties_T2:182
+R10120:10134 SetsClass.SetsDomain <> SETS_Properties class
+R10136:10136 SetsClass.SetProd <> T:176 var
+binder 10100:10117 <> _SETS_Properties_T:183
+R10166:10180 SetsClass.SetProd <> SETS_PROD_Distr class
+R10188:10188 SetsClass.SetProd <> T:176 var
+R10185:10186 SetsClass.SetProd <> T2:175 var
+R10182:10183 SetsClass.SetProd <> T1:174 var
+binder 10148:10163 <> _SETS_PROD_Distr:184
+R10207:10208 SetsClass.SetProd <> T1:174 var
+binder 10202:10202 <> x:185
+binder 10204:10204 <> y:186
+R10215:10216 SetsClass.SetProd <> T2:175 var
+binder 10212:10212 <> z:187
+R10238:10241 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R10224:10224 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10232:10236 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10226:10230 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R10225:10225 SetsClass.SetProd <> x:185 var
+R10231:10231 SetsClass.SetProd <> y:186 var
+R10237:10237 SetsClass.SetProd <> z:187 var
+R10248:10252 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R10243:10246 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10242:10242 SetsClass.SetProd <> x:185 var
+R10247:10247 SetsClass.SetProd <> z:187 var
+R10254:10257 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10253:10253 SetsClass.SetProd <> y:186 var
+R10258:10258 SetsClass.SetProd <> z:187 var
+R10277:10280 SetsClass.SetProd <> prod def
+R10303:10318 SetsClass.SetProd <> Sets_liftL_union meth
+R10303:10318 SetsClass.SetProd <> Sets_liftL_union meth
+R10303:10318 SetsClass.SetProd <> Sets_liftL_union meth
+R10329:10356 SetsClass.SetsDomain <> Sets_intersect_union_distr_r thm
+R10329:10356 SetsClass.SetsDomain <> Sets_intersect_union_distr_r thm
+prf 10371:10393 <> Sets_prod_union_distr_l
+binder 10404:10405 <> T1:188
+binder 10407:10408 <> T2:189
+binder 10410:10410 <> T:190
+R10438:10446 SetsClass.SetsDomain Sets SETS class
+R10448:10449 SetsClass.SetProd <> T1:188 var
+binder 10428:10435 <> _SETS_T1:191
+R10471:10479 SetsClass.SetsDomain Sets SETS class
+R10481:10482 SetsClass.SetProd <> T2:189 var
+binder 10461:10468 <> _SETS_T2:192
+R10503:10511 SetsClass.SetsDomain Sets SETS class
+R10513:10513 SetsClass.SetProd <> T:190 var
+binder 10494:10500 <> _SETS_T:193
+R10537:10545 SetsClass.SetProd <> SETS_PROD class
+R10553:10553 SetsClass.SetProd <> T:190 var
+R10550:10551 SetsClass.SetProd <> T2:189 var
+R10547:10548 SetsClass.SetProd <> T1:188 var
+binder 10525:10534 <> _SETS_PROD:194
+R10586:10600 SetsClass.SetsDomain <> SETS_Properties class
+R10602:10603 SetsClass.SetProd <> T1:188 var
+binder 10565:10583 <> _SETS_Properties_T1:195
+R10636:10650 SetsClass.SetsDomain <> SETS_Properties class
+R10652:10653 SetsClass.SetProd <> T2:189 var
+binder 10615:10633 <> _SETS_Properties_T2:196
+R10685:10699 SetsClass.SetsDomain <> SETS_Properties class
+R10701:10701 SetsClass.SetProd <> T:190 var
+binder 10665:10682 <> _SETS_Properties_T:197
+R10731:10745 SetsClass.SetProd <> SETS_PROD_Distr class
+R10753:10753 SetsClass.SetProd <> T:190 var
+R10750:10751 SetsClass.SetProd <> T2:189 var
+R10747:10748 SetsClass.SetProd <> T1:188 var
+binder 10713:10728 <> _SETS_PROD_Distr:198
+R10770:10771 SetsClass.SetProd <> T1:188 var
+binder 10767:10767 <> x:199
+R10780:10781 SetsClass.SetProd <> T2:189 var
+binder 10775:10775 <> y:200
+binder 10777:10777 <> z:201
+R10803:10806 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R10790:10794 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10802:10802 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10789:10789 SetsClass.SetProd <> x:199 var
+R10796:10800 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R10795:10795 SetsClass.SetProd <> y:200 var
+R10801:10801 SetsClass.SetProd <> z:201 var
+R10813:10817 SetsClass.SetsDomain <> ::sets_scope:x_'∪'_x not
+R10808:10811 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10807:10807 SetsClass.SetProd <> x:199 var
+R10812:10812 SetsClass.SetProd <> y:200 var
+R10819:10822 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R10818:10818 SetsClass.SetProd <> x:199 var
+R10823:10823 SetsClass.SetProd <> z:201 var
+R10842:10845 SetsClass.SetProd <> prod def
+R10868:10883 SetsClass.SetProd <> Sets_liftR_union meth
+R10868:10883 SetsClass.SetProd <> Sets_liftR_union meth
+R10868:10883 SetsClass.SetProd <> Sets_liftR_union meth
+R10894:10921 SetsClass.SetsDomain <> Sets_intersect_union_distr_l thm
+R10894:10921 SetsClass.SetsDomain <> Sets_intersect_union_distr_l thm
+prf 10936:10950 <> Sets_prod_assoc
+binder 10961:10962 <> T1:202
+binder 10964:10965 <> T2:203
+binder 10967:10968 <> T3:204
+binder 10970:10972 <> T12:205
+binder 10974:10976 <> T23:206
+binder 10978:10978 <> T:207
+R11006:11014 SetsClass.SetsDomain Sets SETS class
+R11016:11017 SetsClass.SetProd <> T1:202 var
+binder 10996:11003 <> _SETS_T1:208
+R11039:11047 SetsClass.SetsDomain Sets SETS class
+R11049:11050 SetsClass.SetProd <> T2:203 var
+binder 11029:11036 <> _SETS_T2:209
+R11072:11080 SetsClass.SetsDomain Sets SETS class
+R11082:11083 SetsClass.SetProd <> T3:204 var
+binder 11062:11069 <> _SETS_T3:210
+R11106:11114 SetsClass.SetsDomain Sets SETS class
+R11116:11118 SetsClass.SetProd <> T12:205 var
+binder 11095:11103 <> _SETS_T12:211
+R11141:11149 SetsClass.SetsDomain Sets SETS class
+R11151:11153 SetsClass.SetProd <> T23:206 var
+binder 11130:11138 <> _SETS_T23:212
+R11174:11182 SetsClass.SetsDomain Sets SETS class
+R11184:11184 SetsClass.SetProd <> T:207 var
+binder 11165:11171 <> _SETS_T:213
+R11212:11220 SetsClass.SetProd <> SETS_PROD class
+R11228:11230 SetsClass.SetProd <> T12:205 var
+R11225:11226 SetsClass.SetProd <> T2:203 var
+R11222:11223 SetsClass.SetProd <> T1:202 var
+binder 11196:11209 <> _SETS_PROD_1_2:214
+R11258:11266 SetsClass.SetProd <> SETS_PROD class
+R11274:11276 SetsClass.SetProd <> T23:206 var
+R11271:11272 SetsClass.SetProd <> T3:204 var
+R11268:11269 SetsClass.SetProd <> T2:203 var
+binder 11242:11255 <> _SETS_PROD_2_3:215
+R11305:11313 SetsClass.SetProd <> SETS_PROD class
+R11322:11322 SetsClass.SetProd <> T:207 var
+R11318:11320 SetsClass.SetProd <> T23:206 var
+R11315:11316 SetsClass.SetProd <> T1:202 var
+binder 11288:11302 <> _SETS_PROD_1_23:216
+R11351:11359 SetsClass.SetProd <> SETS_PROD class
+R11368:11368 SetsClass.SetProd <> T:207 var
+R11365:11366 SetsClass.SetProd <> T3:204 var
+R11361:11363 SetsClass.SetProd <> T12:205 var
+binder 11334:11348 <> _SETS_PROD_12_3:217
+R11401:11415 SetsClass.SetsDomain <> SETS_Properties class
+R11417:11418 SetsClass.SetProd <> T1:202 var
+binder 11380:11398 <> _SETS_Properties_T1:218
+R11451:11465 SetsClass.SetsDomain <> SETS_Properties class
+R11467:11468 SetsClass.SetProd <> T2:203 var
+binder 11430:11448 <> _SETS_Properties_T2:219
+R11501:11515 SetsClass.SetsDomain <> SETS_Properties class
+R11517:11518 SetsClass.SetProd <> T3:204 var
+binder 11480:11498 <> _SETS_Properties_T3:220
+R11552:11566 SetsClass.SetsDomain <> SETS_Properties class
+R11568:11570 SetsClass.SetProd <> T12:205 var
+binder 11530:11549 <> _SETS_Properties_T12:221
+R11604:11618 SetsClass.SetsDomain <> SETS_Properties class
+R11620:11622 SetsClass.SetProd <> T23:206 var
+binder 11582:11601 <> _SETS_Properties_T23:222
+R11654:11668 SetsClass.SetsDomain <> SETS_Properties class
+R11670:11670 SetsClass.SetProd <> T:207 var
+binder 11634:11651 <> _SETS_Properties_T:223
+R11704:11718 SetsClass.SetProd <> SETS_PROD_Distr class
+R11726:11728 SetsClass.SetProd <> T12:205 var
+R11723:11724 SetsClass.SetProd <> T2:203 var
+R11720:11721 SetsClass.SetProd <> T1:202 var
+binder 11682:11701 <> _SETS_PROD_Distr_1_2:224
+R11762:11776 SetsClass.SetProd <> SETS_PROD_Distr class
+R11784:11786 SetsClass.SetProd <> T23:206 var
+R11781:11782 SetsClass.SetProd <> T3:204 var
+R11778:11779 SetsClass.SetProd <> T2:203 var
+binder 11740:11759 <> _SETS_PROD_Distr_3_3:225
+R11821:11835 SetsClass.SetProd <> SETS_PROD_Distr class
+R11844:11844 SetsClass.SetProd <> T:207 var
+R11841:11842 SetsClass.SetProd <> T3:204 var
+R11837:11839 SetsClass.SetProd <> T12:205 var
+binder 11798:11818 <> _SETS_PROD_Distr_12_3:226
+R11879:11893 SetsClass.SetProd <> SETS_PROD_Distr class
+R11902:11902 SetsClass.SetProd <> T:207 var
+R11898:11900 SetsClass.SetProd <> T23:206 var
+R11895:11896 SetsClass.SetProd <> T1:202 var
+binder 11856:11876 <> _SETS_PROD_Distr_1_23:227
+R11931:11944 SetsClass.SetProd <> SETS_PROD_Comp class
+R11963:11963 SetsClass.SetProd <> T:207 var
+R11959:11961 SetsClass.SetProd <> T23:206 var
+R11955:11957 SetsClass.SetProd <> T12:205 var
+R11952:11953 SetsClass.SetProd <> T3:204 var
+R11949:11950 SetsClass.SetProd <> T2:203 var
+R11946:11947 SetsClass.SetProd <> T1:202 var
+binder 11914:11928 <> _SETS_PROD_Comp:228
+R11980:11981 SetsClass.SetProd <> T1:202 var
+binder 11977:11977 <> x:229
+R11988:11989 SetsClass.SetProd <> T2:203 var
+binder 11985:11985 <> y:230
+R11996:11997 SetsClass.SetProd <> T3:204 var
+binder 11993:11993 <> z:231
+R12016:12019 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R12011:12014 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12006:12009 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12005:12005 SetsClass.SetProd <> x:229 var
+R12010:12010 SetsClass.SetProd <> y:230 var
+R12015:12015 SetsClass.SetProd <> z:231 var
+R12021:12025 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12032:12032 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12020:12020 SetsClass.SetProd <> x:229 var
+R12027:12030 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12026:12026 SetsClass.SetProd <> y:230 var
+R12031:12031 SetsClass.SetProd <> z:231 var
+R12051:12054 SetsClass.SetProd <> prod def
+R12077:12096 SetsClass.SetProd <> Sets_liftL_intersect meth
+R12077:12096 SetsClass.SetProd <> Sets_liftL_intersect meth
+R12077:12096 SetsClass.SetProd <> Sets_liftL_intersect meth
+R12109:12128 SetsClass.SetProd <> Sets_liftR_intersect meth
+R12109:12128 SetsClass.SetProd <> Sets_liftR_intersect meth
+R12109:12128 SetsClass.SetProd <> Sets_liftR_intersect meth
+R12141:12156 SetsClass.SetProd <> Sets_liftL_liftL meth
+R12141:12156 SetsClass.SetProd <> Sets_liftL_liftL meth
+R12141:12156 SetsClass.SetProd <> Sets_liftL_liftL meth
+R12169:12184 SetsClass.SetProd <> Sets_liftL_liftR meth
+R12169:12184 SetsClass.SetProd <> Sets_liftL_liftR meth
+R12169:12184 SetsClass.SetProd <> Sets_liftL_liftR meth
+R12197:12212 SetsClass.SetProd <> Sets_liftR_liftR meth
+R12197:12212 SetsClass.SetProd <> Sets_liftR_liftR meth
+R12197:12212 SetsClass.SetProd <> Sets_liftR_liftR meth
+R12225:12244 SetsClass.SetsDomain <> Sets_intersect_assoc thm
+R12225:12244 SetsClass.SetsDomain <> Sets_intersect_assoc thm
+R12225:12244 SetsClass.SetsDomain <> Sets_intersect_assoc thm
+prf 12274:12288 <> Sets_prod_empty
+binder 12299:12300 <> T1:232
+binder 12302:12303 <> T2:233
+binder 12305:12305 <> T:234
+R12333:12341 SetsClass.SetsDomain Sets SETS class
+R12343:12344 SetsClass.SetProd <> T1:232 var
+binder 12323:12330 <> _SETS_T1:235
+R12366:12374 SetsClass.SetsDomain Sets SETS class
+R12376:12377 SetsClass.SetProd <> T2:233 var
+binder 12356:12363 <> _SETS_T2:236
+R12398:12406 SetsClass.SetsDomain Sets SETS class
+R12408:12408 SetsClass.SetProd <> T:234 var
+binder 12389:12395 <> _SETS_T:237
+R12432:12440 SetsClass.SetProd <> SETS_PROD class
+R12448:12448 SetsClass.SetProd <> T:234 var
+R12445:12446 SetsClass.SetProd <> T2:233 var
+R12442:12443 SetsClass.SetProd <> T1:232 var
+binder 12420:12429 <> _SETS_PROD:238
+R12481:12495 SetsClass.SetsDomain <> SETS_Properties class
+R12497:12498 SetsClass.SetProd <> T1:232 var
+binder 12460:12478 <> _SETS_Properties_T1:239
+R12531:12545 SetsClass.SetsDomain <> SETS_Properties class
+R12547:12548 SetsClass.SetProd <> T2:233 var
+binder 12510:12528 <> _SETS_Properties_T2:240
+R12580:12594 SetsClass.SetsDomain <> SETS_Properties class
+R12596:12596 SetsClass.SetProd <> T:234 var
+binder 12560:12577 <> _SETS_Properties_T:241
+R12626:12640 SetsClass.SetProd <> SETS_PROD_Distr class
+R12648:12648 SetsClass.SetProd <> T:234 var
+R12645:12646 SetsClass.SetProd <> T2:233 var
+R12642:12643 SetsClass.SetProd <> T1:232 var
+binder 12608:12623 <> _SETS_PROD_Distr:242
+R12665:12666 SetsClass.SetProd <> T1:232 var
+binder 12662:12662 <> x:243
+R12697:12701 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R12717:12717 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R12675:12679 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12696:12696 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R12674:12674 SetsClass.SetProd <> x:243 var
+R12681:12690 SetsClass.SetsDomain Sets empty meth
+R12692:12693 SetsClass.SetProd <> T2:233 var
+R12703:12712 SetsClass.SetsDomain Sets empty meth
+R12714:12714 SetsClass.SetProd <> T:234 var
+R12736:12739 SetsClass.SetProd <> prod def
+R12762:12777 SetsClass.SetProd <> Sets_liftR_empty thm
+R12762:12777 SetsClass.SetProd <> Sets_liftR_empty thm
+R12762:12777 SetsClass.SetProd <> Sets_liftR_empty thm
+R12790:12809 SetsClass.SetsDomain <> Sets_intersect_empty thm
+R12790:12809 SetsClass.SetsDomain <> Sets_intersect_empty thm
+R12790:12809 SetsClass.SetsDomain <> Sets_intersect_empty thm
+prf 12839:12853 <> Sets_empty_prod
+binder 12864:12865 <> T1:244
+binder 12867:12868 <> T2:245
+binder 12870:12870 <> T:246
+R12898:12906 SetsClass.SetsDomain Sets SETS class
+R12908:12909 SetsClass.SetProd <> T1:244 var
+binder 12888:12895 <> _SETS_T1:247
+R12931:12939 SetsClass.SetsDomain Sets SETS class
+R12941:12942 SetsClass.SetProd <> T2:245 var
+binder 12921:12928 <> _SETS_T2:248
+R12963:12971 SetsClass.SetsDomain Sets SETS class
+R12973:12973 SetsClass.SetProd <> T:246 var
+binder 12954:12960 <> _SETS_T:249
+R12997:13005 SetsClass.SetProd <> SETS_PROD class
+R13013:13013 SetsClass.SetProd <> T:246 var
+R13010:13011 SetsClass.SetProd <> T2:245 var
+R13007:13008 SetsClass.SetProd <> T1:244 var
+binder 12985:12994 <> _SETS_PROD:250
+R13046:13060 SetsClass.SetsDomain <> SETS_Properties class
+R13062:13063 SetsClass.SetProd <> T1:244 var
+binder 13025:13043 <> _SETS_Properties_T1:251
+R13096:13110 SetsClass.SetsDomain <> SETS_Properties class
+R13112:13113 SetsClass.SetProd <> T2:245 var
+binder 13075:13093 <> _SETS_Properties_T2:252
+R13145:13159 SetsClass.SetsDomain <> SETS_Properties class
+R13161:13161 SetsClass.SetProd <> T:246 var
+binder 13125:13142 <> _SETS_Properties_T:253
+R13191:13205 SetsClass.SetProd <> SETS_PROD_Distr class
+R13213:13213 SetsClass.SetProd <> T:246 var
+R13210:13211 SetsClass.SetProd <> T2:245 var
+R13207:13208 SetsClass.SetProd <> T1:244 var
+binder 13173:13188 <> _SETS_PROD_Distr:254
+R13230:13231 SetsClass.SetProd <> T2:245 var
+binder 13227:13227 <> x:255
+R13262:13266 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R13282:13282 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R13239:13239 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R13256:13260 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R13241:13250 SetsClass.SetsDomain Sets empty meth
+R13252:13253 SetsClass.SetProd <> T1:244 var
+R13261:13261 SetsClass.SetProd <> x:255 var
+R13268:13277 SetsClass.SetsDomain Sets empty meth
+R13279:13279 SetsClass.SetProd <> T:246 var
+R13301:13304 SetsClass.SetProd <> prod def
+R13327:13342 SetsClass.SetProd <> Sets_liftL_empty thm
+R13327:13342 SetsClass.SetProd <> Sets_liftL_empty thm
+R13327:13342 SetsClass.SetProd <> Sets_liftL_empty thm
+R13355:13374 SetsClass.SetsDomain <> Sets_empty_intersect thm
+R13355:13374 SetsClass.SetsDomain <> Sets_empty_intersect thm
+R13355:13374 SetsClass.SetsDomain <> Sets_empty_intersect thm
+inst 13407:13420 <> Sets_prod_mono
+binder 13434:13435 <> T1:256
+binder 13437:13438 <> T2:257
+binder 13440:13440 <> T:258
+R13471:13479 SetsClass.SetsDomain Sets SETS class
+R13481:13482 SetsClass.SetProd <> T1:256 var
+binder 13461:13468 <> _SETS_T1:259
+R13507:13515 SetsClass.SetsDomain Sets SETS class
+R13517:13518 SetsClass.SetProd <> T2:257 var
+binder 13497:13504 <> _SETS_T2:260
+R13542:13550 SetsClass.SetsDomain Sets SETS class
+R13552:13552 SetsClass.SetProd <> T:258 var
+binder 13533:13539 <> _SETS_T:261
+R13574:13582 SetsClass.SetProd <> SETS_PROD class
+R13590:13590 SetsClass.SetProd <> T:258 var
+R13587:13588 SetsClass.SetProd <> T2:257 var
+R13584:13585 SetsClass.SetProd <> T1:256 var
+binder 13567:13571 <> _SETS:262
+R13626:13640 SetsClass.SetsDomain <> SETS_Properties class
+R13642:13643 SetsClass.SetProd <> T1:256 var
+binder 13605:13623 <> _SETS_Properties_T1:263
+R13679:13693 SetsClass.SetsDomain <> SETS_Properties class
+R13695:13696 SetsClass.SetProd <> T2:257 var
+binder 13658:13676 <> _SETS_Properties_T2:264
+R13731:13745 SetsClass.SetsDomain <> SETS_Properties class
+R13747:13747 SetsClass.SetProd <> T:258 var
+binder 13711:13728 <> _SETS_Properties_T:265
+R13780:13794 SetsClass.SetProd <> SETS_PROD_Distr class
+R13802:13802 SetsClass.SetProd <> T:258 var
+R13799:13800 SetsClass.SetProd <> T2:257 var
+R13796:13797 SetsClass.SetProd <> T1:256 var
+binder 13762:13777 <> _SETS_PROD_Distr:266
+R13808:13813 Coq.Classes.Morphisms <> Proper class
+R13892:13895 SetsClass.SetProd <> prod def
+R13839:13843 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13821:13833 SetsClass.SetsDomain Sets included meth
+R13835:13836 SetsClass.SetProd <> T1:256 var
+R13863:13867 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13845:13857 SetsClass.SetsDomain Sets included meth
+R13859:13860 SetsClass.SetProd <> T2:257 var
+R13869:13881 SetsClass.SetsDomain Sets included meth
+R13883:13883 SetsClass.SetProd <> T:258 var
+R13914:13919 Coq.Classes.Morphisms <> Proper class
+R13922:13931 Coq.Classes.Morphisms <> respectful def
+R13943:13946 SetsClass.SetProd <> prod def
+inst 14006:14020 <> Sets_prod_congr
+binder 14034:14035 <> T1:267
+binder 14037:14038 <> T2:268
+binder 14040:14040 <> T:269
+R14071:14079 SetsClass.SetsDomain Sets SETS class
+R14081:14082 SetsClass.SetProd <> T1:267 var
+binder 14061:14068 <> _SETS_T1:270
+R14107:14115 SetsClass.SetsDomain Sets SETS class
+R14117:14118 SetsClass.SetProd <> T2:268 var
+binder 14097:14104 <> _SETS_T2:271
+R14142:14150 SetsClass.SetsDomain Sets SETS class
+R14152:14152 SetsClass.SetProd <> T:269 var
+binder 14133:14139 <> _SETS_T:272
+R14174:14182 SetsClass.SetProd <> SETS_PROD class
+R14190:14190 SetsClass.SetProd <> T:269 var
+R14187:14188 SetsClass.SetProd <> T2:268 var
+R14184:14185 SetsClass.SetProd <> T1:267 var
+binder 14167:14171 <> _SETS:273
+R14226:14240 SetsClass.SetsDomain <> SETS_Properties class
+R14242:14243 SetsClass.SetProd <> T1:267 var
+binder 14205:14223 <> _SETS_Properties_T1:274
+R14279:14293 SetsClass.SetsDomain <> SETS_Properties class
+R14295:14296 SetsClass.SetProd <> T2:268 var
+binder 14258:14276 <> _SETS_Properties_T2:275
+R14331:14345 SetsClass.SetsDomain <> SETS_Properties class
+R14347:14347 SetsClass.SetProd <> T:269 var
+binder 14311:14328 <> _SETS_Properties_T:276
+R14380:14394 SetsClass.SetProd <> SETS_PROD_Distr class
+R14402:14402 SetsClass.SetProd <> T:269 var
+R14399:14400 SetsClass.SetProd <> T2:268 var
+R14396:14397 SetsClass.SetProd <> T1:267 var
+binder 14362:14377 <> _SETS_PROD_Distr:277
+R14408:14413 Coq.Classes.Morphisms <> Proper class
+R14492:14495 SetsClass.SetProd <> prod def
+R14439:14443 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14421:14433 SetsClass.SetsDomain Sets included meth
+R14435:14436 SetsClass.SetProd <> T1:267 var
+R14463:14467 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14445:14457 SetsClass.SetsDomain Sets included meth
+R14459:14460 SetsClass.SetProd <> T2:268 var
+R14469:14481 SetsClass.SetsDomain Sets included meth
+R14483:14483 SetsClass.SetProd <> T:269 var
+R14514:14519 Coq.Classes.Morphisms <> Proper class
+R14522:14531 Coq.Classes.Morphisms <> respectful def
+R14543:14546 SetsClass.SetProd <> prod def
+prf 14603:14616 <> Sets_prod_full
+binder 14627:14628 <> T1:278
+binder 14630:14631 <> T2:279
+binder 14633:14633 <> T:280
+R14661:14669 SetsClass.SetsDomain Sets SETS class
+R14671:14672 SetsClass.SetProd <> T1:278 var
+binder 14651:14658 <> _SETS_T1:281
+R14694:14702 SetsClass.SetsDomain Sets SETS class
+R14704:14705 SetsClass.SetProd <> T2:279 var
+binder 14684:14691 <> _SETS_T2:282
+R14726:14734 SetsClass.SetsDomain Sets SETS class
+R14736:14736 SetsClass.SetProd <> T:280 var
+binder 14717:14723 <> _SETS_T:283
+R14760:14768 SetsClass.SetProd <> SETS_PROD class
+R14776:14776 SetsClass.SetProd <> T:280 var
+R14773:14774 SetsClass.SetProd <> T2:279 var
+R14770:14771 SetsClass.SetProd <> T1:278 var
+binder 14748:14757 <> _SETS_PROD:284
+R14809:14823 SetsClass.SetsDomain <> SETS_Properties class
+R14825:14826 SetsClass.SetProd <> T1:278 var
+binder 14788:14806 <> _SETS_Properties_T1:285
+R14859:14873 SetsClass.SetsDomain <> SETS_Properties class
+R14875:14876 SetsClass.SetProd <> T2:279 var
+binder 14838:14856 <> _SETS_Properties_T2:286
+R14908:14922 SetsClass.SetsDomain <> SETS_Properties class
+R14924:14924 SetsClass.SetProd <> T:280 var
+binder 14888:14905 <> _SETS_Properties_T:287
+R14954:14968 SetsClass.SetProd <> SETS_PROD_Distr class
+R14976:14976 SetsClass.SetProd <> T:280 var
+R14973:14974 SetsClass.SetProd <> T2:279 var
+R14970:14971 SetsClass.SetProd <> T1:278 var
+binder 14936:14951 <> _SETS_PROD_Distr:288
+R14993:14994 SetsClass.SetProd <> T1:278 var
+binder 14990:14990 <> x:289
+R15024:15027 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R15003:15007 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R15023:15023 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R15002:15002 SetsClass.SetProd <> x:289 var
+R15009:15017 SetsClass.SetsDomain Sets full meth
+R15019:15020 SetsClass.SetProd <> T2:279 var
+R15028:15032 SetsClass.SetProd <> liftL meth
+R15034:15034 SetsClass.SetProd <> x:289 var
+R15053:15056 SetsClass.SetProd <> prod def
+R15079:15093 SetsClass.SetProd <> Sets_liftR_full thm
+R15079:15093 SetsClass.SetProd <> Sets_liftR_full thm
+R15079:15093 SetsClass.SetProd <> Sets_liftR_full thm
+R15106:15124 SetsClass.SetsDomain <> Sets_intersect_full thm
+R15106:15124 SetsClass.SetsDomain <> Sets_intersect_full thm
+R15106:15124 SetsClass.SetsDomain <> Sets_intersect_full thm
+prf 15154:15167 <> Sets_full_prod
+binder 15178:15179 <> T1:290
+binder 15181:15182 <> T2:291
+binder 15184:15184 <> T:292
+R15212:15220 SetsClass.SetsDomain Sets SETS class
+R15222:15223 SetsClass.SetProd <> T1:290 var
+binder 15202:15209 <> _SETS_T1:293
+R15245:15253 SetsClass.SetsDomain Sets SETS class
+R15255:15256 SetsClass.SetProd <> T2:291 var
+binder 15235:15242 <> _SETS_T2:294
+R15277:15285 SetsClass.SetsDomain Sets SETS class
+R15287:15287 SetsClass.SetProd <> T:292 var
+binder 15268:15274 <> _SETS_T:295
+R15311:15319 SetsClass.SetProd <> SETS_PROD class
+R15327:15327 SetsClass.SetProd <> T:292 var
+R15324:15325 SetsClass.SetProd <> T2:291 var
+R15321:15322 SetsClass.SetProd <> T1:290 var
+binder 15299:15308 <> _SETS_PROD:296
+R15360:15374 SetsClass.SetsDomain <> SETS_Properties class
+R15376:15377 SetsClass.SetProd <> T1:290 var
+binder 15339:15357 <> _SETS_Properties_T1:297
+R15410:15424 SetsClass.SetsDomain <> SETS_Properties class
+R15426:15427 SetsClass.SetProd <> T2:291 var
+binder 15389:15407 <> _SETS_Properties_T2:298
+R15459:15473 SetsClass.SetsDomain <> SETS_Properties class
+R15475:15475 SetsClass.SetProd <> T:292 var
+binder 15439:15456 <> _SETS_Properties_T:299
+R15505:15519 SetsClass.SetProd <> SETS_PROD_Distr class
+R15527:15527 SetsClass.SetProd <> T:292 var
+R15524:15525 SetsClass.SetProd <> T2:291 var
+R15521:15522 SetsClass.SetProd <> T1:290 var
+binder 15487:15502 <> _SETS_PROD_Distr:300
+R15544:15545 SetsClass.SetProd <> T2:291 var
+binder 15541:15541 <> x:301
+R15575:15578 SetsClass.SetsDomain <> ::sets_scope:x_'=='_x not
+R15553:15553 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R15569:15573 SetsClass.SetProd <> ::sets_scope:x_'×'_x not
+R15555:15563 SetsClass.SetsDomain Sets full meth
+R15565:15566 SetsClass.SetProd <> T1:290 var
+R15574:15574 SetsClass.SetProd <> x:301 var
+R15579:15583 SetsClass.SetProd <> liftR meth
+R15585:15585 SetsClass.SetProd <> x:301 var
+R15604:15607 SetsClass.SetProd <> prod def
+R15630:15644 SetsClass.SetProd <> Sets_liftL_full thm
+R15630:15644 SetsClass.SetProd <> Sets_liftL_full thm
+R15630:15644 SetsClass.SetProd <> Sets_liftL_full thm
+R15657:15675 SetsClass.SetsDomain <> Sets_full_intersect thm
+R15657:15675 SetsClass.SetsDomain <> Sets_full_intersect thm
+R15657:15675 SetsClass.SetsDomain <> Sets_full_intersect thm
+R15765:15778 SetsClass.SetProd <> lift_SETS_PROD inst
+R15765:15778 SetsClass.SetProd <> lift_SETS_PROD inst
+R15879:15892 SetsClass.SetProd <> Prop_SETS_PROD inst
+R15879:15892 SetsClass.SetProd <> Prop_SETS_PROD inst
+R15982:15996 SetsClass.SetProd <> Build_SETS_PROD constr
+R15982:15996 SetsClass.SetProd <> Build_SETS_PROD constr
+R16119:16132 SetsClass.SetProd <> lift_SETS_PROD inst
+R16119:16132 SetsClass.SetProd <> lift_SETS_PROD inst
+R16170:16183 SetsClass.SetProd <> Prop_SETS_PROD inst
+R16170:16183 SetsClass.SetProd <> Prop_SETS_PROD inst
+R16215:16229 SetsClass.SetProd <> Build_SETS_PROD constr
+R16215:16229 SetsClass.SetProd <> Build_SETS_PROD constr
+R16264:16265 Coq.Init.Datatypes <> tt constr
+R16206:16207 Coq.Init.Datatypes <> tt constr
+R16161:16162 Coq.Init.Datatypes <> tt constr
+R16325:16328 SetsClass.SetProd <> prod def
+R16325:16328 SetsClass.SetProd <> prod def
+R16495:16498 SetsClass.SetProd <> prod def
+R16956:16959 SetsClass.SetProd <> prod def
+R16956:16959 SetsClass.SetProd <> prod def
+R17169:17173 SetsClass.SetProd <> liftL meth
+R17169:17173 SetsClass.SetProd <> liftL meth
+R17371:17375 SetsClass.SetProd <> liftR meth
+R17371:17375 SetsClass.SetProd <> liftR meth
+R17441:17445 SetsClass.SetProd <> liftR meth
+R17239:17243 SetsClass.SetProd <> liftL meth
+R17032:17035 SetsClass.SetProd <> prod def
+R17745:17748 SetsClass.SetProd <> prod def
+R17745:17748 SetsClass.SetProd <> prod def
+R17807:17820 SetsClass.SetsDomain <> MarkerWrapper2 def
+R17824:17827 SetsClass.SetProd <> prod def
+sec 18114:18120 <> TestTac
+var 18133:18133 TestTac A
+var 18151:18151 TestTac F
+R18155:18158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18159:18159 SetsClass.SetProd <> TestTac.A var
+R18154:18154 SetsClass.SetProd <> TestTac.A var
+var 18171:18171 TestTac X
+R18174:18174 SetsClass.SetProd <> TestTac.A var
+def 18188:18188 <> G
+R18193:18193 SetsClass.SetProd <> TestTac.F var
+def 18207:18207 <> H
+binder 18216:18216 <> x:305
+R18221:18221 SetsClass.SetProd <> TestTac.F var
+R18224:18224 SetsClass.SetProd <> TestTac.F var
+R18226:18226 SetsClass.SetProd <> x:305 var
+R18416:18416 SetsClass.SetProd <> G def
+R18416:18416 SetsClass.SetProd <> G def
+R18453:18453 SetsClass.SetProd <> TestTac.F var
+def 18571:18596 <> Unnamed_thm
+R18583:18585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18576:18576 SetsClass.SetProd <> G def
+R18579:18579 SetsClass.SetProd <> G def
+R18581:18581 SetsClass.SetProd <> TestTac.X var
+R18586:18586 SetsClass.SetProd <> G def
+R18589:18589 SetsClass.SetProd <> G def
+R18592:18592 SetsClass.SetProd <> G def
+R18594:18594 SetsClass.SetProd <> TestTac.X var
+R18667:18667 SetsClass.SetProd <> H def
+R18667:18667 SetsClass.SetProd <> H def
+R18704:18704 SetsClass.SetProd <> G def
+R18707:18707 SetsClass.SetProd <> G def
+def 18881:18902 <> Unnamed_thm
+R18893:18895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18886:18886 SetsClass.SetProd <> G def
+R18889:18889 SetsClass.SetProd <> H def
+R18891:18891 SetsClass.SetProd <> TestTac.X var
+R18896:18896 SetsClass.SetProd <> H def
+R18899:18899 SetsClass.SetProd <> G def
+R18901:18901 SetsClass.SetProd <> TestTac.X var
+R18929:18935 SetsClass.SetProd TestTac <> sec
